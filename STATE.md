@@ -1,44 +1,31 @@
 # STATE — ARGUS-OS3
 
-**Date:** 2026-07-19
-**Status:** 🟡 Concept phase — initial core files created.
+**Date:** 2026-07-21
+**Status:** 🟡 v2.0 — Новая роль: прогениторные карты на основе траекторий центриолей.
 
-## Current Status
+## New Role (post OS2 v4.0)
 
-- Platform: ARGUS-LP_OS v1.0 + additions (requires v1.0 grant first)
-- Experiment: designed, not started
-- Hardware: not built
-- Grant: EIC Pathfinder WP2 (October 2026)
+ARGUS-OS3 строит **прогениторные карты как ГРАФ** (не дерево) на основе траекторий центриолей, прочитанных ARGUS-OS1 и ARGUS-OS2.
 
-## Prerequisites
+### Принцип
 
-1. ARGUS-LP_OS v1.0 built and validated
-2. v1.0 data published
-3. ARGUS-OS2 (Odf2 KO) completed (optional — strengthens causality narrative)
-4. Laser safety officer designated
-5. IRB protocol for laser ablation
+1. ARGUS-OS1 измеряет траектории центриолей (XYZ-вектор каждого деления)
+2. ARGUS-OS2 доказывает что траектория → судьба (конвергенция)
+3. ARGUS-OS3 строит карту: граф где узлы = клеточные судьбы, рёбра = траектории, конвергенции = классы эквивалентности
 
-## Next Actions
+### Отличие от старой концепции
 
-1. Wait for ARGUS-LP_OS v1.0 build
-2. Adapt FOSH micromanipulator to OpenFlexure frame
-3. Source used femtosecond laser (Thorlabs/Coherent)
-4. Submit EIC Pathfinder WP2 grant
-5. Laser safety training
+| Старая (v1.0) | Новая (v2.0) |
+|---------------|-------------|
+| fs-лазер + манипуляторы | Чтение центриолей |
+| Физическое разделение клеток | Информационная реконструкция |
+| $40K оборудование | Софт + данные OS1/OS2 |
+| Одна клетка за раз | Все клетки одновременно |
 
-## Core Files Status
+## Core Files
 
-| File | Version | Status |
-|------|:-------:|:------:|
-| CONCEPT.md | v1.0 | ✅ |
-| README.md | v1.0 | ✅ |
-| STATE.md | v1.0 | ✅ |
-| _pi.md | v1.0 | ✅ |
-
-## Budget Summary
-
-| Phase | Amount |
-|-------|:------:|
-| ARGUS-LP_OS v1.0 (base) | $24,053 |
-| ARGUS-OS3 additions | $16,547 |
-| **TOTAL** | **$40,600** |
+| File | Status |
+|------|:---:|
+| CONCEPT.md | 🟡 Need update |
+| STATE.md | ✅ v2.0 |
+| Others | 🟡 Need sync |
