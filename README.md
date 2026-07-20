@@ -1,3 +1,5 @@
+All causality of differentiation impossible without centriole.
+
 # README — ARGUS-OS3
 
 ARGUS-OS3: прогениторные карты на основе centriole pedigrees центриолей.
