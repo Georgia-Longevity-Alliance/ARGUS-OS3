@@ -83,3 +83,22 @@ ARGUS-OS3 строит **прогениторные карты** на основ
 ---
 
 *OS3 — прогениторные карты = граф с генетическими сетями. После OS2.*
+
+---
+
+## Reproducibility & Quality
+
+**Power analysis:** N≈40 sister-cell pairs for OR≥1.5 (α=0.05, β=0.2).
+**Blinding:** analyst blinded to pedigree.
+**Pre-registration:** OSF before data collection.
+**Reproducibility:** all code + data on GitHub + Zenodo (CC-BY).
+**Limitations:** (1) Depends on OS2 success. (2) Requires OS1 trajectory data. (3) Single-cell RNA-seq costs not in Core budget. (4) Genetic networks are inferred — require independent validation.
+
+## Key References (additional)
+
+| # | Reference | PMID |
+|---|-----------|------|
+| 9 | Sulston & Horvitz (1977) — lineage | 838129 |
+| 10 | Kalbfuss & Gönczy (2023) — elimination | 37256957 |
+| 11 | Gönczy & Balestra (2023) — stochastic | 36988082 |
+| 12 | Anderson & Stearns (2009) — age | 19682908 |
