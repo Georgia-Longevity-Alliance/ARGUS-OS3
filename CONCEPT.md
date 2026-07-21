@@ -102,3 +102,46 @@ ARGUS-OS3 строит **прогениторные карты** на основ
 | 10 | Kalbfuss & Gönczy (2023) — elimination | 37256957 |
 | 11 | Gönczy & Balestra (2023) — stochastic | 36988082 |
 | 12 | Anderson & Stearns (2009) — age | 19682908 |
+
+---
+
+## Budget
+
+OS3 uses OS2 platform (V8, already upgraded): $0
+Single-cell RNA-seq (500 cells): $8,000
+Bioinformatics: $5,000
+Validation markers: $3,000
+**Total OS3: ~$16,000**
+
+## Timeline
+
+| Phase | Duration |
+|-------|----------|
+| OS2 data delivery | Complete |
+| scRNA-seq | 1 month |
+| Graph construction | 2 months |
+| Validation | 2 months |
+| Write-up | 1 month |
+| **Total** | **~6 months** |
+
+## Quality Controls
+
+**Power analysis:** N≈40 sister-cell pairs from OS2.
+**Blinding:** analyst blinded to pedigree.
+**Pre-registration:** OSF before analysis.
+**Reproducibility:** all code + data on GitHub + Zenodo (CC-BY).
+**Limitations:** (1) Depends on OS2 success. (2) Genetic networks inferred — require independent validation.
+
+## Key References
+
+| # | Reference | PMID |
+|---|-----------|------|
+| 4 | Sulston & Horvitz (1977) — lineage | 838129 |
+| 5 | Kalbfuss & Gönczy (2023) — elimination | 37256957 |
+| 6 | Gönczy & Balestra (2023) — stochastic | 36988082 |
+| 7 | Erpf & Mikeladze-Dvali (2020) — Dendra2 | microPublication |
+| 8 | Anderson & Stearns (2009) — age | 19682908 |
+| 9 | Croisier et al. (2025) — EM | 40475707 |
+| 10 | Coffman et al. (2016) — MT | 27733624 |
+| 11 | Yamashita et al. (2007) — Drosophila | 17255513 |
+| 12 | Januschke et al. (2011) — Drosophila | 21407209 |
