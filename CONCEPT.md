@@ -210,3 +210,12 @@ System B (transplantation):
 ---
 
 *Version 6.0 — 95+ ready. Power analysis, survivor bias, quantity controls, mGSC fallback, decision tree, realistic budget. Jaba Tqemaladze, 2026-07-22.*
+
+## Data Availability
+- Raw ablation/transplantation images: BioImage Archive
+- Processed fate data: Zenodo
+- Code: GitHub (Apache 2.0)
+- Pre-registration: OSF
+
+## RPE1 Mother Centriole Bias Check
+Before System B/B0: measure mother centriole inheritance bias in RPE1 Ninein-GFP (first 200 divisions). If inheritance is random (50:50) → pedigree signal may require asymmetric division context. If biased (>60:40) → RPE1 suitable for transplantation test.
