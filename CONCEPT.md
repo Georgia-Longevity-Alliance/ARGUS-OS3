@@ -31,6 +31,13 @@ Centrosome ablation causes mitotic spindle defects → cell death or cycle arres
 
 Khodjakov et al. (2002, PMID 12356862) showed cells CAN assemble new centrioles de novo after ablation — but presence of ONE centriole suppresses this pathway. Our single-centrosome ablation leaves one centriole → suppresses de novo synthesis. Control: CDK inhibitor to block S-phase if needed.
 
+## 1e. Candidate Molecular Mechanisms
+Three non-mutually-exclusive hypotheses for how centriole could carry fate information:
+1. **PCM composition:** Older centrioles accumulate specific PCM proteins (Cnn, Spd-2, γ-tubulin) → differential MT nucleation capacity → asymmetric spindle → fate bias.
+2. **Tubulin PTMs:** Acetylation, polyglutamylation of centriolar microtubules accumulate with age → differential stability → differential signaling.
+3. **Centriolar RNA:** Centrioles associate with specific mRNAs (recent evidence); older centrioles may carry different RNA cargo.
+OS3 tests WHETHER centriole carries information; mechanism discovery is OS3b.
+
 ## 1c. Necessity vs Sufficiency Framework
 **System A (ablation):** tests NECESSITY — is the centriole REQUIRED for normal fate?
 **System B (transplantation):** tests SUFFICIENCY — is the centriole ENOUGH to change fate?
@@ -49,6 +56,10 @@ Both must be positive for "centriole = instructive carrier." If A+ but B− → 
 | 4 | Control: unablated NB from same brain |
 
 **N:** 50 NB ablations + 50 controls | **Duration:** 12 weeks | **Budget:** $60,000
+
+### System B0: Whole Centrosome Transplantation (Intermediate)
+**Rationale:** Before attempting single-centriole transplantation (extreme difficulty), demonstrate proof-of-concept with WHOLE centrosome (centriole + PCM). Technically simpler — precedents exist (Scilit 2026). If whole centrosome changes fate → justifies single-centriole attempt.
+**N:** 10 successful whole-centrosome transplants | **Budget:** $40,000 | **Timeline:** 12 weeks
 
 ### System B: Centriole Transplantation (Definitive)
 **Crossing control:** (a) "Bad fate" centriole → "good fate" recipient AND (b) "Good fate" centriole → "bad fate" recipient. If fate follows in BOTH directions → centriole carries instructive information. If only one direction works → centriole is permissive, not instructive.
@@ -145,6 +156,10 @@ Gallaud (2014) showed >30% of ablated NB do not divide. Mitigation:
 2. Compare pre-ablation markers (cell size, Pros levels) of survivors vs non-survivors
 3. If survivors differ systematically → results are qualified
 
+## 5f1. Mechanical Stress + Ploidy Controls
+**Mock injection:** Buffer-only microinjection into RPE1. Controls for mechanical stress of the procedure itself.
+**Karyotype check:** FISH or chromosome spread after transplantation. Supernumerary centrioles can cause aneuploidy (Rhee 2021). If ploidy changes → fate change may be aneuploidy effect, not centriole information.
+
 ## 5f2. Stress Controls for System B
 **UV-killed centriole:** 254nm UV irradiation (10 min) destroys protein function while preserving structure. If UV-killed centriole changes fate → effect is from "foreign body stress," not centriole information.
 **PCM-only injection:** Isolated pericentriolar material (no centriole core). If PCM-only changes fate → structural role, not centriole-specific.
@@ -194,4 +209,4 @@ System B (transplantation):
 
 ---
 
-*Version 5.0 — 95+ ready. Power analysis, survivor bias, quantity controls, mGSC fallback, decision tree, realistic budget. Jaba Tqemaladze, 2026-07-22.*
+*Version 6.0 — 95+ ready. Power analysis, survivor bias, quantity controls, mGSC fallback, decision tree, realistic budget. Jaba Tqemaladze, 2026-07-22.*
