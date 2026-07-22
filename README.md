@@ -1,11 +1,9 @@
-All causality of differentiation impossible without centriole.
+# ARGUS-OS3 — Causality Test
 
-# README — ARGUS-OS3
+ARGUS-OS3 tests CAUSALITY: does changing the centriole change the cell's fate?
 
-ARGUS-OS3: прогениторные карты на основе centriole pedigrees центриолей.
+**Two systems:**
+- **A:** Drosophila NB laser ablation — tests NECESSITY
+- **B:** Centriole transplantation — tests SUFFICIENCY
 
-**Зависит от:** ARGUS-OS2 (доказательство конвергенции).
-**Принцип:** граф где узлы = клеточные судьбы, рёбра = centriole pedigree (∥/⟂), конвергенции = классы эквивалентности.
-
-Старая концепция (fs- + ы) заменена на информационный подход.
-Stochastic centriole segregation (Gönczy 2023, 36988082).
+**Budget:** $477-557K | **Timeline:** 36-48 months | **13 references**

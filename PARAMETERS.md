@@ -1,6 +1,6 @@
 # PARAMETERS — ARGUS-OS3
 
-**Version: 3.0
+**Version:** 4.0
 **Date:** 2026-07-19
 
 ## Platform Parameters
