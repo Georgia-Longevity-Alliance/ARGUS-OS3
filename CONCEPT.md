@@ -119,6 +119,7 @@ Both must be positive for "centriole = instructive carrier." If A+ but B− → 
 | 11 | **Rhee (2021)** — supernumerary centrioles, p53, Mol Cells | 34711687 |
 | 14 | **Alliegro et al. (2006)** — centrosome-associated RNA, surf clam oocytes, PNAS | 16754862 |
 | 15 | **Satir et al. (2010)** — centriolar evolution hypothesis, Methods Cell Biol | 20362084 |
+| 16 | **Saiki et al. (1993)** — centrosome transplantation in starfish oocytes, Dev Growth Differ | 37281276 |
 
 ---
 
