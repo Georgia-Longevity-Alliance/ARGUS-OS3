@@ -209,7 +209,7 @@ System B (transplantation):
 
 ---
 
-*Version 6.0 — 95+ ready. Power analysis, survivor bias, quantity controls, mGSC fallback, decision tree, realistic budget. Jaba Tqemaladze, 2026-07-22.*
+*Version 7.0 — 95+ ready. Power analysis, survivor bias, quantity controls, mGSC fallback, decision tree, realistic budget. Jaba Tqemaladze, 2026-07-22.*
 
 ## Data Availability
 - Raw ablation/transplantation images: BioImage Archive
