@@ -268,3 +268,9 @@ Before System B/B0: measure mother centriole inheritance bias in RPE1 Ninein-GFP
 | 24 | Loncarek et al. (2008) — PCM controls daughter centriole, Nat Cell Biol | 24 |
 | 25 | Chichinadze & Tqemaladze (2012) — centrosomal RNA hypothesis, Nucleosides Nucleotides Nucleic Acids | 25 |
 | 26 | **Castellanos et al. (2008)** — centrosome dysfunction in Drosophila NB causes tumors, Curr Biol | 18656356 |
+
+## 5j. Survival Analysis (Kaplan-Meier)
+For System A: time-to-event analysis (Kaplan-Meier) for ablated vs control NB. Censored: cells lost to focus drift. Endpoint: successful division OR death. Log-rank test compares survival curves. This addresses survivor bias quantitatively — not just ">30% die" but "WHEN do they die, and do survivors differ?"
+
+## 5k. Single-Cell RNA-seq (Optional, +$45K)
+After successful transplantation (System B) or ablation (System A): scRNA-seq on daughter cells. Transcriptional signature of "fate switch" vs stress response. Distinguishes "centriole information" (specific developmental program) from "stress artifact" (p53, Hsp70, generic damage response). Even if transplantation fails technically, scRNA-seq on ablated NB provides valuable mechanistic data.
