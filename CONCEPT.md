@@ -72,6 +72,9 @@ Both must be positive for "centriole = instructive carrier." If A+ but B− → 
 **Rationale:** Before attempting single-centriole transplantation (extreme difficulty), demonstrate proof-of-concept with WHOLE centrosome (centriole + PCM). Technically simpler — precedents exist (Scilit 2026). If whole centrosome changes fate → justifies single-centriole attempt.
 **N:** 10 successful whole-centrosome transplants | **Budget:** $40,000 | **Timeline:** 12 weeks
 
+### System B Quantitative Estimate
+Saiki (1993) achieved 36-90% transplantation efficiency for WHOLE centrosomes in starfish oocytes. For single centrioles in RPE1, estimated efficiency: 15-20% (first attempts) → 5-10% (routine). To obtain 5 successful transplantations: ~100 attempts needed. For 30: ~300-500 attempts. This is reflected in the 36-48 month timeline and $316K budget for System B.
+
 ### System B: Centriole Transplantation (Definitive)
 **Crossing control:** (a) "Bad fate" centriole → "good fate" recipient AND (b) "Good fate" centriole → "bad fate" recipient. If fate follows in BOTH directions → centriole carries instructive information. If only one direction works → centriole is permissive, not instructive.
 **Sham controls:** (a) Buffer-only injection, (b) UV-damaged centriole injection (ablates protein function, retains structure). Both must NOT change fate.
@@ -177,6 +180,8 @@ Gallaud (2014) showed >30% of ablated NB do not divide. Mitigation:
 **Mechanotransduction inhibitors:** Blebbistatin (myosin II, 50μM) + Y-27632 (ROCK, 10μM) — blocks mechanical signaling. If fate change disappears → mechanical effect, not centriole information.
 
 ## 5f1. Mechanical Stress + Ploidy Controls
+**Post-transplant karyotype:** FISH or chromosome spread after each successful transplantation. Supernumerary centrioles cause aneuploidy (Rhee 2021). If >20% of transplanted cells show karyotype abnormalities → results qualified as "possibly aneuploidy effect."
+
 **Mock injection:** Buffer-only microinjection into RPE1. Controls for mechanical stress of the procedure itself.
 **Karyotype check:** FISH or chromosome spread after transplantation. Supernumerary centrioles can cause aneuploidy (Rhee 2021). If ploidy changes → fate change may be aneuploidy effect, not centriole information.
 
