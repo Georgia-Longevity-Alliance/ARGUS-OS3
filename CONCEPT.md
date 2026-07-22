@@ -109,20 +109,20 @@ Both must be positive for "centriole = instructive carrier." If A+ but B− → 
 
 | # | Reference | PMID |
 |---|-----------|------|
-| 1 | Januschke et al. (2011) — Drosophila NB daughter→stem | 21407209 |
-| 2 | Conduit & Raff (2010) — Cnn dynamics, Curr Biol | 21145745 |
-| 3 | Yamashita et al. (2007) — mGSC mother→stem | 17255513 |
-| 4 | Barandun et al. (2025) — CD8+ T-cell ninein, Cell Rep | 39764850 |
-| 5 | Anderson & Stearns (2009) — centriole age → cilium | 19682908 |
-| 6 | Kalbfuss & Gönczy (2023) — 88% elimination | 37256957 |
-| 8 | **Thomas & Giet (2022)** — live imaging Drosophila NB with photo-ablated centrosomes, STAR Protoc | 35776653 |
-| 9 | **Khodjakov et al. (2002)** — de novo centrosome formation after ablation, J Cell Biol | 12356862 |
-| 7 | Rebollo et al. (2007) — unequal centrosomes Drosophila | 17336911 |
-| 10 | **Gallaud et al. (2014)** — Ensconsin/Map7, centrosome separation defects after ablation, J Cell Biol | 24687279 |
-| 11 | **Rhee (2021)** — supernumerary centrioles, p53, Mol Cells | 34711687 |
-| 14 | **Alliegro et al. (2006)** — centrosome-associated RNA, surf clam oocytes, PNAS | 16754862 |
-| 15 | **Satir et al. (2010)** — centriolar evolution hypothesis, Methods Cell Biol | 20362084 |
-| 16 | **Saiki et al. (1993)** — centrosome transplantation in starfish oocytes, Dev Growth Differ | 37281276 |
+| 1 | Januschke et al. (2011) — Drosophila NB daughter→stem | 1 |
+| 2 | Conduit & Raff (2010) — Cnn dynamics, Curr Biol | 2 |
+| 3 | Yamashita et al. (2007) — mGSC mother→stem | 3 |
+| 4 | Barandun et al. (2025) — CD8+ T-cell ninein, Cell Rep | 4 |
+| 5 | Anderson & Stearns (2009) — centriole age → cilium | 5 |
+| 6 | Kalbfuss & Gönczy (2023) — 88% elimination | 6 |
+| 7 | **Thomas & Giet (2022)** — live imaging Drosophila NB with photo-ablated centrosomes, STAR Protoc | 7 |
+| 8 | **Khodjakov et al. (2002)** — de novo centrosome formation after ablation, J Cell Biol | 8 |
+| 9 | Rebollo et al. (2007) — unequal centrosomes Drosophila | 9 |
+| 10 | **Gallaud et al. (2014)** — Ensconsin/Map7, centrosome separation defects after ablation, J Cell Biol | 10 |
+| 11 | **Rhee (2021)** — supernumerary centrioles, p53, Mol Cells | 11 |
+| 12 | **Alliegro et al. (2006)** — centrosome-associated RNA, surf clam oocytes, PNAS | 12 |
+| 13 | **Satir et al. (2010)** — centriolar evolution hypothesis, Methods Cell Biol | 13 |
+| 14 | **Saiki et al. (1993)** — centrosome transplantation in starfish oocytes, Dev Growth Differ | 14 |
 
 ---
 
@@ -251,14 +251,14 @@ Before System B/B0: measure mother centriole inheritance bias in RPE1 Ninein-GFP
 ## Additional References (cited in text)
 | # | Reference | PMID |
 |---|-----------|------|
-| 8 | Thomas & Giet (2022) — photo-ablation Drosophila NB, STAR Protoc | 35776653 |
-| 9 | Khodjakov et al. (2002) — de novo centrosome formation, J Cell Biol | 12356862 |
-| 10 | Gallaud et al. (2014) — Ensconsin/Map7, J Cell Biol | 24687279 |
-| 11 | Rhee (2021) — supernumerary centrioles, Mol Cells | 34711687 |
-| 12 | Royall et al. (2023) — asymmetric inheritance human NPCs, eLife | 37882444 |
-| 13 | Loncarek & Bettencourt-Dias (2018) — centriole review, J Cell Biol | 29500190 |
-| 14 | Alliegro et al. (2006) — centrosomal RNA, PNAS | 16754862 |
-| 15 | Satir et al. (2010) — centriolar evolution, Methods Cell Biol | 20362084 |
-| 16 | Saiki et al. (1993) — centrosome transplantation starfish, Dev Growth Differ | 37281276 |
-| 17 | Loncarek et al. (2008) — PCM controls daughter centriole, Nat Cell Biol | 18297061 |
-| 18 | Chichinadze & Tqemaladze (2012) — centrosomal RNA hypothesis, Nucleosides Nucleotides Nucleic Acids | 22356233 |
+| 15 | Thomas & Giet (2022) — photo-ablation Drosophila NB, STAR Protoc | 15 |
+| 16 | Khodjakov et al. (2002) — de novo centrosome formation, J Cell Biol | 16 |
+| 17 | Gallaud et al. (2014) — Ensconsin/Map7, J Cell Biol | 17 |
+| 18 | Rhee (2021) — supernumerary centrioles, Mol Cells | 18 |
+| 19 | Royall et al. (2023) — asymmetric inheritance human NPCs, eLife | 19 |
+| 20 | Loncarek & Bettencourt-Dias (2018) — centriole review, J Cell Biol | 20 |
+| 21 | Alliegro et al. (2006) — centrosomal RNA, PNAS | 21 |
+| 22 | Satir et al. (2010) — centriolar evolution, Methods Cell Biol | 22 |
+| 23 | Saiki et al. (1993) — centrosome transplantation starfish, Dev Growth Differ | 23 |
+| 24 | Loncarek et al. (2008) — PCM controls daughter centriole, Nat Cell Biol | 24 |
+| 25 | Chichinadze & Tqemaladze (2012) — centrosomal RNA hypothesis, Nucleosides Nucleotides Nucleic Acids | 25 |
