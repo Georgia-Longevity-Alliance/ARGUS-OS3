@@ -177,6 +177,11 @@ Gallaud (2014) showed >30% of ablated NB do not divide. Mitigation:
 **Karyotype check:** FISH or chromosome spread after transplantation. Supernumerary centrioles can cause aneuploidy (Rhee 2021). If ploidy changes → fate change may be aneuploidy effect, not centriole information.
 
 ## 5f1b. PCM Knockout Controls
+## 5f1c. Information Carrier Discrimination
+**RNase-treated centriole:** Treat extracted centriole with RNase A before transplantation. If fate change disappears → RNA is the carrier. If persists → protein/PTM is the carrier.
+**Anti-acetylated-tubulin antibody:** Block centriolar PTMs before transplantation. If fate change disappears → tubulin PTMs (acetylation) are the carrier.
+**PCM-only vs Core-only:** Separate PCM fraction from centriole core by detergent extraction. Inject each separately. Identifies which component carries information.
+
 **Donor cell PCM depletion:** siRNA knockdown of Cnn/Spd-2 in donor cells BEFORE centriole extraction. If PCM-depleted centriole fails to change fate → PCM carries the information, not the centriole core.
 
 ## 5f2. Stress Controls for System B
