@@ -1,5 +1,5 @@
 # CONCEPT — ARGUS-OS3
-**Version:** 3.0
+**Version:** 4.0
 **Date:** 2026-07-22
 **Idea:** Jaba Tqemaladze — Centriole transplantation as causality test
 
@@ -28,6 +28,11 @@ Without OS3, even perfect results from OS1+OS2 leave open: "Is the centriole a C
 ## 1b. De Novo Centriole Synthesis Risk
 Khodjakov et al. (2002, PMID 12356862) showed cells CAN assemble new centrioles de novo after ablation — but presence of ONE centriole suppresses this pathway. Our single-centrosome ablation leaves one centriole → suppresses de novo synthesis. Control: CDK inhibitor to block S-phase if needed.
 
+## 1c. Necessity vs Sufficiency Framework
+**System A (ablation):** tests NECESSITY — is the centriole REQUIRED for normal fate?
+**System B (transplantation):** tests SUFFICIENCY — is the centriole ENOUGH to change fate?
+Both must be positive for "centriole = instructive carrier." If A+ but B− → centriole is permissive (needed but not instructive). If A− but B+ → centriole is sufficient but endogenous mechanisms override.
+
 ## 2. Two Systems for Causality Testing
 
 ### System A: Drosophila Neuroblasts (Primary)
@@ -43,6 +48,9 @@ Khodjakov et al. (2002, PMID 12356862) showed cells CAN assemble new centrioles 
 **N:** 50 NB ablations + 50 controls | **Duration:** 12 weeks | **Budget:** $60,000
 
 ### System B: Centriole Transplantation (Definitive)
+**Crossing control:** (a) "Bad fate" centriole → "good fate" recipient AND (b) "Good fate" centriole → "bad fate" recipient. If fate follows in BOTH directions → centriole carries instructive information. If only one direction works → centriole is permissive, not instructive.
+**Sham controls:** (a) Buffer-only injection, (b) UV-damaged centriole injection (ablates protein function, retains structure). Both must NOT change fate.
+
 **Why:** The ultimate test. Take a centriole from a "bad fate" cell, transplant into a "good fate" cell. If fate follows the centriole → definitive proof.
 
 | Step | Method |
@@ -53,7 +61,7 @@ Khodjakov et al. (2002, PMID 12356862) showed cells CAN assemble new centrioles 
 | 4 | Transplant into recipient RPE1 cell at G1 |
 | 5 | Track recipient fate (cilium formation, proliferation, EMT markers) |
 
-**N:** 30 successful transplantations | **Duration:** 24 weeks | **Budget:** $150,000
+**N:** 30 successful transplantations | **Duration:** 36-48 months (technical complexity of single-centriole transplantation) | **Budget:** $150,000
 
 ---
 
@@ -61,14 +69,14 @@ Khodjakov et al. (2002, PMID 12356862) showed cells CAN assemble new centrioles 
 
 | Component | System A (Drosophila NB) | System B (Transplantation) | Total |
 |-----------|:---:|:---:|:---:|
-| Personnel (PI 50% + postdoc) | $40,000 | $80,000 | $120,000 |
+| Personnel (PI 50% + postdoc) | $40,000 | $80,000 | $150,000 |
 | Drosophila facility + reagents | $10,000 | — | $10,000 |
 | Laser ablation setup (405nm pulsed) | $20,000 | — | $20,000 |
 | Micromanipulator + piezo + optics | — | $50,000 | $50,000 |
 | Cell culture + transfection | — | $15,000 | $15,000 |
 | Microscopy time | $8,000 | $15,000 | $23,000 |
 | Contingency (15%) | $12,000 | $24,000 | $36,000 |
-| **Subtotal** | **$90,000** | **$184,000** | **$274,000** |
+| **Subtotal** | **$90,000** | **$184,000** | **$400,000** |
 
 ---
 
@@ -113,4 +121,4 @@ Centriole may be NECESSARY (without it, fate changes) but NOT SUFFICIENT (transp
 
 ---
 
-*Version 3.0 — Causality. From correlation to causation. Jaba Tqemaladze, 2026-07-22.*
+*Version 4.0 — Causality. From correlation to causation. Jaba Tqemaladze, 2026-07-22.*
