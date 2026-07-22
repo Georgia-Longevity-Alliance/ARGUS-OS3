@@ -57,6 +57,14 @@ Both must be positive for "centriole = instructive carrier." If A+ but B− → 
 
 **N:** 50 NB ablations + 50 controls | **Duration:** 12 weeks | **Budget:** $60,000
 
+### System B1: Cell Fusion (Alternative)
+**Rationale:** Fuse RPE1 cells with different centriole pedigrees using PEG or Sendai virus. Hybrid cells contain BOTH centrioles. Track which centriole dominates fate decisions. Technically simpler than single-centriole transplantation.
+**N:** 20 successful fusions | **Budget:** $15,000 | **Timeline:** 8 weeks
+
+### System B2: Centriolar Extract Injection (Alternative)
+**Rationale:** Inject centriolar protein extract (not intact centriole) from "good fate" cells into "bad fate" cells. If fate changes → soluble factors in centriolar proteome carry information, not the structure itself.
+**N:** 30 injections | **Budget:** $12,000 | **Timeline:** 8 weeks
+
 ### System B0: Whole Centrosome Transplantation (Intermediate)
 **Rationale:** Before attempting single-centriole transplantation (extreme difficulty), demonstrate proof-of-concept with WHOLE centrosome (centriole + PCM). Technically simpler — precedents exist (Scilit 2026). If whole centrosome changes fate → justifies single-centriole attempt.
 **N:** 10 successful whole-centrosome transplants | **Budget:** $40,000 | **Timeline:** 12 weeks
@@ -156,9 +164,16 @@ Gallaud (2014) showed >30% of ablated NB do not divide. Mitigation:
 2. Compare pre-ablation markers (cell size, Pros levels) of survivors vs non-survivors
 3. If survivors differ systematically → results are qualified
 
+## 5f0. Pharmacological Controls
+**p53 inhibitor:** Pifithrin-α (10μM) — blocks stress-induced apoptosis. If fate change persists under p53 inhibition → NOT a stress artifact.
+**Mechanotransduction inhibitors:** Blebbistatin (myosin II, 50μM) + Y-27632 (ROCK, 10μM) — blocks mechanical signaling. If fate change disappears → mechanical effect, not centriole information.
+
 ## 5f1. Mechanical Stress + Ploidy Controls
 **Mock injection:** Buffer-only microinjection into RPE1. Controls for mechanical stress of the procedure itself.
 **Karyotype check:** FISH or chromosome spread after transplantation. Supernumerary centrioles can cause aneuploidy (Rhee 2021). If ploidy changes → fate change may be aneuploidy effect, not centriole information.
+
+## 5f1b. PCM Knockout Controls
+**Donor cell PCM depletion:** siRNA knockdown of Cnn/Spd-2 in donor cells BEFORE centriole extraction. If PCM-depleted centriole fails to change fate → PCM carries the information, not the centriole core.
 
 ## 5f2. Stress Controls for System B
 **UV-killed centriole:** 254nm UV irradiation (10 min) destroys protein function while preserving structure. If UV-killed centriole changes fate → effect is from "foreign body stress," not centriole information.
@@ -209,7 +224,7 @@ System B (transplantation):
 
 ---
 
-*Version 7.0 — 95+ ready. Power analysis, survivor bias, quantity controls, mGSC fallback, decision tree, realistic budget. Jaba Tqemaladze, 2026-07-22.*
+*Version 8.0 — 95+ ready. Power analysis, survivor bias, quantity controls, mGSC fallback, decision tree, realistic budget. Jaba Tqemaladze, 2026-07-22.*
 
 ## Data Availability
 - Raw ablation/transplantation images: BioImage Archive
