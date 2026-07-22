@@ -115,6 +115,10 @@ Both must be positive for "centriole = instructive carrier." If A+ but B− → 
 | 8 | **Thomas & Giet (2022)** — live imaging Drosophila NB with photo-ablated centrosomes, STAR Protoc | 35776653 |
 | 9 | **Khodjakov et al. (2002)** — de novo centrosome formation after ablation, J Cell Biol | 12356862 |
 | 7 | Rebollo et al. (2007) — unequal centrosomes Drosophila | 17336911 |
+| 10 | **Gallaud et al. (2014)** — Ensconsin/Map7, centrosome separation defects after ablation, J Cell Biol | 24687279 |
+| 11 | **Rhee (2021)** — supernumerary centrioles, p53, Mol Cells | 34711687 |
+| 14 | **Alliegro et al. (2006)** — centrosome-associated RNA, surf clam oocytes, PNAS | 16754862 |
+| 15 | **Satir et al. (2010)** — centriolar evolution hypothesis, Methods Cell Biol | 20362084 |
 
 ---
 
