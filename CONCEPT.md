@@ -1,5 +1,5 @@
 # CONCEPT — ARGUS-OS3
-**Version:** 2.0
+**Version:** 3.0
 **Date:** 2026-07-22
 **Idea:** Jaba Tqemaladze — Centriole transplantation as causality test
 
@@ -88,6 +88,21 @@ Khodjakov et al. (2002, PMID 12356862) showed cells CAN assemble new centrioles 
 
 ---
 
+## 4b. Operational Fate Definition
+**System A (Drosophila NB):** stemness = Deadpan (Dpn)+, Asense (Ase)-, EdU+ (proliferation). Differentiation = Pros+, Elav+, EdU-.
+**System B (RPE1):** cilium-forming = Arl13B+ AND Ki67- AND EdU- (>24h G0). Proliferative = Ki67+ OR EdU+. EMT = E-cadherin loss + vimentin gain.
+
+## 4c. Alternative Hypothesis: Necessary but Not Sufficient
+Centriole may be NECESSARY (without it, fate changes) but NOT SUFFICIENT (transplant alone does not change fate). If ablation changes fate but transplantation does NOT → centriole is permissive, not instructive. This outcome is scientifically important and publishable.
+
+## 4d. Milestones
+| Month | System A | System B |
+|:---:|------|------|
+| 1-2 | Line establishment + ablation calibration | Dendra2-Centrin1 line generation |
+| 3-4 | Pilot: 10 ablations + optimize | Pilot: centriole extraction protocol |
+| 5-6 | Main: 50 ablations | Pilot: first 5 transplantations |
+| 7-8 | Analysis + write-up | Analysis + protocol refinement |
+
 ## 5. Success Criteria
 
 | Result | Verdict |
@@ -98,4 +113,4 @@ Khodjakov et al. (2002, PMID 12356862) showed cells CAN assemble new centrioles 
 
 ---
 
-*Version 2.0 — Causality. From correlation to causation. Jaba Tqemaladze, 2026-07-22.*
+*Version 3.0 — Causality. From correlation to causation. Jaba Tqemaladze, 2026-07-22.*
