@@ -145,6 +145,12 @@ Gallaud (2014) showed >30% of ablated NB do not divide. Mitigation:
 2. Compare pre-ablation markers (cell size, Pros levels) of survivors vs non-survivors
 3. If survivors differ systematically → results are qualified
 
+## 5f2. Stress Controls for System B
+**UV-killed centriole:** 254nm UV irradiation (10 min) destroys protein function while preserving structure. If UV-killed centriole changes fate → effect is from "foreign body stress," not centriole information.
+**PCM-only injection:** Isolated pericentriolar material (no centriole core). If PCM-only changes fate → structural role, not centriole-specific.
+**Buffer-only:** Injection stress baseline.
+Rhee (2021, PMID 34711687): supernumerary centrioles activate p53 → cell cycle arrest. Our "quantity control" (5g) separates this from pedigree-specific effects.
+
 ## 5g. Quantity Control for System B
 
 To distinguish "information content" from "just having an extra centriole":
