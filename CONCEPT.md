@@ -26,6 +26,9 @@ Without OS3, even perfect results from OS1+OS2 leave open: "Is the centriole a C
 ---
 
 ## 1b. De Novo Centriole Synthesis Risk
+## 1d. Mitotic Defect Risk (Gallaud 2014)
+Centrosome ablation causes mitotic spindle defects → cell death or cycle arrest. >30% of ablated cells may not divide (Gallaud 2014, PMID 24687279). Survivor bias: analyzed cells are those that survived ablation — may not represent normal fate. Mitigation: report division success rate; compare survivors vs non-survivors.
+
 Khodjakov et al. (2002, PMID 12356862) showed cells CAN assemble new centrioles de novo after ablation — but presence of ONE centriole suppresses this pathway. Our single-centrosome ablation leaves one centriole → suppresses de novo synthesis. Control: CDK inhibitor to block S-phase if needed.
 
 ## 1c. Necessity vs Sufficiency Framework
