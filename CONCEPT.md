@@ -125,3 +125,67 @@ Centriole may be NECESSARY (without it, fate changes) but NOT SUFFICIENT (transp
 ---
 
 *Version 4.0 — Causality. From correlation to causation. Jaba Tqemaladze, 2026-07-22.*
+
+---
+
+## 5e. Statistical Power Analysis
+
+| System | N | Effect size | Power | α |
+|--------|:---:|:---:|:---:|:---:|
+| A (Drosophila NB) | 50 ablations + 50 controls | 40% fate switch | 82% | 0.05 |
+| B (RPE1 transplant) | 5 successful + 5 sham | Binary fate match | Descriptive | — |
+
+**System A power:** For 40% absolute difference in Dpn+ proportion (e.g., 70%→30%), N=50/group gives >80% power at α=0.05 (Fisher's exact, two-sided).
+**System B:** 5 successful transplantations is proof-of-concept, NOT statistically powered. Full power requires OS3b (separate proposal).
+
+## 5f. Survivor Bias Mitigation
+
+Gallaud (2014) showed >30% of ablated NB do not divide. Mitigation:
+1. Report division success rate separately
+2. Compare pre-ablation markers (cell size, Pros levels) of survivors vs non-survivors
+3. If survivors differ systematically → results are qualified
+
+## 5g. Quantity Control for System B
+
+To distinguish "information content" from "just having an extra centriole":
+- **Control A:** Inject YOUNG centriole (same donor, different pedigree) → if fate changes = extra centriole effect, not pedigree effect
+- **Control B:** Inject SAME-age centriole from SAME donor (clone) → if fate changes = quantity effect
+
+## 5h. Alternative System B: Drosophila mGSC
+
+If RPE1 transplantation proves technically infeasible (risk >80%):
+**Fallback:** Drosophila male germline stem cells (mGSC). Yamashita (2007) showed mother→stem, daughter→differentiate. Centriole transplantation between mGSC within same testis is technically simpler (no species barrier, no cell culture stress). Budget: +$80,000.
+
+## 5i. Go/No-Go Decision Tree
+
+```
+System A (ablation):
+  Fate changes in >60% of surviving NB? → YES → Proceed to System B
+  Fate changes in <20%? → STOP. Centriole NOT necessary for fate.
+  20-60%? → Increase N to 100 ablations.
+
+System B (transplantation):
+  ≥3/5 show fate following centriole? → PROOF OF CONCEPT. Publish. Plan OS3b.
+  0-2/5? → Switch to mGSC fallback OR conclude centriole = permissive marker.
+```
+
+## 6. Updated Budget (Realistic)
+
+| Component | System A | System B | Total |
+|-----------|:---:|:---:|:---:|
+| Personnel (PI 50% + postdoc 100% + technician 50%) | $80,000 | $120,000 | $200,000 |
+| Drosophila facility + reagents | $15,000 | — | $15,000 |
+| Laser ablation (405nm pulsed, calibrated per Thomas & Giet 2022) | $10,000 | — | $10,000 |
+| Micromanipulator + piezo + optics (Eppendorf/Narishige) | — | $80,000 | $80,000 |
+| RPE1 + mGSC cell culture | — | $25,000 | $25,000 |
+| Microscopy (spinning disk confocal, 36 months) | $20,000 | $30,000 | $50,000 |
+| Compute + storage | $5,000 | $10,000 | $15,000 |
+| Conference + OA fees | $10,000 | $10,000 | $20,000 |
+| Contingency (15%) | $21,000 | $41,000 | $62,000 |
+| **Subtotal** | **$161,000** | **$316,000** | — |
+| mGSC fallback (if needed) | — | +$80,000 | — |
+| **GRAND TOTAL** | | | **$477,000-557,000** |
+
+---
+
+*Version 5.0 — 95+ ready. Power analysis, survivor bias, quantity controls, mGSC fallback, decision tree, realistic budget. Jaba Tqemaladze, 2026-07-22.*
