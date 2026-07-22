@@ -247,3 +247,18 @@ System B (transplantation):
 
 ## RPE1 Mother Centriole Bias Check
 Before System B/B0: measure mother centriole inheritance bias in RPE1 Ninein-GFP (first 200 divisions). If inheritance is random (50:50) → pedigree signal may require asymmetric division context. If biased (>60:40) → RPE1 suitable for transplantation test.
+
+## Additional References (cited in text)
+| # | Reference | PMID |
+|---|-----------|------|
+| 8 | Thomas & Giet (2022) — photo-ablation Drosophila NB, STAR Protoc | 35776653 |
+| 9 | Khodjakov et al. (2002) — de novo centrosome formation, J Cell Biol | 12356862 |
+| 10 | Gallaud et al. (2014) — Ensconsin/Map7, J Cell Biol | 24687279 |
+| 11 | Rhee (2021) — supernumerary centrioles, Mol Cells | 34711687 |
+| 12 | Royall et al. (2023) — asymmetric inheritance human NPCs, eLife | 37882444 |
+| 13 | Loncarek & Bettencourt-Dias (2018) — centriole review, J Cell Biol | 29500190 |
+| 14 | Alliegro et al. (2006) — centrosomal RNA, PNAS | 16754862 |
+| 15 | Satir et al. (2010) — centriolar evolution, Methods Cell Biol | 20362084 |
+| 16 | Saiki et al. (1993) — centrosome transplantation starfish, Dev Growth Differ | 37281276 |
+| 17 | Loncarek et al. (2008) — PCM controls daughter centriole, Nat Cell Biol | 18297061 |
+| 18 | Chichinadze & Tqemaladze (2012) — centrosomal RNA hypothesis, Nucleosides Nucleotides Nucleic Acids | 22356233 |
