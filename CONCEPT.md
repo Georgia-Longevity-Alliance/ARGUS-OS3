@@ -1,5 +1,5 @@
 # CONCEPT — ARGUS-OS3
-**Version:** 1.0
+**Version:** 2.0
 **Date:** 2026-07-22
 **Idea:** Jaba Tqemaladze — Centriole transplantation as causality test
 
@@ -25,10 +25,13 @@ Without OS3, even perfect results from OS1+OS2 leave open: "Is the centriole a C
 
 ---
 
+## 1b. De Novo Centriole Synthesis Risk
+Khodjakov et al. (2002, PMID 12356862) showed cells CAN assemble new centrioles de novo after ablation — but presence of ONE centriole suppresses this pathway. Our single-centrosome ablation leaves one centriole → suppresses de novo synthesis. Control: CDK inhibitor to block S-phase if needed.
+
 ## 2. Two Systems for Causality Testing
 
 ### System A: Drosophila Neuroblasts (Primary)
-**Why:** Centrioles are NOT eliminated. Asymmetric inheritance is PROVEN (Januschke 2011 — daughter→stem, mother→differentiate; Conduit & Raff 2010 — Cnn asymmetry). Laser ablation of one centrosome changes fate. **This is the gold standard causality system.**
+**Why:** Centrioles are NOT eliminated. Asymmetric inheritance is PROVEN (Januschke 2011 — mother→differentiate (GMC), daughter→stem (NB). Januschke 2011: mother centrosome inherited by differentiating daughter.; Conduit & Raff 2010 — Cnn asymmetry). Laser ablation of one centrosome changes fate. **This is the gold standard causality system.**
 
 | Step | Method |
 |:---:|--------|
@@ -79,6 +82,8 @@ Without OS3, even perfect results from OS1+OS2 leave open: "Is the centriole a C
 | 4 | Barandun et al. (2025) — CD8+ T-cell ninein, Cell Rep | 39764850 |
 | 5 | Anderson & Stearns (2009) — centriole age → cilium | 19682908 |
 | 6 | Kalbfuss & Gönczy (2023) — 88% elimination | 37256957 |
+| 8 | **Thomas & Giet (2022)** — live imaging Drosophila NB with photo-ablated centrosomes, STAR Protoc | 35776653 |
+| 9 | **Khodjakov et al. (2002)** — de novo centrosome formation after ablation, J Cell Biol | 12356862 |
 | 7 | Rebollo et al. (2007) — unequal centrosomes Drosophila | 17336911 |
 
 ---
@@ -93,4 +98,4 @@ Without OS3, even perfect results from OS1+OS2 leave open: "Is the centriole a C
 
 ---
 
-*Version 1.0 — Causality. From correlation to causation. Jaba Tqemaladze, 2026-07-22.*
+*Version 2.0 — Causality. From correlation to causation. Jaba Tqemaladze, 2026-07-22.*
