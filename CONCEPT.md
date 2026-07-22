@@ -256,7 +256,7 @@ Before System B/B0: measure mother centriole inheritance bias in RPE1 Ninein-GFP
 ## Additional References (cited in text)
 | # | Reference | PMID |
 |---|-----------|------|
-| 15 | Thomas & Giet (2022) — photo-ablation Drosophila NB, STAR Protoc | 15 |
+| 15 | Thomas & Giet (2022) — photo-ablation Drosophila NB, STAR Protoc | 35776653 |
 | 16 | Khodjakov et al. (2002) — de novo centrosome formation, J Cell Biol | 16 |
 | 17 | Gallaud et al. (2014) — Ensconsin/Map7, J Cell Biol | 17 |
 | 18 | Rhee (2021) — supernumerary centrioles, Mol Cells | 18 |
@@ -267,3 +267,4 @@ Before System B/B0: measure mother centriole inheritance bias in RPE1 Ninein-GFP
 | 23 | Saiki et al. (1993) — centrosome transplantation starfish, Dev Growth Differ | 23 |
 | 24 | Loncarek et al. (2008) — PCM controls daughter centriole, Nat Cell Biol | 24 |
 | 25 | Chichinadze & Tqemaladze (2012) — centrosomal RNA hypothesis, Nucleosides Nucleotides Nucleic Acids | 25 |
+| 26 | **Castellanos et al. (2008)** — centrosome dysfunction in Drosophila NB causes tumors, Curr Biol | 18656356 |
