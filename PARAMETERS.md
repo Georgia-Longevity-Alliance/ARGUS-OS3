@@ -45,7 +45,7 @@
 
 | Line item | $ |
 |-----------|--:|
-| **Base platform (ARGUS-LP_OS v1.0)** | 24,053 |
+| **Base platform (ARGUS-LP_OS v477,000.0)** | 24,053 |
 | Micromanipulator module (FOSH + microinjector) | 1,208 |
 | UV-C sterilisation | 500 |
 | Femtosecond laser (used) | 8,000 |

@@ -108,6 +108,19 @@ Saiki (1993) achieved 36-90% transplantation efficiency for WHOLE centrosomes in
 
 ---
 
+
+
+## Consumables (annual)
+
+| **C. elegans maintenance** (NGM agar, OP50/NA22 bacteria, cholesterol, Petri dishes) | **$3,500** |
+| **RNAi/strain maintenance** (clones, IPTG, antibiotics, feeding plates) | **$2,000** |
+| **Cell culture** (DMEM/RPMI, FBS, pen/strep, trypsin, plastics) | **$8,000** |
+| **CO₂ gas + incubator supplies** (cylinders, rental, HEPA filters) | **$3,000** |
+| **Transfection reagents** (Lipofectamine, siRNA oligos) | **$3,000** |
+| **Sequencing consumables** (library prep, flow cells) | **$12,000** |
+| **Microscopy** (immersion oil, coverslips, lens cleaning) | **$2,000** |
+| **Glove-box/Enclosure** (HEPA H13 filters, UV-C lamps, gloves, seals, N₂ gas) | **$8,000** |
+| **Office consumables** (printing, stationery) | **$500** |
 ## 4. Key References
 
 | # | Reference | PMID |
@@ -274,3 +287,8 @@ For System A: time-to-event analysis (Kaplan-Meier) for ablated vs control NB. C
 
 ## 5k. Single-Cell RNA-seq (Optional, +$45K)
 After successful transplantation (System B) or ablation (System A): scRNA-seq on daughter cells. Transcriptional signature of "fate switch" vs stress response. Distinguishes "centriole information" (specific developmental program) from "stress artifact" (p53, Hsp70, generic damage response). Even if transplantation fails technically, scRNA-seq on ablated NB provides valuable mechanistic data.
+
+
+## References
+
+*See project MEMORY.md for reference history.*

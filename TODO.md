@@ -1,5 +1,5 @@
 # TODO — ARGUS-OS3
-- [ ] System A: Drosophila NB laser ablation setup
-- [ ] System B: Centriole transplantation protocol development
-- [ ] Grant application for causality testing
-- [ ] Pre-registration on OSF
+- [x] System A: Drosophila NB laser ablation setup
+- [x] System B: Centriole transplantation protocol development
+- [x] Grant application for causality testing
+- [x] Pre-registration on OSF
