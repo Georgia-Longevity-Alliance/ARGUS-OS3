@@ -292,3 +292,7 @@ After successful transplantation (System B) or ablation (System A): scRNA-seq on
 ## References
 
 *See project MEMORY.md for reference history.*
+
+## Blinding Protocol
+
+> TODO (deep review): describe who is blinded and how.
