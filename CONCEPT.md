@@ -295,4 +295,6 @@ After successful transplantation (System B) or ablation (System A): scRNA-seq on
 
 ## Blinding Protocol
 
-> TODO (deep review): describe who is blinded and how.
+- Centriole transplantation is performed by an operator blinded to the recipient's future treatment assignment.
+- Imaging and scoring of transplanted cells are automated; treatment codes are revealed only after primary outcome (survival/division count) is locked.
+- Sham-transplant and laser-ablation controls are labelled with random IDs by a third party.
