@@ -1,6 +1,6 @@
 # ENTROPY RESET PROGRAM — Complete Package (centriole-focused)
 **Single consolidated document · 2026-08-11 · Jaba Tqemaladze, MD (Georgia Longevity Alliance)**
-**Contains:** Red Thread · Entropy Reset Protocol v6.5 · Grant Core v2.3 (centriole-only tracks) · Search Appendix · Gakely Prototype Chain
+**Contains:** Red Thread · Entropy Reset Protocol v6.5 · Grant Core v2.4 (centriole-only tracks; ERC deadline 14 Oct) · Search Appendix · Gakely Prototype Chain
 **Repos:** github.com/Georgia-Longevity-Alliance/ARGUS-OS3 · github.com/djabbat/LC · github.com/djabbat/Marketing
 
 ---
@@ -567,11 +567,11 @@ Full transparency, per journal COI standards:
 
 ---
 
-# PART 2 — GRANT CORE v2.3 (grant-tracks core, centriole-only)
+# PART 2 — GRANT CORE v2.4 (grant-tracks core, centriole-only)
 
 # ENTROPY RESET PROGRAM — The Grant Core for Marketing Projects
 
-**Version:** 2.3 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 2.4 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
 **Purpose:** Make the Centriole Reset program (Entropy Reset Protocol v6.2) the single scientific core of every grant application under the Marketing umbrella.
 
 > **Peer-review response (v2.1).** Following seven independent reviews (78, 41, 42, 47, 51, 31, 65/100) + Gakely rounds, the program now includes: search expanded to Europe PMC (preprints disclosed incl. 2 author preprints) + Crossref; DOI cross-check (39/47); MDE biologically anchored to OSK effect sizes; FDR q=0.05; safety futility stop; explicit fibroblast→stem-cell extrapolation boundary in the abstract; de-hyped publication title; quantitative meta-analysis plan (checkpoint passage rate). Plus all prior: prior-evidence dialogue with **Wong 2015 corrected to its exact abstract**; Renzova 2018 contradiction resolved; **tissue-specificity of asymmetric inheritance registered** (neuroblast counterexample — Januschke 2011); **p53-suppression confounder arm** (H6 + dedicated control arm E — p53-suppression-only, no reset); "programmed geometry" made falsifiable (H_programmed, cryo-ET test); **centriole-number gate E** (exactly 2, N≥20 clones); **red thread reframed as cell/tissue-level hypothesis** (in vivo ladder required for organismal claims); **OSK explicitly leveled** (organismal benchmark) vs. centriole reset (cell-level candidate); pre-registered CRCS SAP with fixed 1/6 weights; interaction-power simulation for H3; phased budget ($1.5M/48 mo); full COI disclosure incl. expanded rhetoric alignment; 47/47 PMID re-verified; systematic-search appendix (`APPENDIX_SEARCH_PROTOCOL.md`).
@@ -588,7 +588,7 @@ Every active grant track uses a slice of this core:
 
 | Track | Slice of the core | Endpoints | Status |
 |-------|-------------------|-----------|--------|
-| **ERC StG — CentrioleReset** (15 Oct 2026) | Elimination → de novo biogenesis; 2×2 factorial; CRCS | H3, H8, H9 + CRCS | 🔴 Active, Part B1 v4.1 |
+| **ERC StG — CentrioleReset** (14 Oct 2026 — official, erc.europa.eu) | Elimination → de novo biogenesis; 2×2 factorial; CRCS | H3, H8, H9 + CRCS | 🔴 Active, Part B1 v4.1 |
 | **Entropy-in-Aging workshop, Cologne** (31 Aug–2 Sep 2026) | Regime analysis + asymmetric inheritance | H9, H8, H3 | 🟢 Active |
 | **ARGUS-OS3 — Causality test** | Experimental platform (transplantation arm) | All + CRCS | 🟢 Active |
 
@@ -672,7 +672,7 @@ Each track funds a distinct deliverable; no experiment is billed twice: ERC StG 
 | Date | Action | Track |
 |------|--------|-------|
 | 31 Aug | Cologne workshop (Entropy-in-Aging) | AEON |
-| 15 Oct | ERC StG Part B1 | ERC |
+| 14 Oct | ERC StG Part B1 | ERC (official deadline; 28 Oct is EIC Pathfinder, different call) |
 | 15 Oct | SRNSFG AR-2026 | National |
 | 28 Oct | EIC Pathfinder Challenges | EIC |
 
