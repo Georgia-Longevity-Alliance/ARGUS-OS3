@@ -20,6 +20,12 @@ ARGUS-OS3/
 │   └── README.md
 │
 ├── docs/                   # Laser safety, ablation protocols
+├── docs/ENTROPY_RESET_PROTOCOL.md  # v6.2 core protocol (12 hallmarks, 47 refs)
+├── docs/ENTROPY_RESET_PROGRAM_COMPLETE.md  # consolidated package v6.2
+├── docs/APPENDIX_SEARCH_PROTOCOL.md  # novelty search (PubMed+EuropePMC+Crossref+OpenAlex)
+├── docs/ENTROPY_RESET_13_PUZZLES.png  # 13-puzzle visual
+├── docs/RED_THREAD.md  # one-page mechanism
+├── docs/GAKELY_TSOMAIA_PROTOTYPE_CHAIN_EN.md  # prototype chain (EN)
 │
 ├── letters/                # EIC Pathfinder WP2 correspondence
 │
