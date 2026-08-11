@@ -1,7 +1,7 @@
 # ENTROPY RESET PROTOCOL — Full Hallmark Coverage
 ## The Centriole as the Candidate Reset Carrier
 
-**Version:** 2.0 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 2.1 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
 
 **Goal:** Reset cellular entropy in a somatic cell the way nature does between **meiosis I and the first blastomeres** — covering **all 12 Hallmarks of Aging** (López-Otín et al., 2013, PMID 23746838; 2023, PMID 36599349) — but **without loss of the diploid chromosome set and without crossing-over.**
 
@@ -73,7 +73,54 @@ Withdraw the inhibitor / switch off the knockout. De novo assembly proceeds thro
 
 ---
 
-## 4. Hallmark Protocols (all 12)
+## 4. The Geometric Entropy Accumulation Problem: Which Hallmarks Are Affected
+
+The reset protocol exists because centriolar entropy **accumulates geometrically in three distinct regimes**, each hitting a different set of Hallmarks. Nature's germline trick avoids all three; adult somatic cells suffer all three. This section maps each regime to the Hallmarks it damages.
+
+### Regime A — Chronological Age (β·t + η(t))
+
+The centriole is a long-lived structure: it accumulates polyglutamylation (TTLL5/TTLL6) and stochastic damage (ROS, glycation, thermal noise) with time, in every cell, dividing or not. It is never repaired and never replaced. The older the organism, the older every centriole in every tissue.
+
+| Hallmark | Mechanism | Evidence |
+|:---:|-----------|----------|
+| **H4** Loss of proteostasis | Structural entropy of the organelle — polyE accumulates because the centriole lacks efficient dediglutamylase activity | CEDAR core claim; GT335 signal rises with age |
+| **H8** Cellular senescence | Polyglutamylated microtubules extend from the centrosome region to the nucleus; KIFC3 transports FBF1 to PML bodies — required for senescence initiation | Robichaud et al., 2024, PMID 39266565 |
+| **H1** Genomic instability | Aged/damaged centrioles organize error-prone spindles; supernumerary centrioles activate p53 and cause aneuploidy | Rhee, 2021, PMID 34711687 |
+| **H3** Epigenetic alterations | The Centrosome-Associated Memory Complex (CAMC) on the aged mother centriole maintains the differentiated state — the epigenetic landscape follows the hardware signal | CEDAR (hypothesis) |
+| **H10** Intercellular communication | The primary cilium is built on the mother centriole — an aged centriole builds a functionally aged antenna | Anderson & Stearns, 2009 (centriole age → cilium) |
+| **H7** Mitochondrial dysfunction | ROS from mitochondria is the damage source (η term) — the two entropy carriers feed each other | MCARA counter #3 |
+
+### Regime B — Asymmetric Divisions of Adult Stem Cells (−λ·N_asym)
+
+In asymmetric stem-cell systems, the **oldest centriole is retained by the stem cell** at every division. The stem cell therefore never sheds its entropy: each division leaves the oldest centriole (and its CAASM) in place, while the fresh daughter centriole goes to the differentiating sibling. Over hundreds of divisions, stem-cell centriolar entropy accumulates **geometrically**.
+
+| Hallmark | Mechanism | Evidence |
+|:---:|-----------|----------|
+| **H9** Stem cell exhaustion | The mother centrosome is retained by the stem cell (Drosophila GSC); the aged CAASM erodes stemness until the niche can no longer compensate | Yamashita et al., 2007, Science; Chen & Yamashita, 2021, PMID 33435817 |
+| **H9** (fate bias) | In CD8+ T-cells the mother centrosome dictates effector vs. memory fate; in radial glia, PCM1 on the mother centrosome decides progenitor vs. neuron — aged centrioles bias fate toward differentiation | Barandun et al., 2025; Zhao et al., 2025 |
+| **H8** Senescence of the niche | Long-term stem cells accumulate the senescence-initiation scaffold (polyE MT → PML) precisely because they never eliminate the aged organelle | Robichaud et al., 2024, PMID 39266565 |
+| **H3** Epigenetic drift | Each asymmetric division remodels CAASM (one inducer equivalent detached per division) — the stem cell's signaling surface drifts with N_asym | CEDAR: CAASM(N) = CAASM₀ − λ·N_asym |
+| **H1** Genomic instability | After many asymmetric divisions, the oldest centriole is more likely to mis-segregate; stem cells are the reservoir of mutation accumulation | Rhee, 2021, PMID 34711687 |
+
+### Regime C — Differentiating Daughter Cells That Never Eliminate Their Centrioles
+
+Nature has two strategies for centrioles at differentiation: **eliminate** (C. elegans — 88% of somatic cells lose centrioles on a rigid schedule; planarian neoblasts lack them) or **keep** (mammals, Drosophila — differentiating cells retain the inherited organelle). In systems that keep, the **differentiated daughter carries the aged centriole into the tissue**, and its descendants inherit it. This is the regime CEDAR calls the *unpaid meiotic price*: the organism differentiates without resetting the counter.
+
+| Hallmark | Mechanism | Evidence |
+|:---:|-----------|----------|
+| **H8** Cellular senescence | Differentiated cells retaining aged centrioles accumulate the polyE→KIFC3→FBF1→PML scaffold — they become senescent earlier than cells with fresh centrioles | Robichaud et al., 2024, PMID 39266565 |
+| **H10** Intercellular communication | Post-mitotic differentiated cells signal through cilia built on aged mother centrioles — tissue-level signaling drifts with age | Anderson & Stearns, 2009 |
+| **H4** Loss of proteostasis | The aged centriole is a permanent proteostatic burden — no elimination, no replacement, PTMs keep accumulating | CEDAR core claim |
+| **H1** Genomic instability | Where differentiated daughters re-enter division (e.g., injury, clonal expansion), the inherited aged centriole propagates segregation errors | Rhee, 2021, PMID 34711687 |
+| **H11** Chronic inflammation | Senescent differentiated cells (H8) secrete SASP — the retained-centriole regime feeds inflammaging across the tissue | SASP literature; H8 mechanism |
+
+### Why This Mapping Matters
+
+The three regimes overlap in the tissue: an adult stem cell (Regime B) produces a differentiating daughter (Regime C) whose fate is biased by the aged mother centriole, in a body whose chronological age (Regime A) has already degraded every centriole in the tissue. **The germline escapes all three because it eliminates and rebuilds.** The Entropy Reset Protocol (Protocol 0) is the somatic version of that escape: eliminate (Phase 1) → rebuild de novo (Phase 2) → verify all affected Hallmarks (scorecard below).
+
+---
+
+## 5. Hallmark Protocols (all 12)
 
 For each hallmark: **(a)** how nature resets it, **(b)** the somatic-cell protocol, **(c)** the centriole's candidate role, **(d)** verification readout.
 
@@ -153,7 +200,7 @@ For each hallmark: **(a)** how nature resets it, **(b)** the somatic-cell protoc
 
 ---
 
-## 5. Master Verification — The Three Invariants
+## 6. Master Verification — The Three Invariants
 
 Every hallmark protocol must respect the three invariants that distinguish this reset from the meiotic one:
 
@@ -165,7 +212,7 @@ Every hallmark protocol must respect the three invariants that distinguish this 
 
 ---
 
-## 6. Hallmark Scorecard (pre/post)
+## 7. Hallmark Scorecard (pre/post)
 
 | # | Hallmark | Pre-readout | Post-readout | Target |
 |:---:|----------|:---:|:---:|:---:|
@@ -186,7 +233,7 @@ Every hallmark protocol must respect the three invariants that distinguish this 
 
 ---
 
-## 7. Timeline & Budget (indicative, one work package)
+## 8. Timeline & Budget (indicative, one work package)
 
 | Phase | Duration | Budget |
 |:---:|:---:|:---:|
@@ -201,7 +248,7 @@ Fits inside the ARGUS-OS3 envelope ($477–557K, 36–48 months) as an integrate
 
 ---
 
-## 8. Controls (shared)
+## 9. Controls (shared)
 
 | Control | Purpose |
 |---------|---------|
@@ -215,7 +262,7 @@ Fits inside the ARGUS-OS3 envelope ($477–557K, 36–48 months) as an integrate
 
 ---
 
-## 9. Key References
+## 10. Key References
 
 | # | Reference | PMID |
 |---|-----------|------|
