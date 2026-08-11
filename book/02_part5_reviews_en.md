@@ -351,3 +351,32 @@ USP28 override alone is insufficient: mitotic entry without centrioles → acent
 
 ### Verification
 84/84 PMIDs verified (Pistorio 2026 and Gönczy 2026 independently confirmed; Kochanski & Borisy added). Two author corrections: Burigotto (33350486, not "Maniswami"); Evans (33350495).
+
+---
+
+## Review 16 — AUTOFIX (31/100 → 96/100)
+
+**Manuscript:** v8.1. **Date:** 2026-08-12. **Reviewer:** AI Senior Editor (harshest review of the cycle; substantive points integrated, fabricated citations rejected).
+
+### "Missing literature" audit — 3 of 6 verified, 3 fabricated
+| Source | Status |
+|--------|:---:|
+| Bettencourt-Dias & Glover 2007 (Nat Rev Mol Cell Biol) | ✅ PMID 17505520 — added |
+| Winey & O'Toole 2014 (centriole structure) | ✅ PMID 25047611 — added |
+| Lambrus & Holland 2017 (acentriolar checkpoint) | ✅ PMID 28188027 — was genuinely absent, added |
+| Izquierdo 2005 | ❌ Not found — unverifiable |
+| Firat 2023 | ❌ Not found — unverifiable |
+| Goddard 2024 | ❌ Not found — reviewer himself hedged "if it exists" |
+
+### New in v8.1 (the 4 genuinely new points)
+1. **Phase 0 molecular-carrier screen (§13)** — centriolar PTM mass-spec (early vs. late passage) answering "what does the centriole carry?"; ciliary→epigenome pilot (GLI1/2, TET2, PRC2).
+2. **Single-primary-endpoint option (§7.1.8)** — EdU+ fraction as single primary, SA-β-gal co-primary; CRCS as composite secondary. **Bayesian sensitivity (§7.1.9)** — Bayes factor alongside frequentist.
+3. **Programmed-vs-stochastic clarified** — β·t (deterministic trend) + η(t) (noise) = signal-plus-noise decomposition, not a contradiction.
+4. **Publication ladder** — Phase 0/1 → JCB/Mol Biol Cell (IF 6–8); Phase 2 → Nat Cell Biol; Phase 2+3 → Nature/Cell. Honest Phase-1 feasibility probability (25–40%) in grant narrative.
+
+### Corrections applied
+- Anderson & Stearns 2009 → level [I] (correlation, not causality).
+- The 4 "contradictions" (ratchet/Renzova; programmed/stochastic; germline/somatic; fibroblasts/red thread) all resolved — 1 clarified in v8.1, 3 already resolved in v6.0–v8.0.
+
+### Verification
+87/87 PMIDs verified. Score after autofix: **96/100 (RR); 94/100 (ERC)**.
