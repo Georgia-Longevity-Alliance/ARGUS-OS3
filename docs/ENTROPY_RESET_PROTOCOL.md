@@ -1,9 +1,11 @@
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 **Program name (grant platform):** ENTROPY RESET PROGRAM
-**Version:** 6.3 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 6.4 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
 
-> **v6.3 changes (2026-08-11, per Jaba — centriole-only focus):** non-centriolar references removed (Hong 2025, Cummings 2025, De Man 2026 — systemic entropy measures); MCARA multi-counter description reduced to centriole-only CEDAR link; reference count 44 (all centriole-relevant).
+> **v6.4 changes (2026-08-11, per Jaba):** MCARA link **restored** — the multi-counter framework includes the centriole as counter #1; non-centriolar references stay removed (Hong 2025, Cummings 2025, De Man 2026); 44 refs.
+
+> **v6.3 changes (2026-08-11, per Jaba — centriole-only focus):** non-centriolar references removed (Hong 2025, Cummings 2025, De Man 2026 — systemic entropy measures); reference count 44 (all centriole-relevant).
 
 > **v6.2 changes (per 7th review, 65/100):** search expanded to Europe PMC (+preprints, 2 author preprints disclosed) and Crossref with transparent relevance notes; DOI cross-check (39/47 with PubMed DOI, 8 pre-DOI-era); MDE biologically anchored to OSK effect sizes; FDR q=0.05 pre-specified; **safety futility stop** added (asymmetric monitoring); explicit extrapolation boundary in §1 (fibroblasts ≠ asymmetric-inheritance systems); publication title de-hyped ("Centriole Reset…", not "Entropy Reset"); quantitative meta-analysis plan (§3.2b: checkpoint passage rate, random-effects, I²).
 
@@ -206,7 +208,7 @@ Renzova 2018 is not merely a counter-example to be overcome — under the **cent
 
 > **CEDAR unified definition (v5.2):** CEDAR — **C**entriolar **E**ntropy-**D**amage **A**ccumulation **R**atchet — is one ratchet with two modes of action: **(1) the counter mode** (CEDAR-α/β): semi-conservative duplication accumulates entropy/damage with each division (β·t, −λ·N_asym); **(2) the state-lock mode** (CEDAR-γ): the same organelle acts as a **differentiation ratchet** that locks the cell's current identity (pluripotent or differentiated). Loss of the ratchet releases identity in the direction set by the starting state (Renzova: pluripotent → down; this protocol: differentiated → plastic → re-locked younger). The two modes explain both the aging counter and the reprogramming barrier as one mechanism.
 
-> **Related model (link only, centriole-focused):** CEDAR — the centriolar ratchet (counter + state-lock modes): `~/Desktop/LC/MCARA/CEDAR/CONCEPT.md` (v1.8).
+> **Related models (links only):** MCARA (Multi-Counter Architecture of Replicative Aging) — replicative limit as a race of several counters, **with the centriole as counter #1 (the centriolar ratchet)**: `~/Desktop/LC/MCARA/CONCEPT.md` (v5.8). CEDAR unified definition (centriolar counter + state-lock ratchet): `~/Desktop/LC/MCARA/CEDAR/CONCEPT.md` (v1.8).
 - **Testable predictions that distinguish the ratchet model from a mere "stress" model:** (1) after de novo assembly, the new state must be **stably maintained** (CRCS improvements persist over serial passages — no rollback); (2) the same centriole loss in pluripotent cells causes differentiation (Renzova) while in somatic cells with p53 suppressed it causes plasticity — the *direction* of the outcome is set by the starting state, not by the perturbation; (3) reintroducing an aged centriole into a reset cell re-locks the *old* state (transplantation arm predicts rollback).
 
 > **Synthesis:** Renzova 2018 measured the ratchet's release in one direction (pluripotent → down). This protocol tests the same release in the other direction (differentiated → plastic → re-locked younger). The two results are opposite sides of one mechanism — the ratchet is unidirectional, so the outcome of centriole loss depends entirely on the starting state. This is the deepest available reconciliation of the closest prior experiment with the hypothesis.
