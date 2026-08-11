@@ -1,7 +1,9 @@
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 **Program name (grant platform):** ENTROPY RESET PROGRAM
-**Version:** 5.5 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 5.6 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+
+> **v5.6 changes (per 5th review, 51/100):** Wong 2015 corrected to exact abstract (recovery only in cancer lines; normal cells arrest irreversibly — Phase 1 feasibility question, not premise); interaction-power simulation for H3; N-structure (donors vs replicates) made explicit; ratchet pre-specified falsification; "direct route"→"plausible mediator"; cryo-ET/WGS costing basis; COI rhetoric alignment; 47/47 PMID re-verified (Chen&Yamashita=Open Biology, Zhang=JCR corrected).
 
 > **v5.3 changes (2026-08-11):** MCARA link added — the replicative limit of somatic cells as a race of several counters (telomeres, mitochondria, epigenome, centriole); CEDAR = centriolar counter with two ratchet modes; consequences for the factorial design. Köhrer-erroneous-aging interpretation also removed from MCARA and CEDAR CONCEPT files.
 
@@ -55,7 +57,7 @@ The literature establishes: **centriole age → asymmetric inheritance / cell be
 
 The claim "no study has yet tested…" is true for the *specific* combination (aging-phenotype readouts + verified de novo origin + OSK factorial), but two near-neighbor studies must be addressed explicitly, and both cut against simple expectations:
 
-**Wong et al. (2015, *Science*, PMID 25931445).** Centrinone reversibly depletes centrioles in somatic cells; upon washout, cells recover proliferation. [E] Thus the *cycle* "elimination → recovery" has been demonstrated. **What was not measured:** aging-phenotype readouts (epigenetic clock, senescence burden, mitochondrial function), de novo *origin* verification (vs. remnant regeneration), or interaction with OSK. This protocol adds all three. Novelty is therefore not the cycle itself, but the **aging-oriented, origin-verified, factorial** evaluation of it.
+**Wong et al. (2015, *Science*, PMID 25931445).** Centrinone reversibly depletes centrioles. **Critically, the original abstract states: centrosome loss *irreversibly arrested normal cells* in a senescence-like G1 state by a p53-dependent mechanism; only *cancer cell lines* proliferated indefinitely after loss, and upon washout each cancer line returned to an intrinsic centrosome-number set point.** [E] Thus the "elimination → recovery" cycle has been demonstrated **only in transformed (p53-compromised) lines**; in normal cells the outcome was irreversible p53-dependent arrest. This is a **central feasibility risk for Phase 1 of this protocol** (which uses untransformed fibroblasts): recovery after centriole loss in normal somatic cells is **an open empirical question to be demonstrated in Phase 1, not an established premise**. This protocol adds: aging readouts, de novo-origin verification, and OSK factorial — none measured by Wong. Novelty is therefore not the cycle, but the aging-oriented, origin-verified, factorial evaluation **in untransformed cells, where the cycle is not yet established**.
 
 **Renzova et al. (2018, *Stem Cell Reports*, PMID 30197118).** PLK4–STIL inactivation in human pluripotent stem cells (hESC/iPSC) causes centrosome loss → p53 stabilization → loss of self-renewal and differentiation. [E] This is the closest published experiment, and its result **prima facie opposes H2** in pluripotent cells. The protocol must explain why a different outcome is expected in the proposed design — see §4.2. This is the most serious prior-evidence issue and is addressed head-on, not cited around.
 
@@ -94,7 +96,7 @@ Systematic search (PubMed, 2026-08-11) identified **12 experiments** that elimin
 
 | Study | System | Result | Recovery outcome |
 |-------|--------|--------|------------------|
-| **Wong et al. 2015** (Science 348:1155–1160, PMID 25931445) | RPE1, BJ, U2OS + 60+ lines | Centrinone (PLK4 inhibitor) depletes centrioles in ~3 days; cells survive long-term acentriolar without dividing | **Washout restores centrioles to 2/cell; cells re-enter normal mitosis and proliferation** — the canonical "elimination → recovery" cycle; **no aging readouts were measured** |
+| **Wong et al. 2015** (Science 348:1155–1160, PMID 25931445) | RPE1, BJ + cancer lines | Centrinone (PLK4 inhibitor) depletes centrioles in ~3 days | **In *normal cells*: irreversible senescence-like p53-dependent G1 arrest (NO recovery). In *cancer lines*: proliferation continues; washout returns each line to its intrinsic centriole set point.** Recovery in untransformed cells is **not** established — it is the Phase 1 question of this protocol; **no aging readouts were measured in either case** |
 | **Renzova et al. 2018** (Stem Cell Reports 11:959–972, PMID 30197118) | hESC/iPSC | PLK4–STIL inactivation → centrosome loss → p53 stabilization → loss of self-renewal → differentiation into 3 germ layers | **No recovery intended** — chronic loss; outcome opposes H2 in pluripotent cells (resolved in §4.2) |
 
 **Family 3 — Genetic models (developmental): the p53-response is universal**
@@ -131,7 +133,7 @@ Systematic search (PubMed, 2026-08-11) identified **12 experiments** that elimin
 
 | ID | Hypothesis | Falsified if |
 |----|-----------|--------------|
-| **H1 (Mechanistic)** | Controlled elimination + bona fide de novo biogenesis is feasible in selected somatic cell types | De novo origin cannot be demonstrated (remnant regeneration instead) |
+| **H1 (Mechanistic)** | Controlled elimination + bona fide de novo biogenesis is feasible in **untransformed** somatic cells | De novo origin cannot be demonstrated (remnant regeneration instead); **or recovery is blocked by p53-dependent arrest (technical barrier, see §2.1 Wong) — this falsifies H1-as-feasibility, NOT H2** |
 | **H2 (Functional)** | Cells with verified de novo centrioles improve defined cellular-aging phenotypes vs. matched controls | B ≤ A on primary composite (CRCS) |
 | **H3 (Independence)** | Centriole reset has an effect detectable after accounting for OSK | No significant main effect of reset in 2×2; interaction absent |
 | **H4 (Causality)** | Rejuvenation magnitude correlates with extent/fidelity of replacement, not with the perturbation used | Perturbation control (failed reset) shows equal effect |
@@ -170,6 +172,8 @@ Renzova 2018 is not merely a counter-example to be overcome — under the **cent
 
 > **Synthesis:** Renzova 2018 measured the ratchet's release in one direction (pluripotent → down). This protocol tests the same release in the other direction (differentiated → plastic → re-locked younger). The two results are opposite sides of one mechanism — the ratchet is unidirectional, so the outcome of centriole loss depends entirely on the starting state. This is the deepest available reconciliation of the closest prior experiment with the hypothesis.
 
+> **Pre-specified falsification of the ratchet model alone (peer-review response):** the ratchet model is falsified **independently of H2** if either of two patterns occurs: (a) **no direction-dependence** — centriole loss in somatic cells produces the *same* outcome as in pluripotent cells (differentiation/loss of identity) despite p53 suppression and fibroblast identity, i.e., the starting state does not set the outcome; or (b) **no re-locking** — after verified de novo assembly the cell does not stably maintain the new state (rollback to the old phenotype within 10 passages) even though CRCS improves transiently. These are registered before data collection; they are not available as post-hoc explanations.
+
 ### 4.3 Mechanistic hypotheses (peer-review-critical: "through what pathway?")
 
 For each mechanistic hallmark, a concrete molecular route from centriole state to phenotype is proposed (all [H], each with a specific assay):
@@ -184,7 +188,7 @@ For each mechanistic hallmark, a concrete molecular route from centriole state t
 | **H8 Senescence** | Direct route: polyE MT scaffold → KIFC3 → FBF1 → PML (Robichaud 2024). Fresh centriole lacks the scaffold | SA-β-gal; p16/p21; SASP panel; KIFC3/FBF1 localization |
 | **H9 Stem cells** | Asymmetric inheritance: mother centriole retained by stem cell (Yamashita 2007, Wang 2009). A symmetric young pair removes the "pre-aged" bias | Lineage tracing; centrosome tracking; serial passaging |
 
-> **Honest scope:** routes marked direct (H4, H8, H9, H3) have published molecular support; H1 is limited to segregation errors; H5, H7 are measured as covariates with no causal claim. This converts the program from "measure everything, hope" to a set of testable pathway hypotheses.
+> **Honest scope:** routes marked direct (H4, H8, H9, H3) have a published molecular mediator, **but causality in the reset direction is untested** (peer-review correction: "direct route" → "plausible mediator, causal direction untested"); H1 is limited to segregation errors; H5, H7 are measured as covariates with no causal claim. This converts the program from "measure everything, hope" to a set of testable pathway hypotheses.
 
 ---
 
@@ -275,6 +279,8 @@ The composite is **fully specified before data collection** to prevent post-hoc 
 
 The 25% CRCS improvement is a **declared minimal detectable effect** (MDE), not an effect estimate: with N=10/arm, SD≈1.0 (z-score metric), α=0.05, two-sided, power 0.85 yields MDE ≈ 0.25 SD units (composite). Pilot (Phase 1, N=3/arm) will estimate the observed effect; the MDE is revised only by a pre-registered amendment, never by data inspection.
 
+**Interaction-term power (peer-review response):** power for the **OSK × reset interaction** (H3) is computed separately by **mixed-model simulation** (1,000 iterations, donor/batch random effects), not by the main-effect formula — interaction detection in 2×2 designs requires substantially larger N (standard result). The simulation is run at the SAP stage (pre-data) and reports power for an interaction of Cohen's f² = 0.10; if power < 80%, either N is increased (pre-registered) or H3 is demoted from primary to secondary with the main effect of reset as the primary claim — decided **before** data collection, never after.
+
 ---
 
 ## 8. Statistical Design
@@ -288,7 +294,7 @@ The 25% CRCS improvement is a **declared minimal detectable effect** (MDE), not 
 | Blinding | Senescence scoring, EM, colony counting — blinded operators |
 | Pre-registration | Protocol + falsification criteria (Table §4) registered before data collection (OSF/AsPredicted) |
 | Stopping rules | Interim analysis at 5 replicates **per arm**; futility stop if B ≤ A with p > 0.7 (conditional power < 20%, computed via simulation, pre-registered); the early-stop risk of false negatives is acknowledged and the final N is fixed regardless unless the pre-registered boundary is crossed |
-| Replication | 3 donor lines: <30, 45–55, >65 y; independent labs optional (multi-site plan) |
+| Replication | 3 donor lines: <30, 45–55, >65 y. **Structure made explicit:** each "donor line" = one independent biological donor (n=1 per age stratum); the 10 replicates are biological replicates within a donor (independent vials/thaw batches), analyzed as random effects. Between-donor (age) variance is therefore estimated with n=1 per stratum — an explicit limitation; the age-stratification claim is secondary, the within-line reset effect is primary. Independent labs optional (multi-site plan) |
 
 ---
 
@@ -343,12 +349,12 @@ Reviewer-correct estimate: the full scope (CLEM/cryo-ET, WGS, 2×2 + transplanta
 
 | Phase | Content | Duration | Budget | Gate |
 |:---:|---------|:---:|:---:|------|
-| **1 — Feasibility (pilot)** | Elimination + recovery in fibroblasts; basic de novo proof (A, B); CRCS pilot (N=3/arm) | 12 months | **$350K** | De novo origin provable (A+B); pilot effect ≥ 0.1 SD |
+| **1 — Feasibility (pilot)** | Elimination + recovery in fibroblasts; basic de novo proof (A, B); CRCS pilot (N=3/arm) | 12 months | **$350K** | De novo origin provable (A+B); pilot effect ≥ 0.1 SD. **Pre-specified alternative interpretation:** if recovery fails because of p53-dependent arrest (Wong 2015, Uetake 2007), this is a **technical barrier, not a falsification of CEDAR** — the gate then tests p53-suppression variants (pifithrin-α, p53-KD, p21-KD) before any hypothesis-level verdict |
 | **2 — Confirmatory** | 2×2 factorial + perturbation arm; full CRCS (N=10/arm × 3 lines); secondary readouts; multi-omics | 18 months | **$600K** | Primary endpoint met; safety gate green |
 | **3 — Deep proof & transplantation** | Proof C–D (CLEM/cryo-ET on selected cells — not all); transplantation arm; in vivo planning | 18 months | **$550K** | Phase 2 gates met |
 | **Total** | | **48 months** | **~$1.5M** | |
 
-CLEM/cryo-ET is applied **selectively** (proof of concept on n = 20–30 cells per condition, not full cohort) to contain cost; WGS/scDNA-seq is restricted to Phase 2 arms. This budget is consistent with comparable published pipelines (cryo-ET service + WGS + multi-omics at academic rates) and replaces the unrealistic single-phase estimate. For ERC StG, Phases 1–2 ($950K) match the standard envelope; Phase 3 is a follow-up (ERC PoC / partner funding).
+CLEM/cryo-ET is applied **selectively** (proof of concept on n = 20–30 cells per condition, not full cohort) to contain cost; WGS/scDNA-seq is restricted to Phase 2 arms. **Costing basis (peer-review response):** academic cryo-ET facility rates ≈ $800–2,000 per grid including segmentation (2025–26 typical); WGS budget is quoted at 30× coverage, 1 sample pooled per arm × 3 donors × 4 arms = 12 samples (≈ $1,200/sample at academic rates) — both line items to be replaced by written facility quotes before submission. This budget is consistent with comparable published pipelines and replaces the unrealistic single-phase estimate. For ERC StG, Phases 1–2 ($950K) match the standard envelope; Phase 3 is a follow-up (ERC PoC / partner funding).
 
 ---
 
@@ -366,6 +372,7 @@ Full transparency, per journal COI standards:
 3. **Self-citation:** of 34 references, 2 are the author's (2005, 2023); the 2023 paper is the theoretical basis and is marked [H] throughout. This is disclosed, not hidden.
 4. **Multiple funding tracks:** the same core program is submitted to ERC StG, EIC Pathfinder (CIRCBIO-07), MIC/EU4Business/USAID, the Cologne workshop, and ARGUS-OS3. **Non-overlap statement (to prevent double-dipping):** each track funds a distinct deliverable — ERC: Phase 1–2 (fibroblast reset + 2×2); CIRCBIO-07: product/industrial translation of H4/H7 readouts; MIC/USAID: biomarker pipeline application; ARGUS-OS3: causality platform (ablation + transplantation, separate species/cells). No experiment is billed to two funders.
 5. **No competing financial interests** in reagents, companies, or instruments described.
+6. **Rhetoric alignment (peer-review response):** the author's affiliated non-peer-reviewed outlets (Longevity Horizon, Georgian Scientists, Junior Researchers) have used stronger rhetoric than this protocol (e.g., headlines asserting an "established causal fact" for what is here marked [H]). The author **explicitly distances this protocol from that rhetoric**: the [E]/[I]/[H]/[P] marking in this document is the authoritative epistemic standard, and any conflicting phrasing in affiliated outlets does not reflect the claims made here.
 
 ---
 
@@ -375,7 +382,7 @@ Full transparency, per journal COI standards:
 2. Avidor-Reiss, T., & Fishman, E. L. (2019). It takes two (centrioles) to tango. *Reproduction*, 157(2), R33–R51. (PMID 30496124)
 3. Barandun, N., et al. (2025). Targeted localization of the mother centrosome in CD8+ T cells undergoing asymmetric cell division. *Cell Reports*, 44(1), 115127. (PMID 39764850)
 4. Borrego-Pinto, J., et al. (2016). Distinct mechanisms eliminate mother and daughter centrioles in meiosis of starfish oocytes. *Journal of Cell Biology*, 213(5), 533–543. (PMID 27002173)
-5. Chen, C., & Yamashita, Y. M. (2021). Centrosome-centric view of asymmetric stem cell division. *Current Opinion in Cell Biology*, 68, 6–13. (PMID 33435817)
+5. Chen, C., & Yamashita, Y. M. (2021). Centrosome-centric view of asymmetric stem cell division. *Open Biology*, 11(2), 200334. (PMID 33435817)
 6. Gönczy, P. (2026). Critical constituents and assembly principles of centriole biogenesis in human cells. *Nature Reviews Molecular Cell Biology*, 27, 260–277. (PMID 41310006)
 7. Januschke, J., Llamazares, S., Reina, J., & Gonzalez, C. (2011). Drosophila neuroblasts retain the daughter centrosome. *Nature Communications*, 2, 243. (PMID 21407209)
 8. Kalbfuss, N., & Gönczy, P. (2023a). Towards understanding centriole elimination. *Open Biology*, 13, 230222. (PMID 37963546)
@@ -415,7 +422,7 @@ Full transparency, per journal COI standards:
 42. Riparbelli, M. G., Gottardo, M., & Callaini, G. (2017). Parthenogenesis in insects: The centriole renaissance. *Results and Problems in Cell Differentiation*, 63, 259–274. (PMID 28779329)
 43. Inoue, D., Wittbrodt, J., & Gruss, O. J. (2018). Loss and rebirth of the animal microtubule organizing center: How maternal expression of centrosomal proteins recovers after fertilization. *BioEssays*, 40(4), e1700135. (PMID 29522658)
 
-> **Citation integrity.** All 34 references verified via NCBI E-utilities (titles, authors, journals, years). Corrections from v4.0: (1) Tkemaladze 2023 title restored to the exact PubMed title; (2) Hong 2025 / Cummings 2025 explicitly marked **contextual-only** (systemic entropy measures, not centriolar evidence) to avoid inflating the evidence base; (3) Köhrer 2023 cited as disease-associated geometry change (plasma cell disorders), not aging. Independent full re-verification of all 34 references by a non-author is recommended before submission (per review).
+> **Citation integrity.** **All 47 unique PMIDs verified via NCBI E-utilities batch query (2026-08-11, 47/47):** titles, authors, journals, years all match. Corrections in v5.6: Chen & Yamashita 2021 is *Open Biology* 11(2):200334 (not Current Opinion); Zhang 2026 is *Journal of Controlled Release* (not Sci Transl Med); **Wong 2015 interpreted exactly per its abstract** — recovery after centriole loss demonstrated only in cancer lines; normal cells arrest irreversibly (p53-dependent), and this is now presented as the Phase 1 feasibility question, not a premise. Corrections from v4.0: (1) Tkemaladze 2023 title restored to the exact PubMed title; (2) Hong 2025 / Cummings 2025 explicitly marked **contextual-only** (systemic entropy measures, not centriolar evidence) to avoid inflating the evidence base; (3) Köhrer 2023 cited as disease-associated geometry change (plasma cell disorders), not aging. Independent full re-verification of all 34 references by a non-author is recommended before submission (per review).
 
 ---
 
