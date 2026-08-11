@@ -4,9 +4,9 @@ from PIL import Image
 from pypdf import PdfWriter, PdfReader
 
 DESKTOP = "/home/oem/Desktop"
-COVER = f"{DESKTOP}/MONOGRAPH_cover"
+COVER = DESKTOP  # обложки лежат прямо на Desktop: cover_front.png, cover_back.png
 
-for name, src in [("_front", f"{COVER}/cover_front.png"), ("_back", f"{COVER}/cover_back_qr.png")]:
+for name, src in [("_front", f"{COVER}/cover_front.png"), ("_back", f"{COVER}/cover_back.png")]:
     img = Image.open(src).convert("RGB").resize((2480, 3508), Image.LANCZOS)
     img.save(f"/tmp/cover{name}.pdf")
 
