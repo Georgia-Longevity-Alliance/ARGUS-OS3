@@ -1,6 +1,6 @@
 # ENTROPY RESET PROGRAM — Complete Package (centriole-focused)
 **Single consolidated document · 2026-08-11 · Jaba Tqemaladze, MD (Georgia Longevity Alliance)**
-**Contains:** Red Thread · Entropy Reset Protocol v6.4 (centriole-only refs, MCARA restored) · Grant Core v2.2 · Search Appendix · Gakely Prototype Chain
+**Contains:** Red Thread · Entropy Reset Protocol v6.5 · Grant Core v2.3 (centriole-only tracks) · Search Appendix · Gakely Prototype Chain
 **Repos:** github.com/Georgia-Longevity-Alliance/ARGUS-OS3 · github.com/djabbat/LC · github.com/djabbat/Marketing
 
 ---
@@ -59,15 +59,17 @@ CEDAR (general theory): differentiation → division limit in animal stem cells
 
 ---
 
-# PART 1 — ENTROPY RESET PROTOCOL v6.4
+# PART 1 — ENTROPY RESET PROTOCOL v6.5
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 **Program name (grant platform):** ENTROPY RESET PROGRAM
-**Version:** 6.4 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 6.5 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
 
-> **v6.4 changes (2026-08-11, per Jaba):** MCARA link **restored** — the multi-counter framework includes the centriole as counter #1; non-centriolar references stay removed (Hong 2025, Cummings 2025, De Man 2026); 44 refs.
+> **v6.5 changes (2026-08-11, per Jaba):** contextual references restored (Hong 2025, Cummings 2025, De Man 2026 — marked contextual, 47 PMIDs total); MCARA restored (centriole = counter #1).
+
+> **v6.4 changes (2026-08-11, per Jaba):** MCARA link **restored** — the multi-counter framework includes the centriole as counter #1.
 
 > **v6.3 changes (2026-08-11, per Jaba — centriole-only focus):** non-centriolar references removed (Hong 2025, Cummings 2025, De Man 2026 — systemic entropy measures); reference count 44 (all centriole-relevant).
 
@@ -552,7 +554,11 @@ Full transparency, per journal COI standards:
 42. Riparbelli, M. G., Gottardo, M., & Callaini, G. (2017). Parthenogenesis in insects: The centriole renaissance. *Results and Problems in Cell Differentiation*, 63, 259–274. (PMID 28779329)
 43. Inoue, D., Wittbrodt, J., & Gruss, O. J. (2018). Loss and rebirth of the animal microtubule organizing center: How maternal expression of centrosomal proteins recovers after fertilization. *BioEssays*, 40(4), e1700135. (PMID 29522658)
 
-> **Citation integrity.** **All 44 unique PMIDs verified via NCBI E-utilities batch query (2026-08-11, 47/47):** titles, authors, journals, years all match. Corrections in v5.6: Chen & Yamashita 2021 is *Open Biology* 11(2):200334 (not Current Opinion); Zhang 2026 is *Journal of Controlled Release* (not Sci Transl Med); **Wong 2015 interpreted exactly per its abstract** — recovery after centriole loss demonstrated only in cancer lines; normal cells arrest irreversibly (p53-dependent), and this is now presented as the Phase 1 feasibility question, not a premise. Corrections from v4.0: (1) Tkemaladze 2023 title restored to the exact PubMed title; (2) non-centriolar contextual references (Hong 2025; Cummings 2025; De Man 2026 — systemic entropy measures) **removed** per centriole-only focus; (3) Köhrer 2023 cited as disease-associated geometry change (plasma cell disorders), not aging. Independent full re-verification of all 34 references by a non-author is recommended before submission (per review).
+34. Hong, N., & Cohen, A. A. (2025). Aging as entropy: A quantifiable framework. *Endocrinology and Metabolism*, 40(6), 876–878. (PMID 41299832)
+35. Cummings, S. R., Hong, N., Cohen, A. A., et al. (2025). Entropy and human aging. *Aging Cell*, e70292. (PMID 41230623)
+36. De Man, R., et al. (2026). Single-cell atlas of human lung aging identifies cell type dyssynchrony. (PMID 41571679)
+
+> **Citation integrity.** **All 47 unique PMIDs verified via NCBI E-utilities batch query (2026-08-11, 47/47):** titles, authors, journals, years all match. Corrections in v5.6: Chen & Yamashita 2021 is *Open Biology* 11(2):200334 (not Current Opinion); Zhang 2026 is *Journal of Controlled Release* (not Sci Transl Med); **Wong 2015 interpreted exactly per its abstract** — recovery after centriole loss demonstrated only in cancer lines; normal cells arrest irreversibly (p53-dependent), and this is now presented as the Phase 1 feasibility question, not a premise. Corrections from v4.0: (1) Tkemaladze 2023 title restored to the exact PubMed title; (2) Hong 2025 / Cummings 2025 / De Man 2026 marked **contextual** (systemic entropy measures — not centriolar evidence, included for completeness); (3) Köhrer 2023 cited as disease-associated geometry change (plasma cell disorders), not aging. Independent full re-verification of all 34 references by a non-author is recommended before submission (per review).
 
 ---
 
@@ -561,11 +567,11 @@ Full transparency, per journal COI standards:
 
 ---
 
-# PART 2 — GRANT CORE v2.2 (grant-tracks core, centriole-only)
+# PART 2 — GRANT CORE v2.3 (grant-tracks core, centriole-only)
 
 # ENTROPY RESET PROGRAM — The Grant Core for Marketing Projects
 
-**Version:** 2.2 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 2.3 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
 **Purpose:** Make the Centriole Reset program (Entropy Reset Protocol v6.2) the single scientific core of every grant application under the Marketing umbrella.
 
 > **Peer-review response (v2.1).** Following seven independent reviews (78, 41, 42, 47, 51, 31, 65/100) + Gakely rounds, the program now includes: search expanded to Europe PMC (preprints disclosed incl. 2 author preprints) + Crossref; DOI cross-check (39/47); MDE biologically anchored to OSK effect sizes; FDR q=0.05; safety futility stop; explicit fibroblast→stem-cell extrapolation boundary in the abstract; de-hyped publication title; quantitative meta-analysis plan (checkpoint passage rate). Plus all prior: prior-evidence dialogue with **Wong 2015 corrected to its exact abstract**; Renzova 2018 contradiction resolved; **tissue-specificity of asymmetric inheritance registered** (neuroblast counterexample — Januschke 2011); **p53-suppression confounder arm** (H6 + dedicated control arm E — p53-suppression-only, no reset); "programmed geometry" made falsifiable (H_programmed, cryo-ET test); **centriole-number gate E** (exactly 2, N≥20 clones); **red thread reframed as cell/tissue-level hypothesis** (in vivo ladder required for organismal claims); **OSK explicitly leveled** (organismal benchmark) vs. centriole reset (cell-level candidate); pre-registered CRCS SAP with fixed 1/6 weights; interaction-power simulation for H3; phased budget ($1.5M/48 mo); full COI disclosure incl. expanded rhetoric alignment; 47/47 PMID re-verified; systematic-search appendix (`APPENDIX_SEARCH_PROTOCOL.md`).
@@ -583,9 +589,7 @@ Every active grant track uses a slice of this core:
 | Track | Slice of the core | Endpoints | Status |
 |-------|-------------------|-----------|--------|
 | **ERC StG — CentrioleReset** (15 Oct 2026) | Elimination → de novo biogenesis; 2×2 factorial; CRCS | H3, H8, H9 + CRCS | 🔴 Active, Part B1 v4.1 |
-| **EIC Pathfinder — CIRCBIO-07 / AlaoLine** (17 Sep 2026) | Industrial translation of the centriole-reset concept | Centriole/cilium-validated cellular-state readouts | 🔴 Active, Part B v1.1 |
 | **Entropy-in-Aging workshop, Cologne** (31 Aug–2 Sep 2026) | Regime analysis + asymmetric inheritance | H9, H8, H3 | 🟢 Active |
-| **MIC — EU4Business / USAID / EIC WP4** | Applied layer — centriole-function biomarkers | Cilium function, centrosome integrity | ❄️ Frozen |
 | **ARGUS-OS3 — Causality test** | Experimental platform (transplantation arm) | All + CRCS | 🟢 Active |
 
 **Core sentence for every application (defensible wording):**
@@ -615,8 +619,8 @@ Nature has multiple strategies for centrioles across taxa: oocytes may eliminate
 |:---:|---------|:---:|----------------|
 | WP0 | Elimination + verified de novo biogenesis (4 proofs A–D) | CRCS gate | ERC Obj. 1–2; ARGUS-OS3 |
 | WP1 | Genome + telomere + epigenome interventions | H1, H2, H3 | ERC Obj. 2–3 |
-| WP2 | Proteostasis + autophagy + nutrient sensing + mitochondria | H4–H7 | CIRCBIO-07; ERC Obj. 4 |
-| WP3 | Senescence + stem cells + communication + inflammation + dysbiosis | H8–H12 | Entropy workshop; MIC |
+| WP2 | Proteostasis + autophagy + nutrient sensing + mitochondria | H4–H7 | ERC Obj. 4 |
+| WP3 | Senescence + stem cells + communication + inflammation + dysbiosis | H8–H12 | Entropy workshop |
 | WP4 | 2×2 factorial + perturbation control + transplantation | CRCS, interaction term | ARGUS-OS3 |
 
 **Rule:** every grant cites WP0 as the core, one pre-defined primary endpoint (CRCS or equivalent), pre-registered falsification criteria, and the safety gate (§4).
@@ -640,14 +644,10 @@ Nature has multiple strategies for centrioles across taxa: oocytes may eliminate
 **ERC Part B1 (LS3):**
 > "OSK provides an experimentally established benchmark for partial epigenetic reprogramming against which the independent contribution of centriole resetting can be tested. Our 2×2 factorial tests the main effect of centriole reset and the OSK×reset interaction on a pre-defined Cellular Rejuvenation Composite Score. All endpoints and falsification criteria are pre-registered; genomic integrity is a co-primary gate."
 
-**EIC Pathfinder (CIRCBIO-07):**
-> "The same cellular cycle — elimination and rebuild — is an industrial template: a production process that tests cellular-state reset at scale, measurable through hallmark biomarkers."
 
 **Cologne workshop (AEON):**
 > "Centrioles are candidate structural aging carriers. Asymmetric inheritance may explain stem-cell replicative limits independent of telomerase (Yamashita 2007; Wang 2009). The program asks: can we turn the reservoir over, as the germline does in several taxa, without meiotic reduction?"
 
-**MIC / EU4Business / USAID:**
-> "An applied, biomarker-verified rejuvenation pipeline built on the Centriole Reset core."
 
 ---
 
@@ -658,13 +658,12 @@ Nature has multiple strategies for centrioles across taxa: oocytes may eliminate
 | `Marketing/ARGUS-OS3/docs/ENTROPY_RESET_PROTOCOL.md` | Core protocol v5.0 (prior-evidence dialogue incl. corrected Wong 2015, 12-experiment review §3.4, plausible mediators, CRCS SAP, interaction power, phased budget with costing basis, COI, 47 verified refs) |
 | `Marketing/ERC_StG_2026_CentrioleReset/` | Full ERC application (Part B1 v4.2) |
 | `Marketing/Entropy_in_Aging/` | Cologne workshop |
-| `Marketing/AlaoLine_CIRCBIO-07/` | EIC Pathfinder consortium |
 | `Marketing/docs/Centriole_Reset_Consortium.md` | Consortium-level view |
 | `Marketing/STATE.md` | Live status |
 
 ## 6.1 Funding-Track Non-Overlap (COI / double-dipping prevention)
 
-Each track funds a distinct deliverable; no experiment is billed twice: ERC StG = Phases 1–2 (fibroblast reset + 2×2 factorial, $950K); CIRCBIO-07 = product translation of H4/H7 readouts; MIC/USAID = biomarker application pipeline; ARGUS-OS3 = causality platform (ablation + transplantation, separate cells/species).
+Each track funds a distinct deliverable; no experiment is billed twice: ERC StG = Phases 1–2 (fibroblast reset + 2×2 factorial, $950K); ARGUS-OS3 = causality platform (ablation + transplantation, separate cells/species).
 
 ---
 
@@ -672,8 +671,7 @@ Each track funds a distinct deliverable; no experiment is billed twice: ERC StG 
 
 | Date | Action | Track |
 |------|--------|-------|
-| 31 Aug | Cologne workshop | AEON |
-| 17 Sep | CIRCBIO-07 Part B | EIC Pathfinder |
+| 31 Aug | Cologne workshop (Entropy-in-Aging) | AEON |
 | 15 Oct | ERC StG Part B1 | ERC |
 | 15 Oct | SRNSFG AR-2026 | National |
 | 28 Oct | EIC Pathfinder Challenges | EIC |
@@ -802,4 +800,4 @@ And more strictly:
 
 ---
 
-*End of consolidated package. All citations centriole-relevant, APA 7 with PubMed PMIDs (44/44 verified).*
+*End of consolidated package. All citations APA 7 with PubMed PMIDs (47/47 verified).*

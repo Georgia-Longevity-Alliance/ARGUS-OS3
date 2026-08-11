@@ -1,9 +1,11 @@
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 **Program name (grant platform):** ENTROPY RESET PROGRAM
-**Version:** 6.4 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 6.5 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
 
-> **v6.4 changes (2026-08-11, per Jaba):** MCARA link **restored** — the multi-counter framework includes the centriole as counter #1; non-centriolar references stay removed (Hong 2025, Cummings 2025, De Man 2026); 44 refs.
+> **v6.5 changes (2026-08-11, per Jaba):** contextual references restored (Hong 2025, Cummings 2025, De Man 2026 — marked contextual, 47 PMIDs total); MCARA restored (centriole = counter #1).
+
+> **v6.4 changes (2026-08-11, per Jaba):** MCARA link **restored** — the multi-counter framework includes the centriole as counter #1.
 
 > **v6.3 changes (2026-08-11, per Jaba — centriole-only focus):** non-centriolar references removed (Hong 2025, Cummings 2025, De Man 2026 — systemic entropy measures); reference count 44 (all centriole-relevant).
 
@@ -488,7 +490,11 @@ Full transparency, per journal COI standards:
 42. Riparbelli, M. G., Gottardo, M., & Callaini, G. (2017). Parthenogenesis in insects: The centriole renaissance. *Results and Problems in Cell Differentiation*, 63, 259–274. (PMID 28779329)
 43. Inoue, D., Wittbrodt, J., & Gruss, O. J. (2018). Loss and rebirth of the animal microtubule organizing center: How maternal expression of centrosomal proteins recovers after fertilization. *BioEssays*, 40(4), e1700135. (PMID 29522658)
 
-> **Citation integrity.** **All 44 unique PMIDs verified via NCBI E-utilities batch query (2026-08-11, 47/47):** titles, authors, journals, years all match. Corrections in v5.6: Chen & Yamashita 2021 is *Open Biology* 11(2):200334 (not Current Opinion); Zhang 2026 is *Journal of Controlled Release* (not Sci Transl Med); **Wong 2015 interpreted exactly per its abstract** — recovery after centriole loss demonstrated only in cancer lines; normal cells arrest irreversibly (p53-dependent), and this is now presented as the Phase 1 feasibility question, not a premise. Corrections from v4.0: (1) Tkemaladze 2023 title restored to the exact PubMed title; (2) non-centriolar contextual references (Hong 2025; Cummings 2025; De Man 2026 — systemic entropy measures) **removed** per centriole-only focus; (3) Köhrer 2023 cited as disease-associated geometry change (plasma cell disorders), not aging. Independent full re-verification of all 34 references by a non-author is recommended before submission (per review).
+34. Hong, N., & Cohen, A. A. (2025). Aging as entropy: A quantifiable framework. *Endocrinology and Metabolism*, 40(6), 876–878. (PMID 41299832)
+35. Cummings, S. R., Hong, N., Cohen, A. A., et al. (2025). Entropy and human aging. *Aging Cell*, e70292. (PMID 41230623)
+36. De Man, R., et al. (2026). Single-cell atlas of human lung aging identifies cell type dyssynchrony. (PMID 41571679)
+
+> **Citation integrity.** **All 47 unique PMIDs verified via NCBI E-utilities batch query (2026-08-11, 47/47):** titles, authors, journals, years all match. Corrections in v5.6: Chen & Yamashita 2021 is *Open Biology* 11(2):200334 (not Current Opinion); Zhang 2026 is *Journal of Controlled Release* (not Sci Transl Med); **Wong 2015 interpreted exactly per its abstract** — recovery after centriole loss demonstrated only in cancer lines; normal cells arrest irreversibly (p53-dependent), and this is now presented as the Phase 1 feasibility question, not a premise. Corrections from v4.0: (1) Tkemaladze 2023 title restored to the exact PubMed title; (2) Hong 2025 / Cummings 2025 / De Man 2026 marked **contextual** (systemic entropy measures — not centriolar evidence, included for completeness); (3) Köhrer 2023 cited as disease-associated geometry change (plasma cell disorders), not aging. Independent full re-verification of all 34 references by a non-author is recommended before submission (per review).
 
 ---
 
