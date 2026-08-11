@@ -1,7 +1,9 @@
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 **Program name (grant platform):** ENTROPY RESET PROGRAM
-**Version:** 5.7 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 6.0 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+
+> **v6.0 changes (per 6th review, 31/100):** p53-suppression confounder arm (H6 + arm E); tissue-specificity of asymmetric inheritance registered (neuroblast counterexample, Januschke 2011); "programmed geometry" made falsifiable (H_programmed, cryo-ET test); centriole-number gate E (exactly 2, N≥20 clones); red thread reframed as cell/tissue-level hypothesis with in vivo ladder; OSK explicitly leveled as organismal benchmark vs. cell-level candidate; COI rhetoric disclosure expanded in full; systematic search appendix added (`APPENDIX_SEARCH_PROTOCOL.md`).
 
 > **v5.7 changes (2026-08-11):** §3.5 added — prototype chain (Khodjakov→La Terra→Uetake→Wong) and the strictly stated novelty: "old cell + old centriole → old cell + genuinely new centriole — did the cellular age phenotype change?"; 13-puzzle visualization added (`ENTROPY_RESET_13_PUZZLES.png`).
 
@@ -42,9 +44,9 @@ This is deliberately narrower than "reset aging" — it is testable in a dish, p
 ### 2.4 Asymmetric centrosome inheritance biases fate [E]
 - Yamashita et al. (2007, *Science*, PMID 17255513); Wang et al. (2009, *Nature*, PMID 19829375); Januschke et al. (2011, PMID 21407209); Barandun et al. (2025, PMID 39764850); Zhao et al. (2025, PMID 41315244); Chen & Yamashita (2021, PMID 33435817).
 
-### 2.5 OSK partial reprogramming is an established benchmark [E]
+### 2.5 OSK partial reprogramming is an established organism-level benchmark [E]
 - Ocampo et al. (2016, *Cell*, PMID 27984723); Lu et al. (2020, *Nature*, PMID 33268865); Sahu et al. (2024, PMID 39259812); Zhang et al. (2026, PMID 41443352); Zielke & Ryan (2026, PMID 41856040).
-- **Wording [per review]:** OSK is an *experimentally established benchmark for partial epigenetic reprogramming and functional rejuvenation* against which the independent contribution of centriole reset can be tested — not "software."
+- **Level-of-evidence asymmetry (peer-review critical, per 6th review):** OSK is an **organism-level, multiply replicated benchmark** (progeria, vision, lifespan in vivo); centriole reset is a **cell-level, unreplicated hypothesis**. The 2×2 factorial compares them by design, but they are **never presented as evidence-equivalent**: OSK is the reference, reset is the candidate.
 
 ### 2.6 Germline remodeling vs. Hallmarks — precise wording [E→I]
 > Gametogenesis, fertilization and early embryogenesis are accompanied by extensive molecular and cellular remodeling that **overlaps conceptually** with several processes implicated in aging; **whether these processes constitute a coordinated rejuvenation program across the 12 Hallmarks remains unresolved** (López-Otín et al., 2013, PMID 23746838; 2023, PMID 36599349).
@@ -60,6 +62,8 @@ The literature establishes: **centriole age → asymmetric inheritance / cell be
 The claim "no study has yet tested…" is true for the *specific* combination (aging-phenotype readouts + verified de novo origin + OSK factorial), but two near-neighbor studies must be addressed explicitly, and both cut against simple expectations:
 
 **Wong et al. (2015, *Science*, PMID 25931445).** Centrinone reversibly depletes centrioles. **Critically, the original abstract states: centrosome loss *irreversibly arrested normal cells* in a senescence-like G1 state by a p53-dependent mechanism; only *cancer cell lines* proliferated indefinitely after loss, and upon washout each cancer line returned to an intrinsic centrosome-number set point.** [E] Thus the "elimination → recovery" cycle has been demonstrated **only in transformed (p53-compromised) lines**; in normal cells the outcome was irreversible p53-dependent arrest. This is a **central feasibility risk for Phase 1 of this protocol** (which uses untransformed fibroblasts): recovery after centriole loss in normal somatic cells is **an open empirical question to be demonstrated in Phase 1, not an established premise**. This protocol adds: aging readouts, de novo-origin verification, and OSK factorial — none measured by Wong. Novelty is therefore not the cycle, but the aging-oriented, origin-verified, factorial evaluation **in untransformed cells, where the cycle is not yet established**.
+
+**Tissue specificity of asymmetric inheritance (peer-review critical, per 6th review).** The claim "the ratchet is never released in the somatic stem-cell lineage" is **not universal even within one organism**: in *Drosophila* GSC, the mother centrosome is retained by the stem cell (Yamashita 2007); in *Drosophila* **neuroblasts, the daughter centrosome is retained by the stem cell and the mother centrosome goes to the differentiating GMC** (Januschke et al., 2011, *Nature Communications*, PMID 21407209; Salzmann et al., 2014). The direction is **tissue-specific, not universal**. This protocol's Phase 1 uses fibroblasts — a non-polarized, non-niche somatic cell in which the GSC-like vs. neuroblast-like classification is **not applicable by definition** (fibroblasts do not undergo asymmetric centrosome inheritance). The retention mechanism (§4.2a-6) is therefore presented as **cell-type-contingent**, and the ratchet claim is restricted to systems with demonstrated asymmetric inheritance. Counterexamples are registered, not omitted.
 
 **Renzova et al. (2018, *Stem Cell Reports*, PMID 30197118).** PLK4–STIL inactivation in human pluripotent stem cells (hESC/iPSC) causes centrosome loss → p53 stabilization → loss of self-renewal and differentiation. [E] This is the closest published experiment, and its result **prima facie opposes H2** in pluripotent cells. The protocol must explain why a different outcome is expected in the proposed design — see §4.2. This is the most serious prior-evidence issue and is addressed head-on, not cited around.
 
@@ -155,6 +159,7 @@ The four nearest prototypes form an ascending ladder — each solved one technic
 | **H3 (Independence)** | Centriole reset has an effect detectable after accounting for OSK | No significant main effect of reset in 2×2; interaction absent |
 | **H4 (Causality)** | Rejuvenation magnitude correlates with extent/fidelity of replacement, not with the perturbation used | Perturbation control (failed reset) shows equal effect |
 | **H5 (Safety)** | Reset does not increase genomic instability, aneuploidy, or abnormal centrosome number beyond acceptance criteria | Genome-integrity gate fails in ≥5% of replicates |
+| **H6 (p53-control)** | Transient p53 suppression is a **controlled variable, not a free technique**: any CRCS effect is attributable to centriole reset only if it exceeds the effect of p53-suppression alone | p53-suppression-only arm (no reset) matches reset arm on CRCS |
 
 ---
 
@@ -207,6 +212,8 @@ For each mechanistic hallmark, a concrete molecular route from centriole state t
 
 > **Honest scope:** routes marked direct (H4, H8, H9, H3) have a published molecular mediator, **but causality in the reset direction is untested** (peer-review correction: "direct route" → "plausible mediator, causal direction untested"); H1 is limited to segregation errors; H5, H7 are measured as covariates with no causal claim. This converts the program from "measure everything, hope" to a set of testable pathway hypotheses.
 
+> **Test of the "programmed geometry" claim (peer-review critical, per 6th review):** the claim "templated geometry change is programmed — part of the differentiation mechanism" is **not assumed; it is made falsifiable**. H_programmed: the geometry of de novo-assembled centrioles (cryo-ET: length, cartwheel integrity, over-elongation rate) **differs** from templated (aged) ones. Prediction: if de novo centrioles in the same cell type are geometrically indistinguishable from aged templated ones → geometry is a passive product of assembly, and the "programmed" claim is weakened; if they are systematically different (e.g., young-like length/cartwheel) → the programmed/developmentally-coupled interpretation is supported. Measured in Proof D (de novo functional verification), n = 20–30 cells/condition, cryo-ET.
+
 ---
 
 ## 5. Causal Architecture (levels of evidence ladder)
@@ -244,6 +251,8 @@ No systemic "rejuvenation" claim is made at levels 3–5 without data at those l
 
 **Statistical question (per review):** not "B > A" alone, but — is there a significant **main effect of centriole reset** and a significant **OSK × reset interaction** (two-way ANOVA / mixed model)? This separates an additive mechanism from an OSK-dependent one.
 
+**p53-suppression confounder control (peer-review critical, per 6th review):** obtaining de novo centrioles in an untransformed cell likely requires **transient suppression of the p53/PIDDosome axis** (Wong 2015: normal cells arrest irreversibly without it). p53 suppression alone can alter hallmark readouts (genomic stability, senescence). Therefore a **dedicated control arm E** is added: *p53-suppression only, no centriole reset, no OSK*. H6 is falsified (and all reset claims are confounded) if arm E matches arm B on CRCS. This makes p53 the **controlled variable of design**, not an implicit technique.
+
 ### 6.2 Centriolar perturbation control (the "not-a-reset" arm)
 A fifth condition that induces maximal comparable cellular stress **without successful de novo reset** (e.g., PLK4 inhibition + recovery blocked by a biogenesis inhibitor, or abortive ablation). This discriminates: **removal → bona fide reset** from **removal → stress → survivor selection**. Any rejuvenation seen in the perturbation arm falsifies H4.
 
@@ -254,6 +263,7 @@ A fifth condition that induces maximal comparable cellular stress **without succ
 | B. New centriole exists | Dendra2-Centrin1 photoconversion; SNAP-tag pulse-chase | Residual signal |
 | C. Genuinely de novo (no template) | Label-free detection of new assembly; CLEM correlative | Regeneration from remnant |
 | D. Functional | Ultrastructure (cryo-ET), molecular composition (MS), spindle function, ciliogenesis, faithful duplication | "Repair," not reset |
+| **E. Number control (peer-review critical)** | **Exactly 2** centrioles/cell, functionally normal, across **N ≥ 20 independent clones** (quantitative readout, not just "de novo exists") | Aneuploidy / multi-centrosome contamination of downstream hallmarks (all 4 prototypes had uncontrolled numbers — this gate closes the systemic gap) |
 
 ### 6.4 Safety as co-primary mechanistic gate
 > **No rejuvenation claim is admissible unless chromosome segregation, ploidy, and centrosome-number homeostasis remain normal.**
@@ -329,7 +339,7 @@ Imaging (morphology) · Ultrastructure (EM/cryo-ET) · Molecular (centriole prot
 | B. Asymmetric stem-cell divisions (−λ·N_asym) | Older centrosome retained by stem cell; may bias fate | [E] inheritance; [H] accumulation |
 | C. Differentiating daughters without elimination | Mammals retain; C. elegans eliminates | [E] both strategies exist; [H] consequence |
 
-> **Red thread (2026-08-11):** The organism ages because the **oldest centrioles — carrying the most errors — accumulate in stem cells**. Templated geometry change (mother→daughter) is most likely **programmed — a part of the differentiation mechanism itself** — and is inseparable from superimposed stochastic errors; together they form the **temporal entropy** of the retained oldest centriole. As a result, division tempo falls and niche-signal perception falls (centrosome + cilium function), so **tissue self-repair declines while self-destruction rises** (imbalance: repair↓ / destruction↑). This is the proximate mechanism of aging, retained across CEDAR (v1.8), MCARA (v5.8), and this protocol.
+> **Red thread (2026-08-11):** The organism ages because the **oldest centrioles — carrying the most errors — accumulate in stem cells**. Templated geometry change (mother→daughter) is **hypothesized to be programmed — possibly a part of the differentiation mechanism itself** (H_programmed), and is inseparable from superimposed stochastic errors; together they form the **temporal entropy** of the retained oldest centriole. As a result, division tempo falls and niche-signal perception falls (centrosome + cilium function), so **tissue self-repair declines while self-destruction rises** (imbalance: repair↓ / destruction↑). This is the **cell/tissue-level hypothesis** (organismal claims require the in vivo ladder — §5 Proof Ladder levels 4–5, planned: C. elegans/organoid → mouse), retained across CEDAR (v1.8), MCARA (v5.8), and this protocol.
 
 This regime analysis motivates the protocol; it is **not** evidence of the causal claim.
 
@@ -389,7 +399,7 @@ Full transparency, per journal COI standards:
 3. **Self-citation:** of 34 references, 2 are the author's (2005, 2023); the 2023 paper is the theoretical basis and is marked [H] throughout. This is disclosed, not hidden.
 4. **Multiple funding tracks:** the same core program is submitted to ERC StG, EIC Pathfinder (CIRCBIO-07), MIC/EU4Business/USAID, the Cologne workshop, and ARGUS-OS3. **Non-overlap statement (to prevent double-dipping):** each track funds a distinct deliverable — ERC: Phase 1–2 (fibroblast reset + 2×2); CIRCBIO-07: product/industrial translation of H4/H7 readouts; MIC/USAID: biomarker pipeline application; ARGUS-OS3: causality platform (ablation + transplantation, separate species/cells). No experiment is billed to two funders.
 5. **No competing financial interests** in reagents, companies, or instruments described.
-6. **Rhetoric alignment (peer-review response):** the author's affiliated non-peer-reviewed outlets (Longevity Horizon, Georgian Scientists, Junior Researchers) have used stronger rhetoric than this protocol (e.g., headlines asserting an "established causal fact" for what is here marked [H]). The author **explicitly distances this protocol from that rhetoric**: the [E]/[I]/[H]/[P] marking in this document is the authoritative epistemic standard, and any conflicting phrasing in affiliated outlets does not reflect the claims made here.
+6. **Rhetoric alignment — disclosure in full (peer-review critical, per 6th review):** the author's affiliated non-peer-reviewed outlets (Longevity Horizon, Georgian Scientists, Junior Researchers) have used stronger rhetoric than this protocol (e.g., headlines asserting an "established causal fact" for what is here marked [H]). Specific known instance: the 2026 headline "Asymmetric Inheritance of the Aged Mother Centriole by Stem Cells Is an Established Causal Fact" (Longevity Horizon) is **inconsistent with this protocol's [H] marking** of the same claim. The author explicitly distances this protocol from those headlines: the [E]/[I]/[H]/[P] marking here is the authoritative epistemic standard; conflicting phrasing in affiliated outlets is an editorial artifact of non-peer-reviewed venues and does not reflect the claims made here. **Mitigation in progress:** affiliated-outlet headlines are being revised to match [E]/[I]/[H]/[P] levels.
 
 ---
 
