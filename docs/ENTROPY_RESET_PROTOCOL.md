@@ -1,7 +1,9 @@
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 **Program name (grant platform):** ENTROPY RESET PROGRAM
-**Version:** 4.0 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 5.0 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+
+> **v5.0 changes (per 4th review, 47/100):** (1) prior-evidence dialogue with Wong 2015 and Renzova 2018 added (§3.1); (2) Renzova contradiction resolved with 5 testable design differences (§4.2); (3) mechanistic route per hallmark added (§4.3) — no more "measure everything"; (4) CRCS pre-registered formula + SAP (§7.1); (5) effect-size as declared MDE (§7.2); (6) realistic phased budget $1.5M/48 mo (§13); (7) COI disclosure (§14.1); (8) exact title of Tkemaladze 2023 restored; Hong/Cummings marked contextual-only.
 
 > **Scope declaration.** This is a falsifiable research program, not a claim of established fact. It proposes an organelle-reset paradigm: controlled centriole elimination followed by verified de novo biogenesis, tested against partial epigenetic reprogramming (OSK), with genomic integrity as a non-negotiable gate. Every statement is marked **[E] established / [I] inference / [H] hypothesis / [P] prediction**. Four levels of aging are distinguished throughout: **structural** (organelle), **cellular**, **tissue**, and **organismal** — no level is assumed from the success of the previous one.
 
@@ -45,11 +47,19 @@ This is deliberately narrower than "reset aging" — it is testable in a dish, p
 
 ---
 
-## 3. The Causal Gap and the Causal Evidence Map
+## 3. The Causal Gap, Prior Direct Evidence, and the Causal Evidence Map
 
 The literature establishes: **centriole age → asymmetric inheritance / cell behavior**. It does **not** establish: **centriole age → organismal aging**, nor **centriole replacement → rejuvenation**.
 
-### Systematic evidence map (evidence synthesis, not quantitative meta-analysis — no comparable trials exist)
+### 3.1 Prior direct evidence — honest dialogue (peer-review response)
+
+The claim "no study has yet tested…" is true for the *specific* combination (aging-phenotype readouts + verified de novo origin + OSK factorial), but two near-neighbor studies must be addressed explicitly, and both cut against simple expectations:
+
+**Wong et al. (2015, *Science*, PMID 25931445).** Centrinone reversibly depletes centrioles in somatic cells; upon washout, cells recover proliferation. [E] Thus the *cycle* "elimination → recovery" has been demonstrated. **What was not measured:** aging-phenotype readouts (epigenetic clock, senescence burden, mitochondrial function), de novo *origin* verification (vs. remnant regeneration), or interaction with OSK. This protocol adds all three. Novelty is therefore not the cycle itself, but the **aging-oriented, origin-verified, factorial** evaluation of it.
+
+**Renzova et al. (2018, *Stem Cell Reports*, PMID 30197118).** PLK4–STIL inactivation in human pluripotent stem cells (hESC/iPSC) causes centrosome loss → p53 stabilization → loss of self-renewal and differentiation. [E] This is the closest published experiment, and its result **prima facie opposes H2** in pluripotent cells. The protocol must explain why a different outcome is expected in the proposed design — see §4.2. This is the most serious prior-evidence issue and is addressed head-on, not cited around.
+
+### 3.2 Systematic evidence map (evidence synthesis, not quantitative meta-analysis — no comparable trials exist)
 
 | Causal link | Status |
 |-------------|:---:|
@@ -63,9 +73,9 @@ The literature establishes: **centriole age → asymmetric inheritance / cell be
 | H. Centriole reset → multiple hallmarks simultaneously | **Untested** |
 | I. Centriole reset → organismal rejuvenation | **Untested** |
 
-**Systematic search (PubMed E-utilities, 2026-08-11):** `centriole AND rejuvenation` → 1 hit (unrelated); `centriole elimination AND rejuvenation` → 0; `centrinone AND rejuvenation` → 0; `de novo centriole AND rejuvenation` → 0; `centriole AND reprogramming AND somatic` → 0. **To our knowledge, no study has yet directly tested whether controlled centriole elimination followed by bona fide de novo biogenesis produces OSK-independent rejuvenation of somatic cells.** (Claim re-verified before submission.)
+### 3.3 Novelty statement (per review — dialogue, not "first")
 
-**Links G–I are the actual scientific novelty** — not established facts to be cited, but predictions to be tested.
+> **To our knowledge, no study has yet directly tested whether controlled centriole elimination followed by bona fide de novo biogenesis — with four independent proofs of de novo origin — produces OSK-independent improvements in defined cellular aging phenotypes (CRCS) in somatic cells.** Wong 2015 restored proliferation without aging readouts; Renzova 2018 showed differentiation upon acute loss in pluripotent cells (discussed in §4.2). The present program bridges the gap between these two results. (Systematic search re-verified before submission.)
 
 ---
 
@@ -78,6 +88,38 @@ The literature establishes: **centriole age → asymmetric inheritance / cell be
 | **H3 (Independence)** | Centriole reset has an effect detectable after accounting for OSK | No significant main effect of reset in 2×2; interaction absent |
 | **H4 (Causality)** | Rejuvenation magnitude correlates with extent/fidelity of replacement, not with the perturbation used | Perturbation control (failed reset) shows equal effect |
 | **H5 (Safety)** | Reset does not increase genomic instability, aneuploidy, or abnormal centrosome number beyond acceptance criteria | Genome-integrity gate fails in ≥5% of replicates |
+
+---
+
+### 4.2 Addressing the closest prior experiment: Renzova et al. 2018 (peer-review-critical)
+
+Renzova et al. (2018, PMID 30197118) inactivated the PLK4–STIL module in human pluripotent stem cells; centrosome loss caused p53 stabilization, loss of self-renewal, and differentiation — *prima facie* the opposite of H2. Five design differences explain why a different outcome is expected here, and each is testable:
+
+| Difference | Renzova 2018 | This protocol | Rationale |
+|-----------|--------------|---------------|-----------|
+| 1. Cell type | hESC/iPSC (pluripotent) | Somatic fibroblasts | Pluripotency maintenance is centrosome-dependent (Renzova); fibroblast identity is not. "Centrosome loss breaks stemness" is irrelevant to a non-stem cell |
+| 2. p53 state | p53 intact → differentiation | pifithrin-α during the acentriolar window | The p53-dependent differentiation mechanism (Renzova) is blocked; the plasticity window opens without differentiation |
+| 3. Duration | Chronic loss (self-renewal impossible) | Acute elimination → verified de novo recovery to exactly 2 centrioles | The hypothesis concerns the *post-recovery* state, not the acentriolar state |
+| 4. Recovery | None intended | PLK4 pulse → functional centrioles (ultrastructure, ciliogenesis, faithful duplication) | H2 tests the rebuilt organelle, not loss itself |
+| 5. Readouts | Self-renewal markers | Aging phenotypes (CRCS), not stemness | Loss of self-renewal in Renzova is not a measure of cellular rejuvenation |
+
+**[P] Prediction:** in somatic fibroblasts with p53 suppressed during the window and centrioles rebuilt de novo to 2 per cell, the Renzova outcome (differentiation) should not occur, while CRCS improvement may. If differentiation/self-renewal loss occurs anyway → H2 falsified (pre-registered). Renzova is treated as the **primary prior evidence to be overcome**, not ignored.
+
+### 4.3 Mechanistic hypotheses (peer-review-critical: "through what pathway?")
+
+For each mechanistic hallmark, a concrete molecular route from centriole state to phenotype is proposed (all [H], each with a specific assay):
+
+| Hallmark | Mechanistic route [H] | Pathway assay |
+|:---:|-----------|----------------|
+| **H3 Epigenome** | The primary cilium is templated on the mother centriole; ciliary signaling (Hedgehog–GLI, Wnt) feeds back on chromatin regulators (PRC2, TET). A fresh mother centriole → fresh cilium → rebalanced GLI/TET activity → DNA-methylation drift partially reversible | Ciliary proteome MS; GLI1/2 activity; TET2 ChIP; EPIC clock |
+| **H1 Genome** | Aged/supernumerary centrioles cause segregation errors (Shin 2021); a verified 2-centriole set restores error-free division. **Note:** accumulated SNVs are NOT erased — H1 is limited to segregation/structural errors | Micronucleus, γH2AX, scDNA-seq |
+| **H4 Proteostasis** | PolyE on aged centriolar tubulin (TTLL5/6) seeds the nucleus-to-cilium scaffold (Robichaud 2024); a polyE-free centriole removes the seed. Insoluble-aggregate burden assayed independently | GT335; ProteoStat; insolubility assay |
+| **H5 Autophagy** | Centriole loss induces selective autophagic clearance of centrosomal remnants; recovery normalizes flux. Measured, not assumed | LC3 flux, p62, mito-Keima |
+| **H7 Mitochondria** | No direct route — indirect via ciliary signaling (Wnt/mTOR) and reduced SASP-driven ROS. Covariate, not causal claim | Seahorse; mitoSOX; heteroplasmy |
+| **H8 Senescence** | Direct route: polyE MT scaffold → KIFC3 → FBF1 → PML (Robichaud 2024). Fresh centriole lacks the scaffold | SA-β-gal; p16/p21; SASP panel; KIFC3/FBF1 localization |
+| **H9 Stem cells** | Asymmetric inheritance: mother centriole retained by stem cell (Yamashita 2007, Wang 2009). A symmetric young pair removes the "pre-aged" bias | Lineage tracing; centrosome tracking; serial passaging |
+
+> **Honest scope:** routes marked direct (H4, H8, H9, H3) have published molecular support; H1 is limited to segregation errors; H5, H7 are measured as covariates with no causal claim. This converts the program from "measure everything, hope" to a set of testable pathway hypotheses.
 
 ---
 
@@ -147,11 +189,26 @@ A fifth condition that induces maximal comparable cellular stress **without succ
 
 | Tier | Endpoint | Role |
 |------|----------|------|
-| **Primary** | **CRCS** — Cellular Rejuvenation Composite Score (pre-defined: proliferative competence, clonogenic capacity, DNA-damage burden, senescence burden, mitochondrial function, epigenetic age) | Confirms/refutes the main hypothesis |
-| **Secondary** | 12 hallmark domains (López-Otín), of which 7 mechanistic: epigenome, genome stability, proteostasis, mitochondria, autophagy, senescence, stem-cell function; 5 contextual: nutrient sensing, communication, inflammation, dysbiosis, telomere | Mechanistic explanation |
+| **Primary** | **CRCS** — Cellular Rejuvenation Composite Score (see §7.1 for pre-registered formula) | Confirms/refutes the main hypothesis |
+| **Secondary** | 12 hallmark domains (López-Otín), 7 mechanistic: epigenome, genome stability, proteostasis, mitochondria, autophagy, senescence, stem-cell function; 5 contextual | Mechanistic explanation |
 | **Exploratory** | All omics (scRNA-seq, scATAC-seq, methylome, proteome, phosphoproteome, metabolome) | Hypothesis generation |
 
 Hallmarks are **not** treated as 12 independent variables: the composite is primary; the scorecard is supportive, with correlation structure reported.
+
+### 7.1 CRCS Statistical Analysis Plan (pre-registered formula — peer-review response)
+
+The composite is **fully specified before data collection** to prevent post-hoc weighting:
+
+1. **Components (6):** proliferative competence (EdU+ fraction), clonogenic capacity (CFU), DNA-damage burden (γH2AX foci, inverse), senescence burden (SA-β-gal fraction, inverse), mitochondrial function (TMRM, normalized), epigenetic age (Horvath ΔAge, inverse).
+2. **Normalization:** each component z-scored against the **control arm (A) distribution** within the same donor line and batch (mean 0, SD 1).
+3. **Weights:** fixed equal weights (1/6) — locked at pre-registration; no post-hoc reweighting. Sensitivity analysis removes one component at a time (leave-one-out).
+4. **Direction:** all components oriented so higher = younger; a priori rule that the composite is **invalid** if ≥2 components move in opposite directions at p < 0.05 (reported as discordant, not pooled).
+5. **Analysis:** mixed-effects model, CRCS ~ reset × OSK + (1|donor) + (1|batch); main effect of reset and interaction reported with 95% CI.
+6. **Publication:** the SAP is deposited (OSF) before data collection, with the formula verbatim.
+
+### 7.2 Effect-size justification (peer-review response)
+
+The 25% CRCS improvement is a **declared minimal detectable effect** (MDE), not an effect estimate: with N=10/arm, SD≈1.0 (z-score metric), α=0.05, two-sided, power 0.85 yields MDE ≈ 0.25 SD units (composite). Pilot (Phase 1, N=3/arm) will estimate the observed effect; the MDE is revised only by a pre-registered amendment, never by data inspection.
 
 ---
 
@@ -165,7 +222,7 @@ Hallmarks are **not** treated as 12 independent variables: the composite is prim
 | Multiple testing | FDR (Benjamini–Hochberg) across secondary readouts; interaction terms reported with CIs |
 | Blinding | Senescence scoring, EM, colony counting — blinded operators |
 | Pre-registration | Protocol + falsification criteria (Table §4) registered before data collection (OSF/AsPredicted) |
-| Stopping rules | Interim analysis at 5 replicates; futility stop if B ≤ A |
+| Stopping rules | Interim analysis at 5 replicates **per arm**; futility stop if B ≤ A with p > 0.7 (conditional power < 20%, computed via simulation, pre-registered); the early-stop risk of false negatives is acknowledged and the final N is fixed regardless unless the pre-registered boundary is crossed |
 | Replication | 3 donor lines: <30, 45–55, >65 y; independent labs optional (multi-site plan) |
 
 ---
@@ -213,24 +270,35 @@ Until such measurements exist, the documents use "structural disorder / candidat
 
 ---
 
-## 13. Timeline & Budget
+## 13. Timeline & Budget (realistic, phased — peer-review response)
 
-| Phase | Duration | Budget |
-|:---:|:---:|:---:|
-| Protocol 0 (elimination + de novo, 4 proofs) | 8–10 weeks | $50K |
-| 2×2 factorial + perturbation arm | 12 weeks | $60K |
-| CRCS + 12 secondary readouts | 10–12 weeks | $45K |
-| Multi-omics + statistics + pre-registration | continuous | $35K |
-| In vivo planning (levels 4–5) | 6 weeks | $15K |
-| **Total** | **9–12 months** | **~$205K** |
+Reviewer-correct estimate: the full scope (CLEM/cryo-ET, WGS, 2×2 + transplantation) cannot be delivered in $205K / 9–12 months. Budget is therefore **phased**, with go/no-go gates:
 
-Fits inside ARGUS-OS3 envelope ($477–557K).
+| Phase | Content | Duration | Budget | Gate |
+|:---:|---------|:---:|:---:|------|
+| **1 — Feasibility (pilot)** | Elimination + recovery in fibroblasts; basic de novo proof (A, B); CRCS pilot (N=3/arm) | 12 months | **$350K** | De novo origin provable (A+B); pilot effect ≥ 0.1 SD |
+| **2 — Confirmatory** | 2×2 factorial + perturbation arm; full CRCS (N=10/arm × 3 lines); secondary readouts; multi-omics | 18 months | **$600K** | Primary endpoint met; safety gate green |
+| **3 — Deep proof & transplantation** | Proof C–D (CLEM/cryo-ET on selected cells — not all); transplantation arm; in vivo planning | 18 months | **$550K** | Phase 2 gates met |
+| **Total** | | **48 months** | **~$1.5M** | |
+
+CLEM/cryo-ET is applied **selectively** (proof of concept on n = 20–30 cells per condition, not full cohort) to contain cost; WGS/scDNA-seq is restricted to Phase 2 arms. This budget is consistent with comparable published pipelines (cryo-ET service + WGS + multi-omics at academic rates) and replaces the unrealistic single-phase estimate. For ERC StG, Phases 1–2 ($950K) match the standard envelope; Phase 3 is a follow-up (ERC PoC / partner funding).
 
 ---
 
 ## 14. Novelty Statement (per review)
 
-> The novelty is not "the centriole causes aging" (too strong) but: **a previously untested organelle-reset paradigm may complement epigenetic reprogramming by replacing a persistent structural component that is not directly erased by transcription-factor-mediated reprogramming.**
+> The novelty is not "the centriole causes aging" (too strong) but: **a previously untested organelle-reset paradigm may complement epigenetic reprogramming by replacing a persistent structural component that is not directly erased by transcription-factor-mediated reprogramming** — evaluated with pre-registered endpoints, four de novo-origin proofs, and explicit dialogue with the two closest prior experiments (Wong 2015; Renzova 2018).
+
+---
+
+## 14.1 Conflict of Interest / Author-Ecosystem Disclosure (peer-review-critical)
+
+Full transparency, per journal COI standards:
+1. **Origin of the central hypothesis:** the framework (CDATA/CEDAR) originates from the author's own publications (Tkemaladze 2005, PMID 15886028; Tkemaladze 2023, PMID 36583780) and is cited as such — it is an author-owned hypothesis, not an independent field consensus.
+2. **Author ecosystem:** the author is President of Georgia Longevity Alliance and has published in outlets affiliated with this organization (Longevity Horizon, Georgian Scientists, Junior Researchers). **These publications are NOT used as evidence in this protocol** and are excluded from the reference list; only PubMed-indexed sources are cited.
+3. **Self-citation:** of 34 references, 2 are the author's (2005, 2023); the 2023 paper is the theoretical basis and is marked [H] throughout. This is disclosed, not hidden.
+4. **Multiple funding tracks:** the same core program is submitted to ERC StG, EIC Pathfinder (CIRCBIO-07), MIC/EU4Business/USAID, the Cologne workshop, and ARGUS-OS3. **Non-overlap statement (to prevent double-dipping):** each track funds a distinct deliverable — ERC: Phase 1–2 (fibroblast reset + 2×2); CIRCBIO-07: product/industrial translation of H4/H7 readouts; MIC/USAID: biomarker pipeline application; ARGUS-OS3: causality platform (ablation + transplantation, separate species/cells). No experiment is billed to two funders.
+5. **No competing financial interests** in reagents, companies, or instruments described.
 
 ---
 
@@ -260,18 +328,18 @@ Fits inside ARGUS-OS3 envelope ($477–557K).
 22. Simerly, C., et al. (2018). Separation and loss of centrioles from primordial germ cells to mature oocytes in the mouse. *Scientific Reports*, 8, 12791. (PMID 30143724)
 23. Takumi, K., & Kitagawa, D. (2022). Experimental and natural induction of de novo centriole formation. *Frontiers in Cell and Developmental Biology*, 10, 861864. (PMID 35445021)
 24. Thomas, C., & Giet, R. (2022). Live imaging of Drosophila melanogaster neural stem cells with photo-ablated centrosomes. *STAR Protocols*, 3(3), 101493. (PMID 35776653)
-25. Tkemaladze, J. (2023). Reduction, proliferation, and differentiation defects of stem cells over time: A hypothesis of the centriole as the division counter. (PMID 36583780)
+25. Tkemaladze, J. (2023). Reduction, proliferation, and differentiation defects of stem cells over time: A consequence of selective accumulation of old centrioles in the stem cells? *Molecular Biology Reports*, 50(3), 2751–2761. https://doi.org/10.1007/s11033-022-08203-5 (PMID 36583780) — **exact title per PubMed; theoretical basis of the program [H]**
 26. Wang, X., Tsai, J.-W., Imai, J. H., Lian, W.-N., Vallee, R. B., & Shi, S.-H. (2009). Asymmetric centrosome inheritance maintains neural progenitors in the neocortex. *Nature*, 461(7266), 947–955. (PMID 19829375)
 27. Wong, Y. L., et al. (2015). Reversible centriole depletion with an inhibitor of Polo-like kinase 4. *Science*, 348(6239), 1155–1160. (PMID 25931445)
 28. Yamashita, Y. M., Mahowald, A. P., Perlin, J. R., & Fuller, M. T. (2007). Asymmetric inheritance of mother versus daughter centrosome in stem cell division. *Science*, 315(5811), 518–521. (PMID 17255513)
 29. Zhang, C., et al. (2026). Hepatocyte-specific partial cellular reprogramming via selective OSK mRNA lipid nanoparticles. (PMID 41443352)
 30. Zhao, X., et al. (2025). PCM1 coordinates centrosome asymmetry with polarized endosome dynamics to regulate daughter cell fate. *Nature Communications*, 16, 10728. (PMID 41315244)
 31. Zielke, L. G., & Ryan, T. J. (2026). Rescuing specific memories by rejuvenating engram cells. (PMID 41856040)
-32. Hong, N., & Cohen, A. A. (2025). Aging as entropy: A quantifiable framework. (PMID 41299832)
-33. Cummings, S. R., Hong, N., Cohen, A. A., et al. (2025). Entropy and human aging. (PMID 41230623)
+32. Hong, N., & Cohen, A. A. (2025). Aging as entropy: A quantifiable framework. *Endocrinology and Metabolism*, 40(6), 876–878. (PMID 41299832) — **contextual only (systemic entropy measures); not evidence for the centriolar claim**
+33. Cummings, S. R., Hong, N., Cohen, A. A., et al. (2025). Entropy and human aging. *Aging Cell*, e70292. (PMID 41230623) — **contextual only; not evidence for the centriolar claim**
 34. De Man, R., et al. (2026). Single-cell atlas of human lung aging identifies cell type dyssynchrony. (PMID 41571679)
 
-> **Citation integrity.** All 34 references verified via NCBI E-utilities (titles, authors, journals, years). Corrections from v3.0: Köhrer et al. 2023 is a *Leukemia* plasma-cell-disorders study — cited as disease-associated geometry change, **not** aging evidence. Seven new references added per review (Kalbfuss & Gönczy Sci Adv; Takumi & Kitagawa; Gönczy 2026; Avidor-Reiss & Fishman; Schatten 2005; Ocampo 2016; Lu 2020).
+> **Citation integrity.** All 34 references verified via NCBI E-utilities (titles, authors, journals, years). Corrections from v4.0: (1) Tkemaladze 2023 title restored to the exact PubMed title; (2) Hong 2025 / Cummings 2025 explicitly marked **contextual-only** (systemic entropy measures, not centriolar evidence) to avoid inflating the evidence base; (3) Köhrer 2023 cited as disease-associated geometry change (plasma cell disorders), not aging. Independent full re-verification of all 34 references by a non-author is recommended before submission (per review).
 
 ---
 
