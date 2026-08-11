@@ -1,6 +1,6 @@
 # ENTROPY RESET PROGRAM — Complete Package
 **Single consolidated document · 2026-08-11 · Jaba Tqemaladze, MD (Georgia Longevity Alliance)**
-**Contains:** Red Thread · Entropy Reset Protocol v6.1 · Grant Core v2.0 · Systematic Search Appendix · Gakely Prototype Chain
+**Contains:** Red Thread · Entropy Reset Protocol v6.2 · Grant Core v2.1 · Systematic Search Appendix · Gakely Prototype Chain
 **Repos:** github.com/Georgia-Longevity-Alliance/ARGUS-OS3 · github.com/djabbat/LC · github.com/djabbat/Marketing
 
 ---
@@ -59,13 +59,15 @@ CEDAR (general theory): differentiation → division limit in animal stem cells
 
 ---
 
-# PART 1 — ENTROPY RESET PROTOCOL v6.1
+# PART 1 — ENTROPY RESET PROTOCOL v6.2
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 **Program name (grant platform):** ENTROPY RESET PROGRAM
-**Version:** 6.1 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 6.2 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+
+> **v6.2 changes (per 7th review, 65/100):** search expanded to Europe PMC (+preprints, 2 author preprints disclosed) and Crossref with transparent relevance notes; DOI cross-check (39/47 with PubMed DOI, 8 pre-DOI-era); MDE biologically anchored to OSK effect sizes; FDR q=0.05 pre-specified; **safety futility stop** added (asymmetric monitoring); explicit extrapolation boundary in §1 (fibroblasts ≠ asymmetric-inheritance systems); publication title de-hyped ("Centriole Reset…", not "Entropy Reset"); quantitative meta-analysis plan (§3.2b: checkpoint passage rate, random-effects, I²).
 
 > **v6.1 changes (per Gakely, 15:36):** OSK×reset interaction interpretation matrix (§6.1a, 5 outcomes locked); donor/replicate/power full mixed-model formalism (§8 — ICC, Satterthwaite/KR df, simulation power, nested replicates); centrosome-loss checkpoint + survivor-selection accounting (§6.4b — 4 pre-specified measures); binding statistical pre-registration (§8 — SAP fully registered + second-reviewer check); novelty re-stated as **binding of existing pieces into an aging causal test** (§3.5).
 
@@ -85,7 +87,7 @@ CEDAR (general theory): differentiation → division limit in animal stem cells
 
 > **[P] Can experimentally induced centriole elimination followed by verified de novo centriole biogenesis produce measurable, OSK-independent improvements in defined cellular aging phenotypes, while preserving genomic integrity?**
 
-This is deliberately narrower than "reset aging" — it is testable in a dish, pre-registrable, and falsifiable.
+This is deliberately narrower than "reset aging" — it is testable in a dish, pre-registrable, and falsifiable. **Explicit extrapolation boundary (per 7th review):** Phase 1 uses untransformed fibroblasts, which do **not** undergo asymmetric centrosome inheritance — Phase 1 tests *feasibility of the reset* (H1) and the cellular-aging phenotype (H2), **not** the stem-cell retention mechanism itself (which requires Phase 3 systems with demonstrated asymmetric inheritance, e.g., organoids or in vivo models). The red-thread mechanism is the motivation and the long-term target; Phase 1 does not claim to test it directly.
 
 ---
 
@@ -146,6 +148,15 @@ The claim "no study has yet tested…" is true for the *specific* combination (a
 | G. Centriole replacement → rejuvenation | **Untested** |
 | H. Centriole reset → multiple hallmarks simultaneously | **Untested** |
 | I. Centriole reset → organismal rejuvenation | **Untested** |
+
+### 3.2b Quantitative meta-analysis plan (per 7th review)
+
+Where quantitatively comparable outcomes exist across prototypes, a formal meta-analysis is planned (not just an evidence map):
+
+- **Outcome:** centrosome-loss checkpoint passage/arrest rate (the p53/PIDDosome arrest fraction) — comparable across Uetake 2007 (RPE1), Mikule 2007 (RPE1 + tumor lines), Bazzi 2014 (mouse embryo), Wong 2015 (normal vs. cancer lines).
+- **Estimator:** random-effects (DerSimonian–Laird) proportion meta-analysis; I² heterogeneity; forest plot.
+- **Limitation (pre-specified):** n = 4–6 studies is small; the analysis is **descriptive of heterogeneity**, not confirmatory; individual-study definitions of "arrest" differ (G1 arrest vs. apoptosis vs. senescence-like) — subgrouping by assay.
+- **Status:** data extraction in progress at the time of writing; the analysis is deposited with the SAP (OSF) before any Phase 1 data.
 
 ### 3.3 Novelty statement (per review — dialogue, not "first")
 
@@ -394,7 +405,7 @@ The composite is **fully specified before data collection** to prevent post-hoc 
 
 ### 7.2 Effect-size justification (peer-review response)
 
-The 25% CRCS improvement is a **declared minimal detectable effect** (MDE), not an effect estimate: with N=10/arm, SD≈1.0 (z-score metric), α=0.05, two-sided, power 0.85 yields MDE ≈ 0.25 SD units (composite). Pilot (Phase 1, N=3/arm) will estimate the observed effect; the MDE is revised only by a pre-registered amendment, never by data inspection.
+The 25% CRCS improvement is a **declared minimal detectable effect** (MDE), not an effect estimate: with N=10/arm, SD≈1.0 (z-score metric), α=0.05, two-sided, power 0.85 yields MDE ≈ 0.25 SD units (composite). **Biological anchoring (per 7th review):** the MDE is anchored to published OSK effect sizes on comparable readouts — OSK/OSKM partial reprogramming produces multi-hallmark improvements of comparable or larger magnitude on composite aging readouts in vivo (Ocampo 2016, PMID 27984723: partial reprogramming extended median lifespan in progeroid mice and improved multiple hallmarks; Lu 2020, PMID 33268865: OSK restored youthful methylation and vision). The 0.25 SD threshold therefore represents a **conservative fraction of a known-positive benchmark** (a smaller effect than OSK itself would not be claimed as a rejuvenation signal), not an arbitrary number. Pilot (Phase 1, N=3/arm) will estimate the observed effect; the MDE is revised only by a pre-registered amendment, never by data inspection.
 
 **Interaction-term power (peer-review response):** power for the **OSK × reset interaction** (H3) is computed separately by **mixed-model simulation** (1,000 iterations, donor/batch random effects), not by the main-effect formula — interaction detection in 2×2 designs requires substantially larger N (standard result). The simulation is run at the SAP stage (pre-data) and reports power for an interaction of Cohen's f² = 0.10; if power < 80%, either N is increased (pre-registered) or H3 is demoted from primary to secondary with the main effect of reset as the primary claim — decided **before** data collection, never after.
 
@@ -407,10 +418,10 @@ The 25% CRCS improvement is a **declared minimal detectable effect** (MDE), not 
 | Design | 2×2 factorial (+ perturbation arm), mixed-effects models (donor, batch, experimenter as random) |
 | Primary test | Main effect of reset + OSK×reset interaction on CRCS |
 | Power | N = 10 replicates × 3 donor lines (young/middle/old) → >85% at α = 0.05 for 25% CRCS improvement |
-| Multiple testing | FDR (Benjamini–Hochberg) across secondary readouts; interaction terms reported with CIs |
+| Multiple testing | FDR (Benjamini–Hochberg) across secondary readouts with **pre-specified q = 0.05** (sensitivity at q = 0.10 reported); interaction terms reported with CIs |
 | Blinding | Senescence scoring, EM, colony counting — blinded operators |
 | Pre-registration | Protocol + falsification criteria (Table §4) + **SAP in full** (fixed CRCS weights, interaction matrix §6.1a, mixed-model formula, ICC priors, stopping boundaries, H_programmed test) registered before data collection (OSF/AsPredicted); **a second reviewer re-checks that the registered SAP matches the executed analysis** (per Gakely: statistical pre-registration must be binding, not descriptive) |
-| Stopping rules | Interim analysis at 5 replicates **per arm**; futility stop if B ≤ A with p > 0.7 (conditional power < 20%, computed via simulation, pre-registered); the early-stop risk of false negatives is acknowledged and the final N is fixed regardless unless the pre-registered boundary is crossed |
+| Stopping rules | **Efficacy futility:** interim analysis at 5 replicates **per arm**; futility stop if B ≤ A with p > 0.7 (conditional power < 20%, via simulation, pre-registered). **Safety futility (added per 7th review):** symmetric pre-specified boundary — if the genome-integrity gate fails in ≥5% of replicates at interim, the trial stops **regardless of efficacy** (asymmetric monitoring: safety can stop, efficacy cannot continue past a failing gate); early-stop false-negative risk acknowledged; final N fixed unless a pre-registered boundary is crossed |
 | Replication | 3 donor lines: <30, 45–55, >65 y. **Structure made explicit:** each "donor line" = one independent biological donor (n=1 per age stratum); the 10 replicates are biological replicates within a donor (independent vials/thaw batches), analyzed as random effects. Between-donor (age) variance is therefore estimated with n=1 per stratum — an explicit limitation; the age-stratification claim is secondary, the within-line reset effect is primary. Independent labs optional (multi-site plan) |
 | **Donor/replicate/power formalism (peer-review critical, per Gakely)** | Full mixed-model specification: CRCS ~ reset × OSK + age_stratum + (1 + reset \| donor) + (1 \| batch) + (1 \| vial); **variance components estimated (ICC) with Satterthwaite/Kenward–Roger df**; power computed by **simulation on the fitted model** (not the ANOVA formula) with donor and vial ICC entered as priors from Phase 1; **replicates are nested within donor, never pooled as independent** — the unit of analysis for the age claim is the donor (n=3, explicitly underpowered for age, powered for within-line reset); report: ICC, df, CIs for all variance components; this is the full formalization of the "donor/replicate/power" hole |
 
@@ -442,7 +453,7 @@ Where "entropy" is used (program name only), it refers to **structural disorder 
 
 > S = −k_B Σ pᵢ ln pᵢ — over the state space of centriolar PTM configurations (e.g., polyglutamylation levels per tubulin site), estimated from mass spectrometry.
 
-Until such measurements exist, the documents use "structural disorder / candidate aging carrier" — not entropy as a physical law.
+Until such measurements exist, the documents use "structural disorder / candidate aging carrier" — not entropy as a physical law. **Naming (per 7th review):** "Entropy Reset" is retained only as the program/grants name; the publication title is deliberately neutral — "Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells" (as used throughout this document) — avoiding hype-driven terminology in the peer-reviewed version.
 
 ---
 
@@ -549,14 +560,14 @@ Full transparency, per journal COI standards:
 
 ---
 
-# PART 2 — GRANT CORE v2.0 (grant-tracks core)
+# PART 2 — GRANT CORE v2.1 (grant-tracks core)
 
 # ENTROPY RESET PROGRAM — The Grant Core for Marketing Projects
 
-**Version:** 2.0 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
-**Purpose:** Make the Centriole Reset program (Entropy Reset Protocol v6.1) the single scientific core of every grant application under the Marketing umbrella.
+**Version:** 2.1 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Purpose:** Make the Centriole Reset program (Entropy Reset Protocol v6.2) the single scientific core of every grant application under the Marketing umbrella.
 
-> **Peer-review response (v2.0).** Following six independent reviews (78, 41, 42, 47, 51, 31/100) + Gakely round-2 (statistical pre-registration, donor/replicate/power formalism, OSK×reset interaction interpretation, centrosome-loss checkpoint + survivor selection, novelty-as-binding), the program now includes: prior-evidence dialogue with **Wong 2015 corrected to its exact abstract**; Renzova 2018 contradiction resolved; **tissue-specificity of asymmetric inheritance registered** (neuroblast counterexample — Januschke 2011); **p53-suppression confounder arm** (H6 + dedicated control arm E — p53-suppression-only, no reset); "programmed geometry" made falsifiable (H_programmed, cryo-ET test); **centriole-number gate E** (exactly 2, N≥20 clones); **red thread reframed as cell/tissue-level hypothesis** (in vivo ladder required for organismal claims); **OSK explicitly leveled** (organismal benchmark) vs. centriole reset (cell-level candidate); pre-registered CRCS SAP with fixed 1/6 weights; interaction-power simulation for H3; phased budget ($1.5M/48 mo); full COI disclosure incl. expanded rhetoric alignment; 47/47 PMID re-verified; systematic-search appendix (`APPENDIX_SEARCH_PROTOCOL.md`).
+> **Peer-review response (v2.1).** Following seven independent reviews (78, 41, 42, 47, 51, 31, 65/100) + Gakely rounds, the program now includes: search expanded to Europe PMC (preprints disclosed incl. 2 author preprints) + Crossref; DOI cross-check (39/47); MDE biologically anchored to OSK effect sizes; FDR q=0.05; safety futility stop; explicit fibroblast→stem-cell extrapolation boundary in the abstract; de-hyped publication title; quantitative meta-analysis plan (checkpoint passage rate). Plus all prior: prior-evidence dialogue with **Wong 2015 corrected to its exact abstract**; Renzova 2018 contradiction resolved; **tissue-specificity of asymmetric inheritance registered** (neuroblast counterexample — Januschke 2011); **p53-suppression confounder arm** (H6 + dedicated control arm E — p53-suppression-only, no reset); "programmed geometry" made falsifiable (H_programmed, cryo-ET test); **centriole-number gate E** (exactly 2, N≥20 clones); **red thread reframed as cell/tissue-level hypothesis** (in vivo ladder required for organismal claims); **OSK explicitly leveled** (organismal benchmark) vs. centriole reset (cell-level candidate); pre-registered CRCS SAP with fixed 1/6 weights; interaction-power simulation for H3; phased budget ($1.5M/48 mo); full COI disclosure incl. expanded rhetoric alignment; 47/47 PMID re-verified; systematic-search appendix (`APPENDIX_SEARCH_PROTOCOL.md`).
 
 ---
 
@@ -678,42 +689,63 @@ Each track funds a distinct deliverable; no experiment is billed twice: ERC StG 
 # PART 3 — APPENDIX: SYSTEMATIC SEARCH PROTOCOL (novelty verification)
 
 # APPENDIX — Systematic Search Protocol (novelty verification)
-**Entropy Reset Protocol v6.0 · Date of search: 2026-08-11 · Method: NCBI E-utilities (PubMed)**
+**Entropy Reset Protocol v6.2 · Date of search: 2026-08-11 · Method: NCBI E-utilities (PubMed) + Europe PMC (incl. preprints) + Crossref**
 
 ## 1. Objective
 Verify the novelty statement: *"To our knowledge, no study has yet directly tested whether controlled centriole elimination followed by bona fide de novo biogenesis produces OSK-independent improvements in defined cellular aging phenotypes."*
 
-## 2. Databases
-- **PubMed** via NCBI E-utilities (`esearch`/`esummary`), accessed 2026-08-11.
-- (Planned before submission: Scopus, Web of Science, bioRxiv/medRxiv, Europe PMC — same queries; results appended here.)
+## 2. Databases (search expanded per 7th review)
 
-## 3. Queries and results (PubMed, 2026-08-11)
+| Database | Coverage | Status |
+|----------|----------|:---:|
+| PubMed (NCBI E-utilities) | peer-reviewed | ✅ done 2026-08-11 |
+| Europe PMC | PubMed + preprints (bioRxiv/medRxiv) | ✅ done 2026-08-11 |
+| Crossref | global DOI metadata (journals + preprints) | ✅ done 2026-08-11 |
+| Scopus / Web of Science | — | ⏳ planned pre-submission (institutional access required) |
 
-| # | Query (field: ALL) | Hits | Relevant |
-|---|--------------------|:---:|:---:|
-| 1 | `centriole AND rejuvenation` | 1 | 0 (2010 review, unrelated — "Centriole, differentiation, and senescence", PMID 20426623) |
+## 3. Queries and results
+
+### 3.1 PubMed (2026-08-11)
+| # | Query | Hits | Relevant |
+|---|-------|:---:|:---:|
+| 1 | `centriole AND rejuvenation` | 1 | 0 |
 | 2 | `centriole elimination AND rejuvenation` | 0 | — |
 | 3 | `centrinone AND rejuvenation` | 0 | — |
 | 4 | `de novo centriole AND rejuvenation` | 0 | — |
 | 5 | `centriole AND reprogramming AND somatic` | 0 | — |
-| 6 | `centriole AND OSK` | 1 | 0 (unrelated) |
-| 7 | `centriole AND pluripotency AND elimination` | 1 | 0 (Renzova 2018 — direction opposite, discussed §4.2) |
+| 6 | `centriole AND OSK` | 1 | 0 |
+| 7 | `centriole AND pluripotency AND elimination` | 1 | 0 |
 | 8 | `centrosome AND de novo AND aging` | 2 | 0 |
 | 9 | `centriole replacement AND cell aging` | 1 | 0 |
 | 10 | `centriole AND longevity` | 3 | 0 |
 
-**Total:** 10 queries; 0 directly relevant studies found (i.e., none testing centriole elimination + verified de novo biogenesis + aging-phenotype readouts in somatic cells).
+### 3.2 Europe PMC (2026-08-11)
+| Query | Hits | Relevant |
+|-------|:---:|:---:|
+| `centriole AND rejuvenation` | 28 | 0 (reviews on asymmetric division, conference posters) |
+| `centriole elimination AND rejuvenation` | 10 | 0 (reviews; conference abstracts) |
+| `de novo centriole AND rejuvenation` | 15 | 0 |
+| `centrinone AND rejuvenation` | 0 | — |
+| **Preprints** (`AND SRC:PPR`): `centriole AND rejuvenation` | 1 | **1 — author's own MCARA preprint (2026)** — theoretical, no experiment; excluded as non-test |
+| Preprints: `centriole elimination AND SRC:PPR` | 19 | 1 — author's own "Centriole Elimination as a Gateway to a New Differentiation State" (2026) — protocol, no data; excluded as non-test. Remaining 18: non-relevant (axoneme elimination in *Naegleria*; MOCT in protists) |
 
-## 4. Inclusion/exclusion (PRISMA-style)
-- **Included:** studies with (a) experimental centriole/centrosome removal, AND (b) any post-removal aging/pluripotency/rejuvenation readout, AND (c) somatic (non-germline) cells.
-- **Excluded as not testing the question:** centriole biology without removal; removal without aging readouts (Khodjakov 2002; La Terra 2005; Uetake 2007; Wong 2015 — recovery/arrest only); germline/meiotic elimination (Kalbfuss & Gönczy; Simerly; Borrego-Pinto); pluripotency-only (Renzova 2018 — no aging readouts, opposite direction).
-- **Closest studies (documented dialogue):** Wong 2015 (recovery only in transformed lines); Renzova 2018 (differentiation in pluripotent cells); Uetake 2007 (de novo possible in normal cells, inefficient, p53 arrest).
+### 3.3 Crossref (2026-08-11)
+| Query | Total | Relevant |
+|-------|:---:|:---:|
+| `centriole rejuvenation` | 13,024 (full-text phrase matches) | 0 direct tests (top hits: 2010 "Centriole, Differentiation, and Senescence"; author's gametogenesis preprint) |
+| `centriole elimination rejuvenation` | 83,615 | 0 direct tests |
 
-## 5. Limitation statement
-This appendix documents the PubMed leg. Before submission, the same 10 queries are run on Scopus, Web of Science, Europe PMC, and preprint servers, with the results appended (same table format) — the novelty claim is re-verified at that point and the appendix is updated with the search date.
+> **Transparency note (per 7th review):** Crossref full-text counts are phrase-level and not informative alone; relevance assessed on the top-10 titles per query. Two hits are **the author's own preprints** (MCARA; Centriole Elimination Gateway) — they are listed here explicitly, are theoretical/protocol-only (no experimental test of the aging-phenotype question), and are excluded from the novelty claim. Scopus/WoS to be run pre-submission.
+
+## 4. DOI cross-check of the 47 verified references (per 7th review)
+All 47 PMIDs verified via E-utilities batch (2026-08-11). Of these, **39 have DOI records in PubMed**; 8 are pre-DOI-era (1991–2009) and carry no PubMed DOI (e.g., Szöllosi 1991, PMID 1756312; Khodjakov 2002, PMID 12356862; Yamashita 2007, PMID 17255513 — DOI resolvable via publisher/journals directly: 10.1083/jcb.200205102; 10.1126/science.1134910). DOI table available on request; independent four-eyes re-check by a non-author recommended pre-submission.
+
+## 5. Inclusion/exclusion (PRISMA-style)
+- **Included:** experimental centriole/centrosome removal + post-removal aging/rejuvenation readout + somatic cells.
+- **Excluded (documented):** removal without aging readouts (Khodjakov, La Terra, Uetake, Wong); germline/meiotic elimination; pluripotency-only (Renzova); theory-only preprints (author's own).
 
 ## 6. Conclusion
-The novelty claim is supported for the *specific* combination (aging readouts + verified de novo origin + OSK factorial in somatic cells). It is **not** claimed that centriole elimination or de novo assembly are novel per se — the four prototypes (Khodjakov → La Terra → Uetake → Wong) established those pieces separately (see §3.4–3.5 of the protocol).
+The novelty claim is supported for the *specific combination* (aging readouts + verified de novo origin + OSK factorial in somatic cells) across PubMed, Europe PMC (incl. preprints), and Crossref. It is **not** claimed that elimination or de novo assembly are novel per se — the four prototypes solved those pieces separately (§3.4–3.5 of the protocol).
 
 
 ---
@@ -753,41 +785,8 @@ And more strictly:
 ---
 
 *Consistent with §3.5 of the Entropy Reset Protocol v5.7. Visual: ENTROPY_RESET_13_PUZZLES.png — 12 Hallmarks of Aging + centriole elimination & de novo synthesis assembling into one picture: the Entropy Reset Protocol.*
-# Gakely Tsomaia — Prototype Chain for the Entropy Reset Experiment
-**English translation of the proposal (Georgian original, 2026-08-11) · prepared for Ilia · Jaba Tqemaladze, MD**
-
----
-
-## The advice (translated)
-
-> "If you ask me, for visual clarity you should mention these experiments as *prototypes* of this work, then count their gaps and mark what could not be established, and then propose your own experiment. In other words: first you must create in them a feeling of hunger — note that we have come this far — and since we have come this far, let us go all the way to the end. Which experiments stand closest?"
-
-## The four nearest prototypes
-
-**1. Khodjakov et al., 2002** — In CHO cells, the existing centrosome was completely destroyed by laser microsurgery, and the cells then built a new centrosome/centriole *de novo*. That is the chain: existing centriole → disappeared → new structure formed from zero. **The main technical part is already done.**
-
-**2. La Terra et al., 2005** — Even closer: in HeLa cells, resident centrioles were removed by laser ablation / needle microsurgery, and the cells later assembled several new centrioles *de novo*. An important detail: initially their number was quite uncontrolled.
-
-**3. Uetake et al., 2007** — Tested the same principle in normal human cells. The conclusion: de novo centriole assembly after centrosome removal is **not a curiosity of transformed/cancer cells — it is a general capacity of mammalian somatic cells**.
-
-**4. Wong et al., Science 2015 — centrinone** — The most practically close: by reversible inhibition of PLK4, centrioles were eliminated; after washout, centriole formation resumed in the cells, and transformed cells returned to their centrosome-number set point. In other words, a chemical path already exists that is almost direct: **deplete → wait → restore PLK4 → de novo rebuild**.
-
-**Known warning:** de novo assembly can be error-prone — the number and structure do not always come out as ordered as with templated duplication.
-
-## The actual novelty of our experiment
-
-> **Removing the old centriole is not new. De novo creation of a new centriole is not new. What is new is the question: did the aging state of the old somatic cell change as a result?**
-
-And more strictly:
-
-> **old cell + old centriole → old cell + genuinely new centriole**
-> then we must ask: **did the cellular age phenotype change?**
-
----
-
-*Consistent with §3.5 of the Entropy Reset Protocol v5.7. Visual: ENTROPY_RESET_13_PUZZLES.png — 12 Hallmarks of Aging + centriole elimination & de novo synthesis assembling into one picture: the Entropy Reset Protocol.*
 
 
 ---
 
-*End of consolidated package. All citations APA 7 with PubMed PMIDs (47/47 verified 2026-08-11).*
+*End of consolidated package. All citations APA 7 with PubMed PMIDs (47/47 verified; 39 with PubMed DOI).*

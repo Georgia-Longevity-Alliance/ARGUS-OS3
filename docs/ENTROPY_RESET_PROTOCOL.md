@@ -1,7 +1,9 @@
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 **Program name (grant platform):** ENTROPY RESET PROGRAM
-**Version:** 6.1 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 6.2 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+
+> **v6.2 changes (per 7th review, 65/100):** search expanded to Europe PMC (+preprints, 2 author preprints disclosed) and Crossref with transparent relevance notes; DOI cross-check (39/47 with PubMed DOI, 8 pre-DOI-era); MDE biologically anchored to OSK effect sizes; FDR q=0.05 pre-specified; **safety futility stop** added (asymmetric monitoring); explicit extrapolation boundary in §1 (fibroblasts ≠ asymmetric-inheritance systems); publication title de-hyped ("Centriole Reset…", not "Entropy Reset"); quantitative meta-analysis plan (§3.2b: checkpoint passage rate, random-effects, I²).
 
 > **v6.1 changes (per Gakely, 15:36):** OSK×reset interaction interpretation matrix (§6.1a, 5 outcomes locked); donor/replicate/power full mixed-model formalism (§8 — ICC, Satterthwaite/KR df, simulation power, nested replicates); centrosome-loss checkpoint + survivor-selection accounting (§6.4b — 4 pre-specified measures); binding statistical pre-registration (§8 — SAP fully registered + second-reviewer check); novelty re-stated as **binding of existing pieces into an aging causal test** (§3.5).
 
@@ -21,7 +23,7 @@
 
 > **[P] Can experimentally induced centriole elimination followed by verified de novo centriole biogenesis produce measurable, OSK-independent improvements in defined cellular aging phenotypes, while preserving genomic integrity?**
 
-This is deliberately narrower than "reset aging" — it is testable in a dish, pre-registrable, and falsifiable.
+This is deliberately narrower than "reset aging" — it is testable in a dish, pre-registrable, and falsifiable. **Explicit extrapolation boundary (per 7th review):** Phase 1 uses untransformed fibroblasts, which do **not** undergo asymmetric centrosome inheritance — Phase 1 tests *feasibility of the reset* (H1) and the cellular-aging phenotype (H2), **not** the stem-cell retention mechanism itself (which requires Phase 3 systems with demonstrated asymmetric inheritance, e.g., organoids or in vivo models). The red-thread mechanism is the motivation and the long-term target; Phase 1 does not claim to test it directly.
 
 ---
 
@@ -82,6 +84,15 @@ The claim "no study has yet tested…" is true for the *specific* combination (a
 | G. Centriole replacement → rejuvenation | **Untested** |
 | H. Centriole reset → multiple hallmarks simultaneously | **Untested** |
 | I. Centriole reset → organismal rejuvenation | **Untested** |
+
+### 3.2b Quantitative meta-analysis plan (per 7th review)
+
+Where quantitatively comparable outcomes exist across prototypes, a formal meta-analysis is planned (not just an evidence map):
+
+- **Outcome:** centrosome-loss checkpoint passage/arrest rate (the p53/PIDDosome arrest fraction) — comparable across Uetake 2007 (RPE1), Mikule 2007 (RPE1 + tumor lines), Bazzi 2014 (mouse embryo), Wong 2015 (normal vs. cancer lines).
+- **Estimator:** random-effects (DerSimonian–Laird) proportion meta-analysis; I² heterogeneity; forest plot.
+- **Limitation (pre-specified):** n = 4–6 studies is small; the analysis is **descriptive of heterogeneity**, not confirmatory; individual-study definitions of "arrest" differ (G1 arrest vs. apoptosis vs. senescence-like) — subgrouping by assay.
+- **Status:** data extraction in progress at the time of writing; the analysis is deposited with the SAP (OSF) before any Phase 1 data.
 
 ### 3.3 Novelty statement (per review — dialogue, not "first")
 
@@ -330,7 +341,7 @@ The composite is **fully specified before data collection** to prevent post-hoc 
 
 ### 7.2 Effect-size justification (peer-review response)
 
-The 25% CRCS improvement is a **declared minimal detectable effect** (MDE), not an effect estimate: with N=10/arm, SD≈1.0 (z-score metric), α=0.05, two-sided, power 0.85 yields MDE ≈ 0.25 SD units (composite). Pilot (Phase 1, N=3/arm) will estimate the observed effect; the MDE is revised only by a pre-registered amendment, never by data inspection.
+The 25% CRCS improvement is a **declared minimal detectable effect** (MDE), not an effect estimate: with N=10/arm, SD≈1.0 (z-score metric), α=0.05, two-sided, power 0.85 yields MDE ≈ 0.25 SD units (composite). **Biological anchoring (per 7th review):** the MDE is anchored to published OSK effect sizes on comparable readouts — OSK/OSKM partial reprogramming produces multi-hallmark improvements of comparable or larger magnitude on composite aging readouts in vivo (Ocampo 2016, PMID 27984723: partial reprogramming extended median lifespan in progeroid mice and improved multiple hallmarks; Lu 2020, PMID 33268865: OSK restored youthful methylation and vision). The 0.25 SD threshold therefore represents a **conservative fraction of a known-positive benchmark** (a smaller effect than OSK itself would not be claimed as a rejuvenation signal), not an arbitrary number. Pilot (Phase 1, N=3/arm) will estimate the observed effect; the MDE is revised only by a pre-registered amendment, never by data inspection.
 
 **Interaction-term power (peer-review response):** power for the **OSK × reset interaction** (H3) is computed separately by **mixed-model simulation** (1,000 iterations, donor/batch random effects), not by the main-effect formula — interaction detection in 2×2 designs requires substantially larger N (standard result). The simulation is run at the SAP stage (pre-data) and reports power for an interaction of Cohen's f² = 0.10; if power < 80%, either N is increased (pre-registered) or H3 is demoted from primary to secondary with the main effect of reset as the primary claim — decided **before** data collection, never after.
 
@@ -343,10 +354,10 @@ The 25% CRCS improvement is a **declared minimal detectable effect** (MDE), not 
 | Design | 2×2 factorial (+ perturbation arm), mixed-effects models (donor, batch, experimenter as random) |
 | Primary test | Main effect of reset + OSK×reset interaction on CRCS |
 | Power | N = 10 replicates × 3 donor lines (young/middle/old) → >85% at α = 0.05 for 25% CRCS improvement |
-| Multiple testing | FDR (Benjamini–Hochberg) across secondary readouts; interaction terms reported with CIs |
+| Multiple testing | FDR (Benjamini–Hochberg) across secondary readouts with **pre-specified q = 0.05** (sensitivity at q = 0.10 reported); interaction terms reported with CIs |
 | Blinding | Senescence scoring, EM, colony counting — blinded operators |
 | Pre-registration | Protocol + falsification criteria (Table §4) + **SAP in full** (fixed CRCS weights, interaction matrix §6.1a, mixed-model formula, ICC priors, stopping boundaries, H_programmed test) registered before data collection (OSF/AsPredicted); **a second reviewer re-checks that the registered SAP matches the executed analysis** (per Gakely: statistical pre-registration must be binding, not descriptive) |
-| Stopping rules | Interim analysis at 5 replicates **per arm**; futility stop if B ≤ A with p > 0.7 (conditional power < 20%, computed via simulation, pre-registered); the early-stop risk of false negatives is acknowledged and the final N is fixed regardless unless the pre-registered boundary is crossed |
+| Stopping rules | **Efficacy futility:** interim analysis at 5 replicates **per arm**; futility stop if B ≤ A with p > 0.7 (conditional power < 20%, via simulation, pre-registered). **Safety futility (added per 7th review):** symmetric pre-specified boundary — if the genome-integrity gate fails in ≥5% of replicates at interim, the trial stops **regardless of efficacy** (asymmetric monitoring: safety can stop, efficacy cannot continue past a failing gate); early-stop false-negative risk acknowledged; final N fixed unless a pre-registered boundary is crossed |
 | Replication | 3 donor lines: <30, 45–55, >65 y. **Structure made explicit:** each "donor line" = one independent biological donor (n=1 per age stratum); the 10 replicates are biological replicates within a donor (independent vials/thaw batches), analyzed as random effects. Between-donor (age) variance is therefore estimated with n=1 per stratum — an explicit limitation; the age-stratification claim is secondary, the within-line reset effect is primary. Independent labs optional (multi-site plan) |
 | **Donor/replicate/power formalism (peer-review critical, per Gakely)** | Full mixed-model specification: CRCS ~ reset × OSK + age_stratum + (1 + reset \| donor) + (1 \| batch) + (1 \| vial); **variance components estimated (ICC) with Satterthwaite/Kenward–Roger df**; power computed by **simulation on the fitted model** (not the ANOVA formula) with donor and vial ICC entered as priors from Phase 1; **replicates are nested within donor, never pooled as independent** — the unit of analysis for the age claim is the donor (n=3, explicitly underpowered for age, powered for within-line reset); report: ICC, df, CIs for all variance components; this is the full formalization of the "donor/replicate/power" hole |
 
@@ -378,7 +389,7 @@ Where "entropy" is used (program name only), it refers to **structural disorder 
 
 > S = −k_B Σ pᵢ ln pᵢ — over the state space of centriolar PTM configurations (e.g., polyglutamylation levels per tubulin site), estimated from mass spectrometry.
 
-Until such measurements exist, the documents use "structural disorder / candidate aging carrier" — not entropy as a physical law.
+Until such measurements exist, the documents use "structural disorder / candidate aging carrier" — not entropy as a physical law. **Naming (per 7th review):** "Entropy Reset" is retained only as the program/grants name; the publication title is deliberately neutral — "Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells" (as used throughout this document) — avoiding hype-driven terminology in the peer-reviewed version.
 
 ---
 
