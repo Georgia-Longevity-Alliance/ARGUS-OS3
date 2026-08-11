@@ -8,7 +8,7 @@ ARGUS-OS3 asks whether the same reset can be achieved in a somatic cell, keeping
 
 ## The Protocol
 
-📄 **[Entropy Reset Protocol](docs/ENTROPY_RESET_PROTOCOL.md)** — elimination (meiosis-like) → de novo assembly (blastomere-like) → verification (diploidy preserved, no crossing-over).
+📄 **[Entropy Reset Protocol](docs/ENTROPY_RESET_PROTOCOL.md)** — full coverage of **all 12 Hallmarks of Aging** (López-Otín), built around the **centriole as the candidate reset carrier**: elimination (meiosis-like) → de novo assembly (blastomere-like) → per-hallmark reset protocols → verification (diploidy preserved, no crossing-over, no haploidization).
 
 ## Three Questions
 

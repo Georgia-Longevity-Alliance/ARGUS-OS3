@@ -1,76 +1,207 @@
-# ENTROPY RESET PROTOCOL — Somatic Cell
+# ENTROPY RESET PROTOCOL — Full Hallmark Coverage
+## The Centriole as the Candidate Reset Carrier
 
-**Goal:** Reset cellular entropy in a somatic cell the way nature does between meiosis I and the first blastomeres — centriole elimination followed by de novo synthesis — but **without loss of the diploid chromosome set and without crossing-over.**
+**Version:** 2.0 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
 
-**Version:** 1.0 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Goal:** Reset cellular entropy in a somatic cell the way nature does between **meiosis I and the first blastomeres** — covering **all 12 Hallmarks of Aging** (López-Otín et al., 2013, PMID 23746838; 2023, PMID 36599349) — but **without loss of the diploid chromosome set and without crossing-over.**
 
----
-
-## 1. What Nature Does (the Template)
-
-Between the first meiotic division and the synthesis of centrioles in the first blastomeres, the organism performs a complete **hardware reset** of the cell:
-
-| Step | Event | Effect |
-|:---:|------|--------|
-| 1 | Meiosis I — oocyte eliminates its centrioles | Acentriolar spindle; centriolar entropy is discarded with the organelle |
-| 2 | Fertilization — sperm delivers a centriole | The paternal centriole becomes a **seed**, not a template |
-| 3 | First blastomeres — centrioles are synthesized **de novo** from the seed | Fresh organelle, zero accumulated damage |
-| 4 | Result | Structural (centriolar) entropy = 0 at the start of every generation |
-
-**The price nature pays:** haploidization (loss of the diploid set), crossing-over (genome shuffling), and fusion of two gametes.
-
-**The question of ARGUS-OS3 / CEDAR:** can the same reset be achieved in a **somatic** cell — elimination → de novo assembly — while keeping the diploid genome intact and skipping crossing-over entirely?
+**Central candidate:** the **centriole** — the only cellular structure that nature **completely eliminates and rebuilds de novo** in every generation. It is proposed as the *hardware counter and entropy carrier* of the aging cell (CEDAR: Centriolar Entropy-Damage Accumulation Ratchet; Tqemaladze, 2023, PMID 36583780). Every hallmark protocol below is evaluated through the centriole's candidate role.
 
 ---
 
-## 2. The Somatic Protocol (Diploid-Preserving Reset)
+## 1. The Natural Template: What Nature Resets Between Meiosis I and the First Blastomeres
+
+| Step | Event | Hallmarks reset |
+|:---:|------|-----------------|
+| 1 | Meiosis I — the oocyte **eliminates its centrioles** | Centriolar entropy (structural counter) discarded with the organelle |
+| 2 | Oocyte cytoplasm **dilutes and clears** aged components | Proteostasis, mitochondria, senescent factors |
+| 3 | Fertilization — sperm contributes a centriole that becomes a **seed, not a template** | All centriole-borne information reset |
+| 4 | First blastomeres **synthesize centrioles de novo** | Fresh organelle, zero accumulated damage |
+| 5 | **Epigenetic reprogramming** to totipotency | Epigenetic alterations reset |
+| 6 | **Telomere re-extension** in the germline | Telomere attrition reset |
+| 7 | **Mitochondrial inheritance** through the maternal line (bottleneck) | Mitochondrial dysfunction reset |
+| 8 | **Immune/metabolic reset** of the new organism | Inflammation, nutrient sensing, communication reset |
+
+**The price nature pays:** haploidization (loss of the diploid set) and crossing-over (genome shuffling).
+
+**The question of this protocol:** can the same full reset be achieved in a **somatic** cell — centriole elimination → de novo assembly, plus targeted reset of each hallmark — while keeping the diploid genome intact and skipping crossing-over entirely?
+
+---
+
+## 2. The Centriole as the Candidate
+
+The centriole is proposed as the **hardware counter** of replicative aging (CEDAR). Unlike the epigenome (software, reprogrammable by Yamanaka factors), the centriole is a non-repairable, semi-conservatively duplicated structure that transmits accumulated modifications to progeny:
+
+> S_centriole(t) = S₀ + β·t + η(t)
+
+where η(t) is stochastic damage (ROS, glycation, thermal fluctuations) and β is the time-driven accumulation rate. Asymmetric divisions additionally remodel the Centriolar Aging-Associated Signaling Module (CAASM) — the proteome of subdistal appendages and pericentriolar material:
+
+> CAASM(N) = CAASM₀ − λ·N_asym
+
+**Why the centriole is uniquely positioned as the candidate reset carrier:**
+- It is the **only organelle nature eliminates and rebuilds de novo** in every generation (Kalbfuss & Gönczy, 2023, PMID 37963546 — C. elegans; oocytes across phyla).
+- It **links the 12 hallmarks**: it organizes the mitotic spindle (genomic instability), accumulates PTMs (proteostasis), is inherited asymmetrically (stem cell exhaustion), transmits to senescence (Robichaud et al., 2024, PMID 39266565), and its absence is incompatible with pluripotency maintenance (Renzova et al., 2018).
+- It is **testable**: eliminate it (centrinone / laser), rebuild it de novo, measure every hallmark readout.
+
+---
+
+## 3. Protocol 0 — Centriolar Entropy Reset (the Core)
 
 ### Phase 1 — Elimination (meiosis-like step)
-
-Remove all centrioles from the somatic cell, mirroring oocyte elimination at meiosis I.
+Remove **all** centrioles from the somatic cell, mirroring oocyte elimination at meiosis I.
 
 | Method | Agent | Notes |
 |:---:|------|-------|
-| **A. Chemical** | Centrinone (PLK4 inhibitor) | Blocks centriole duplication; >95% centriole loss within 3 days (Renzova et al. 2018) |
-| **B. Physical** | 405 nm pulsed laser ablation | Complete removal; single-centriole presence suppresses the de novo pathway (Khodjakov et al. 2002) |
-| **C. Genetic** | Inducible PLK4 / STIL knockout | Cleanest for stable lines; requires inducible system |
+| A. Chemical | Centrinone (PLK4 inhibitor) | Blocks duplication; >95% centriole loss within 3 days (Renzova et al., 2018) |
+| B. Physical | 405 nm pulsed laser ablation | Complete removal; one surviving centriole suppresses de novo (Khodjakov et al., 2002, PMID 12356862) |
+| C. Genetic | Inducible PLK4 / STIL knockout | Cleanest for stable lines |
 
-**Critical rule:** elimination must be **complete**. One surviving centriole suppresses the de novo assembly pathway (Khodjakov et al. 2002). Verify with centrin-GFP loss in 100% of treated cells before proceeding.
+**Critical rule:** elimination must be **complete** — one surviving centriole suppresses the de novo assembly pathway (Khodjakov et al., 2002). Verify centrin-GFP loss in 100% of treated cells.
 
 ### Phase 2 — De novo Assembly (blastomere-like step)
+Withdraw the inhibitor / switch off the knockout. De novo assembly proceeds through the canonical pathway (PLK4 → STIL → SAS-6 cartwheel → tubulin cylinder). Optional: mild STIL/PLK4 overexpression during recovery to raise de novo efficiency.
 
-Release the cell from inhibition and allow centrioles to be synthesized de novo, mirroring the first blastomeres.
-
-- Withdraw centrinone / switch off the knockout / allow recovery.
-- De novo assembly proceeds through the canonical pathway (PLK4 → STIL → SAS-6 cartwheel → tubulin cylinder).
-- The cell builds **fresh centrioles with zero accumulated entropy** — the blastomere outcome.
-- Optionally reinforce with mild STIL/PLK4 overexpression during the recovery window to raise de novo efficiency.
-
-### Phase 3 — Verification (entropy reset confirmed)
+### Phase 3 — Core Verification
 
 | Readout | Method | Expected |
 |---------|--------|----------|
 | Centriole integrity | EM / centrin-GFP | Normal ultrastructure, fresh organelle |
 | Ploidy | Karyotype / FISH | **Diploid preserved** — no haploidization |
-| Genome stability | No crossing-over | Unchanged allelic configuration |
+| Genome | No crossing-over | Unchanged allelic configuration |
 | Entropy marker | GT335 (polyglutamylation) | Low — fresh tubulin |
 | Fate markers | Lineage / reprogramming assay | Increased plasticity (CEDAR prediction) |
 
 ---
 
-## 3. What This Tests (link to ARGUS-OS3)
+## 4. Hallmark Protocols (all 12)
 
-ARGUS-OS3 asks: *does changing the centriole change the cell's fate?* The Entropy Reset Protocol is the **direct application**: eliminate the aged centriole, rebuild it de novo, and ask whether the cell behaves as younger.
-
-- **System A (ablation, Drosophila NB)** — tests NECESSITY: without the centriole, does fate change?
-- **System B (transplantation)** — tests SUFFICIENCY: does a foreign centriole change fate?
-- **This protocol** — tests RESTORATION: after full elimination + de novo assembly, is the cell's fate reset?
-
-If the reset cell shows rejuvenated markers and restored plasticity while remaining diploid, the centriole is confirmed as the carrier of accumulated entropy — and the germline trick has been reproduced in a somatic cell without paying the meiotic price.
+For each hallmark: **(a)** how nature resets it, **(b)** the somatic-cell protocol, **(c)** the centriole's candidate role, **(d)** verification readout.
 
 ---
 
-## 4. Controls
+### H1. Genomic Instability
+- **Nature:** meiosis shuffles and then repairs the genome; the zygote undergoes DNA-damage checkpoints; totipotent cells have high DNA repair capacity.
+- **Somatic protocol:** alongside Protocol 0, transient DNA-damage response priming (low-dose, p53-monitored) to engage repair; optionally transient expression of DNA repair factors (PARP1, RAD51, BRCA1) without altering the sequence. **No crossing-over** — homologous recombination is restricted to repair, not shuffling.
+- **Centriole candidate role:** the centriole organizes the mitotic spindle; supernumerary or damaged centrioles cause chromosome missegregation and aneuploidy (Rhee, 2021, PMID 34711687). A fresh, correctly duplicated centriole set minimizes segregation errors.
+- **Verification:** karyotype, FISH, micronucleus assay, γH2AX foci — all within diploid normal range.
+
+### H2. Telomere Attrition
+- **Nature:** telomeres are re-extended in the germline (and transiently in the early embryo); zygotic cells express telomerase.
+- **Somatic protocol:** transient telomerase (hTERT) expression during the reset window, then withdrawal; or TERT recruitment to short telomeres (TRF1-mediated). The reset aims for elongation to embryonic-like length, not immortalization.
+- **Centriole candidate role:** MCARA (Multi-Counter Architecture) treats the centriole as a **structural analogue of the telomere counter** — both are semi-conservatively duplicated, non-repairable counters. The centriolar reset complements the telomeric one; together they reset the division counter.
+- **Verification:** qFISH / STELA telomere length vs. donor baseline; telomerase off after reset (no constitutive activity).
+
+### H3. Epigenetic Alterations
+- **Nature:** the zygote undergoes genome-wide epigenetic reprogramming to totipotency (DNA demethylation, histone reset).
+- **Somatic protocol:** partial reprogramming with OSKM (Yamanaka factors) for 4–8 days (not to pluripotency, but to a plastic state), or chemical epigenetic reset (VPA, ascorbic acid, A83-01, CHIR99021 — the "cocktail" approach).
+- **Centriole candidate role:** CEDAR distinguishes hardware (centriole) from software (epigenome). The centriole's Centrosome-Associated Memory Complex (CAMC) is proposed to **maintain the differentiated state** — epigenetic reset alone is transient if the hardware counter is not reset (explains why partial reprogramming rejuvenates the methylome but fails to restore replicative capacity).
+- **Verification:** methylome (EPIC array), histone marks (H3K27ac, H3K4me3), epigenetic clock (Horvath) — biological age reduced; differentiated identity not lost.
+
+### H4. Loss of Proteostasis
+- **Nature:** the oocyte accumulates and then clears proteostatic machinery; the early embryo rebuilds the proteome from a clean slate (proteolytic clearance of maternal factors).
+- **Somatic protocol:** transient activation of proteostasis — HSP70/HSP90 co-induction (geldanamycin-free, e.g., HSP inducers), proteasome activation (e.g., MG132 withdrawal after priming), and **aggrephagy induction** (rapamycin- or trehalose-mediated). Clear aggregated protein before and during the reset window.
+- **Centriole candidate role:** the centriole itself is a proteostasis substrate — it accumulates polyglutamylation (TTLL5/TTLL6) because it lacks efficient dediglutamylase activity. De novo assembly is the only way to fully clear *structural* proteostatic entropy of the organelle.
+- **Verification:** proteasome activity assay, insoluble protein fraction (ProteoStat), ubiquitin conjugate load, polyE (GT335) signal.
+
+### H5. Disabled Macroautophagy
+- **Nature:** oocytes are autophagy-competent; clearance of maternal mitochondria and organelles in the zygote depends on selective autophagy (mitophagy).
+- **Somatic protocol:** transient autophagy/mitophagy activation (rapamycin, spermidine, TFEB overexpression) during the reset window; removal of damaged organelles before de novo assembly.
+- **Centriole candidate role:** centriolar clearance and the de novo pathway interact — complete centriole elimination removes the need for autophagic disposal of the aged organelle (nothing to degrade), mirroring the oocyte.
+- **Verification:** LC3-II/I ratio, p62 flux, mitophagy reporter (mito-Keima), autophagic flux assay.
+
+### H6. Deregulated Nutrient-Sensing
+- **Nature:** the early embryo operates on intrinsic metabolic programs; the maternal nutrient-sensing network (mTOR, AMPK) is reset in the oocyte-to-embryo transition.
+- **Somatic protocol:** transient mTORC1 inhibition (rapamycin) + AMPK activation (AICAR/metformin) during the reset window; metabolic switch to oxidative/catabolic state, then return to physiological baseline.
+- **Centriole candidate role:** nutrient sensing gates division; the centriole is the division hardware. Resetting the sensor without resetting the counter leaves the cell responsive but still "counted." (Candidate link — indirect, hypothesis-level.)
+- **Verification:** p-S6K1/p-4E-BP1 (mTORC1), p-AMPK, mitochondrial respiration (Seahorse), glucose uptake.
+
+### H7. Mitochondrial Dysfunction
+- **Nature:** mitochondrial DNA is inherited **through the maternal line with a bottleneck** — a clonal selection that purges damaged mtDNA in the germline; zygotic mitophagy clears paternal mitochondria.
+- **Somatic protocol:** mitophagy induction (urolithin A, NAD+ precursors, Parkin/PINK1 activation) to clear damaged mitochondria, followed by mitochondrial biogenesis (PGC-1α activation). This mimics the bottleneck **selectively, not through germline reduction** — the diploid genome is untouched.
+- **Centriole candidate role:** ROS from mitochondria is a source of centriolar damage (the η(t) term). Resetting mitochondria removes the damage source so the freshly assembled centriole starts clean and stays clean longer.
+- **Verification:** mtDNA copy number & heteroplasmy (droplet digital PCR), mitoSOX (ROS), membrane potential (TMRM), respirometry.
+
+### H8. Cellular Senescence
+- **Nature:** the embryo has no senescent cells; the oocyte clears senescence-associated factors; the new organism begins with a senescent-free body plan.
+- **Somatic protocol:** senolytic clearance (dasatinib + quercetin, or BCL-2 inhibitors) during the reset window — clear senescent cells *before* reset so their SASP cannot re-induce entropy in the reset cell population.
+- **Centriole candidate role:** Robichaud et al. (2024, PMID 39266565) showed that **stress induces polyglutamylated microtubules extending from the centriole/centrosome region to the nucleus**, along which KIFC3 transports FBF1 to PML bodies — a step **required for senescence initiation**. The centriole is thus a candidate *initiation hub* of senescence; a fresh centriole may lack the polyE scaffold needed to trigger it.
+- **Verification:** SA-β-gal, p16/p21, SASP panel (IL-6, IL-8, MMPs), Ki67 re-entry.
+
+### H9. Stem Cell Exhaustion
+- **Nature:** the embryo is built from totipotent cells; the germline regenerates stemness every generation.
+- **Somatic protocol:** transient plasticity induction (H3 partial reprogramming, or the H8/H1-H3 combination) to allow the reset cell to re-enter a stem-like proliferative state; niche factors if applicable.
+- **Centriole candidate role:** **asymmetric centriole inheritance determines stem cell fate** — Yamashita et al. (2007, Science): the mother centrosome is retained by the stem cell; Barandun et al. (2025): the daughter inheriting the mother centrosome becomes effector, the other becomes memory T-cell; Zhao et al. (2025): PCM1 on the mother centrosome coordinates fate in neural progenitors. CEDAR predicts a fresh, symmetric centriole pair removes the asymmetry bias — the reset cell is no longer "pre-aged" toward differentiation.
+- **Verification:** stemness markers (NANOG, SOX2, OCT4 — transient), colony formation, serial passaging, asymmetric division tracking (centrin-GFP + fate markers).
+
+### H10. Altered Intercellular Communication
+- **Nature:** the embryo establishes communication de novo; signaling networks are rebuilt clean, without the noise of aged tissue.
+- **Somatic protocol:** transient exposure to a "young" signaling environment (young-conditioned medium or defined cytokine cocktail), then return to physiological baseline; target the reset cell's receptors and signaling (Notch, Wnt, TGF-β rebalancing).
+- **Centriole candidate role:** primary cilium (built on the mother centriole) is the cell's antenna for intercellular signals (Hedgehog, Wnt, PDGFRα). CEDAR candidate claim: the aged mother centriole builds a functionally aged cilium; a fresh centriole builds a fresh cilium with rebalanced signaling.
+- **Verification:** ciliary proteome (mass spec), Hedgehog/Wnt reporter assays, exosome/cytokine panel in co-culture.
+
+### H11. Chronic Inflammation (Inflammaging)
+- **Nature:** the embryo is immunologically naive; the new organism starts without chronic inflammatory burden.
+- **Somatic protocol:** anti-inflammatory window during reset (low-dose aspirin/curcumin/IL-1β blockade), clearance of SASP-producing cells (H8), then restoration of normal immune signaling.
+- **Centriole candidate role:** inflammation and ROS drive centriolar damage (η(t)); the reset removes accumulated damage and (via H8) removes the senescent cells whose SASP sustains chronic inflammation. Candidate link — indirect.
+- **Verification:** plasma/tissue cytokine panel (IL-1β, IL-6, TNF-α, CRP), NF-κB activity, immune cell profiling.
+
+### H12. Dysbiosis
+- **Nature:** the newborn is colonized de novo — a fresh microbiome replaces the aged one.
+- **Somatic protocol (organism level):** microbiome reset — fecal microbiota transplantation (FMT) or defined probiotic consortium after the cellular reset; for cell-level work, replace cell-culture microbiome contaminants (mycoplasma-free validation).
+- **Centriole candidate role:** indirect — microbial metabolites (e.g., SCFAs) influence systemic metabolism and inflammation, which feed back to cellular ROS and thus centriolar damage. Candidate link — indirect, at the organismal interface.
+- **Verification:** 16S rRNA sequencing (Shannon diversity, age-associated taxa), SCFA levels, mycoplasma screening in culture.
+
+---
+
+## 5. Master Verification — The Three Invariants
+
+Every hallmark protocol must respect the three invariants that distinguish this reset from the meiotic one:
+
+| Invariant | How it is preserved | Readout |
+|-----------|---------------------|---------|
+| **Diploidy** | No meiotic reduction — elimination targets the centriole, never the chromosomes | Karyotype, FISH, WGS copy number |
+| **No crossing-over** | Recombination used for repair only; no shuffling | Allelic configuration unchanged (SNP phasing) |
+| **Full hallmark coverage** | All 12 readouts measured pre/post | Hallmark scorecard (see §6) |
+
+---
+
+## 6. Hallmark Scorecard (pre/post)
+
+| # | Hallmark | Pre-readout | Post-readout | Target |
+|:---:|----------|:---:|:---:|:---:|
+| H1 | Genomic instability | γH2AX, micronuclei | Same | ≤ donor baseline |
+| H2 | Telomere attrition | qFISH length | Same | Embryonic-like |
+| H3 | Epigenetic alterations | Horvath clock | Same | Biological age ↓ |
+| H4 | Proteostasis | ProteoStat, GT335 | Same | Insoluble fraction ↓ |
+| H5 | Macroautophagy | LC3 flux | Same | Flux ↑ |
+| H6 | Nutrient sensing | p-S6K1 | Same | Rebalanced |
+| H7 | Mitochondria | heteroplasmy | Same | Damage ↓, copy number ✓ |
+| H8 | Senescence | SA-β-gal, SASP | Same | Zero senescent |
+| H9 | Stem cell exhaustion | colony formation | Same | Proliferative capacity restored |
+| H10 | Intercellular communication | ciliary proteome | Same | Young-like signaling |
+| H11 | Inflammation | cytokine panel | Same | Zero chronic burden |
+| H12 | Dysbiosis | 16S, SCFA | Same | Young-like diversity |
+
+**Success criterion:** all 12 readouts move toward the embryonic/young state while diploidy and allelic configuration remain unchanged, and centrioles are verified fresh (Protocol 0).
+
+---
+
+## 7. Timeline & Budget (indicative, one work package)
+
+| Phase | Duration | Budget |
+|:---:|:---:|:---:|
+| Protocol 0 — centriolar reset | 4–6 weeks | $25K |
+| H1–H3 (genome, telomere, epigenome) | 8–10 weeks | $40K |
+| H4–H7 (proteostasis, autophagy, nutrient, mitochondria) | 8–10 weeks | $40K |
+| H8–H12 (senescence, stem cells, communication, inflammation, dysbiosis) | 8–10 weeks | $40K |
+| Verification & scorecard | 6–8 weeks | $35K |
+| **Total** | **6–9 months** | **~$180K** |
+
+Fits inside the ARGUS-OS3 envelope ($477–557K, 36–48 months) as an integrated work package.
+
+---
+
+## 8. Controls (shared)
 
 | Control | Purpose |
 |---------|---------|
@@ -80,33 +211,28 @@ If the reset cell shows rejuvenated markers and restored plasticity while remain
 | p53 inhibition (Pifithrin-α) | Rules out stress/apoptosis artifact |
 | Buffer-only / mock injection | Mechanical stress control |
 | UV-killed centriole re-injection | Rules out "foreign body" effect |
+| Each hallmark protocol alone (no Protocol 0) | Isolates centriolar contribution |
 
 ---
 
-## 5. Timeline & Budget (indicative)
+## 9. Key References
 
-| Phase | Duration | Budget |
-|:---:|:---:|:---:|
-| Phase 1 elimination | 4–6 weeks | $25K |
-| Phase 2 de novo assembly | 4–6 weeks | $20K |
-| Phase 3 verification | 6–8 weeks | $35K |
-| **Total** | **4–5 months** | **~$80K** |
-
-Fits inside the ARGUS-OS3 envelope ($477–557K, 36–48 months) as a new work package or standalone pilot.
-
----
-
-## 6. Key References
-
-| # | Reference | PMID | Role |
-|---|-----------|------|------|
-| 1 | Kalbfuss & Gönczy (2023) — programmed centriole elimination | 37963546 | Germline elimination template |
-| 2 | Khodjakov et al. (2002) — de novo centrosome formation | 12356862 | De novo feasibility + suppression rule |
-| 3 | Renzova et al. (2018) — centrinone, centriole loss | — | Chemical elimination |
-| 4 | Thomas & Giet (2022) — live imaging, photo-ablation | — | Ablation protocol |
-| 5 | Gallaud et al. (2014) — post-ablation defects | 24687279 | Survivor-bias mitigation |
-| 6 | Rhee (2021) — supernumerary centrioles, p53 | 34711687 | Quantity control |
+| # | Reference | PMID |
+|---|-----------|------|
+| 1 | López-Otín et al. (2013) — Hallmarks of Aging, Cell 153 | 23746838 |
+| 2 | López-Otín et al. (2023) — Hallmarks: An Expanding Universe, Cell 186 | 36599349 |
+| 3 | Kalbfuss & Gönczy (2023) — programmed centriole elimination | 37963546 |
+| 4 | Khodjakov et al. (2002) — de novo centrosome formation | 12356862 |
+| 5 | Gallaud et al. (2014) — post-ablation defects | 24687279 |
+| 6 | Rhee (2021) — supernumerary centrioles, p53, aneuploidy | 34711687 |
+| 7 | Robichaud et al. (2024) — centriole-linked senescence initiation | 39266565 |
+| 8 | Chen & Yamashita (2021) — stereotyped centrosome inheritance | 33435817 |
+| 9 | Renzova et al. (2018) — centrinone, centriole loss, differentiation | — |
+| 10 | Yamashita et al. (2007) — mother centrosome in stem cells, Science | — |
+| 11 | Barandun et al. (2025) — centrosome asymmetry, CD8+ T-cells, Cell Rep | — |
+| 12 | Zhao et al. (2025) — PCM1, neural progenitor fate, Nat Commun | — |
+| 13 | Thomas & Giet (2022) — live imaging, photo-ablation, STAR Protoc | — |
 
 ---
 
-*Part of the ARGUS-OS3 / CEDAR program — "the germline trick, reproduced in a dish, without the meiotic price."*
+*Part of the ARGUS-OS3 / CEDAR program — "the germline trick, reproduced in a dish, without the meiotic price, across all twelve hallmarks."*
