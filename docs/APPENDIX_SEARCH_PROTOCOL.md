@@ -11,6 +11,8 @@ Verify the novelty statement: *"To our knowledge, no study has yet directly test
 | PubMed (NCBI E-utilities) | peer-reviewed | ✅ done 2026-08-11 |
 | Europe PMC | PubMed + preprints (bioRxiv/medRxiv) | ✅ done 2026-08-11 |
 | Crossref | global DOI metadata (journals + preprints) | ✅ done 2026-08-11 |
+| **OpenAlex** (free, ~250M works, Scopus-level coverage) | journals + preprints + books | ✅ done 2026-08-11 |
+| Semantic Scholar | — | ⚠️ rate-limited (HTTP 429) on 2026-08-11; to be re-run pre-submission |
 | Scopus / Web of Science | — | ⏳ planned pre-submission (institutional access required) |
 
 ## 3. Queries and results
@@ -39,7 +41,15 @@ Verify the novelty statement: *"To our knowledge, no study has yet directly test
 | **Preprints** (`AND SRC:PPR`): `centriole AND rejuvenation` | 1 | **1 — author's own MCARA preprint (2026)** — theoretical, no experiment; excluded as non-test |
 | Preprints: `centriole elimination AND SRC:PPR` | 19 | 1 — author's own "Centriole Elimination as a Gateway to a New Differentiation State" (2026) — protocol, no data; excluded as non-test. Remaining 18: non-relevant (axoneme elimination in *Naegleria*; MOCT in protists) |
 
-### 3.3 Crossref (2026-08-11)
+### 3.3 OpenAlex (2026-08-11) — Scopus-level coverage, free
+| Query | Works | Relevant |
+|-------|:---:|:---:|
+| `centriole rejuvenation` | 243 | 0 direct tests (phrase-level; top hits unrelated: "Rejuvenation Biotechnology"; "Centrioles and Cellular Differentiation") |
+| `centriole elimination rejuvenation` | 144 | 0 direct tests (top hit: "Centrioles as Structural Damage Reservoirs" — theory, no experiment) |
+| `de novo centriole aging` | 1,745 | 0 direct tests (reviews of centriole/cilium biogenesis) |
+| `centrinone rejuvenation` | 15 | 0 direct tests |
+
+### 3.4 Crossref (2026-08-11)
 | Query | Total | Relevant |
 |-------|:---:|:---:|
 | `centriole rejuvenation` | 13,024 (full-text phrase matches) | 0 direct tests (top hits: 2010 "Centriole, Differentiation, and Senescence"; author's gametogenesis preprint) |
@@ -55,4 +65,6 @@ All 47 PMIDs verified via E-utilities batch (2026-08-11). Of these, **39 have DO
 - **Excluded (documented):** removal without aging readouts (Khodjakov, La Terra, Uetake, Wong); germline/meiotic elimination; pluripotency-only (Renzova); theory-only preprints (author's own).
 
 ## 6. Conclusion
+
+**Search completion status (per 7th review):** PubMed ✅ · Europe PMC (incl. preprints) ✅ · Crossref ✅ · **OpenAlex ✅ (2026-08-11)** · Semantic Scholar ⚠️ rate-limited (re-run planned) · Scopus/WoS ⏳ (institutional access; OpenAlex covers equivalent indexing for the novelty screen). The novelty claim is supported across all completed databases; final Scopus/WoS leg is scheduled before submission.
 The novelty claim is supported for the *specific combination* (aging readouts + verified de novo origin + OSK factorial in somatic cells) across PubMed, Europe PMC (incl. preprints), and Crossref. It is **not** claimed that elimination or de novo assembly are novel per se — the four prototypes solved those pieces separately (§3.4–3.5 of the protocol).
