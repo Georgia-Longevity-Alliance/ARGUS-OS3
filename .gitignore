@@ -1,1 +1,9 @@
 _pi.md
+# Внутренние документы (не пушить): письма, рецензии, досье
+_archive/
+PEER_REVIEW_*.md
+INQUIRY_*.md
+RESPONSE_TO_REVIEWER.md
+GAKELY_*.md
+RED_THREAD.md
+book/
