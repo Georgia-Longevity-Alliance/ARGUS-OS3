@@ -1,6 +1,6 @@
 # ENTROPY RESET PROGRAM — Complete Package (centriole-focused)
 **Single consolidated document · 2026-08-11 · Jaba Tqemaladze, MD (Georgia Longevity Alliance)**
-**Contains:** Red Thread · Entropy Reset Protocol v6.5 · Grant Core v2.6 (28 Oct = MCARA only) · Search Appendix · Gakely Prototype Chain
+**Contains:** Red Thread · Entropy Reset Protocol v6.5 · Grant Core v2.7 (incl. MD-eligibility option for ERC StG) · Search Appendix · Gakely Prototype Chain
 **Repos:** github.com/Georgia-Longevity-Alliance/ARGUS-OS3 · github.com/djabbat/LC · github.com/djabbat/Marketing
 
 ---
@@ -567,7 +567,7 @@ Full transparency, per journal COI standards:
 
 ---
 
-# PART 2 — GRANT CORE v2.6 (grant-tracks core, centriole-only)
+# PART 2 — GRANT CORE v2.7 (grant-tracks core, centriole-only)
 
 # ENTROPY RESET PROGRAM — The Grant Core for Marketing Projects
 
