@@ -1,7 +1,9 @@
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 **Program name (grant platform):** ENTROPY RESET PROGRAM
-**Version:** 5.6 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 5.7 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+
+> **v5.7 changes (2026-08-11):** §3.5 added — prototype chain (Khodjakov→La Terra→Uetake→Wong) and the strictly stated novelty: "old cell + old centriole → old cell + genuinely new centriole — did the cellular age phenotype change?"; 13-puzzle visualization added (`ENTROPY_RESET_13_PUZZLES.png`).
 
 > **v5.6 changes (per 5th review, 51/100):** Wong 2015 corrected to exact abstract (recovery only in cancer lines; normal cells arrest irreversibly — Phase 1 feasibility question, not premise); interaction-power simulation for H3; N-structure (donors vs replicates) made explicit; ratchet pre-specified falsification; "direct route"→"plausible mediator"; cryo-ET/WGS costing basis; COI rhetoric alignment; 47/47 PMID re-verified (Chen&Yamashita=Open Biology, Zhang=JCR corrected).
 
@@ -123,7 +125,22 @@ Systematic search (PubMed, 2026-08-11) identified **12 experiments** that elimin
 | **PLK4 degrader series 2025–2026** (PMID 41644695; 41453690) | PROTAC-style depletion | Faster, cleaner elimination than competitive inhibition |
 | **Lu et al. 2025** (Cell Reports, PMID 40974574) | MCIDAS nuclear-cytoplasmic translocation | Massive **de novo** centriole amplification (multiciliogenesis) — the natural "boost" mechanism |
 
-**Synthesis for this protocol (peer-review response):** (1) the p53/p21 arrest after centrosome loss is **universal** (Khodjakov, La Terra, Uetake, Mikule, Bazzi, Xie) — justifying pifithrin-α as a mandatory component; (2) recovery of normal division after centrinone washout is **proven** (Wong 2015) but aging phenotypes were never measured — our CRCS closes exactly that gap; (3) de novo assembly is **inefficient in untransformed cells** (Uetake 2007) — motivating the PLK4-pulse boost and the 4-proof verification; (4) parthenogenesis proves de novo suffices for organismal development (Szöllosi 1991; Riparbelli 2017) — the strongest existence proof for the paradigm.
+**Synthesis for this protocol (peer-review response):** (1) the p53/p21 arrest after centrosome loss is **universal** (Khodjakov, La Terra, Uetake, Mikule, Bazzi, Xie) — justifying pifithrin-α as a mandatory component; (2) recovery of division after centrinone washout is **proven only in transformed lines** (Wong 2015 — corrected in v5.6) and aging phenotypes were never measured — our CRCS closes exactly that gap; (3) de novo assembly is **inefficient/error-prone in untransformed cells** (Uetake 2007; La Terra 2005 — initial numbers uncontrolled) — motivating the PLK4-pulse boost, number titration, and the 4-proof verification; (4) parthenogenesis proves de novo suffices for organismal development (Szöllosi 1991; Riparbelli 2017) — the strongest existence proof for the paradigm.
+
+### 3.5 The prototype chain and the actual novelty (2026-08-11, per Gakely)
+
+The four nearest prototypes form an ascending ladder — each solved one technical piece, and each left the same gap:
+
+| Prototype | Solved | Left open |
+|-----------|--------|-----------|
+| **Khodjakov et al. 2002** (CHO, laser microsurgery) | Centriole → removed → **new structure built from zero** | Cell-cycle/aging phenotype after rebuild |
+| **La Terra et al. 2005** (HeLa, laser/needle) | Resident centrioles removed → multiple new centrioles de novo | **Number control** (initially uncontrolled); aging phenotype |
+| **Uetake et al. 2007** (normal human cells) | De novo assembly after removal is a **general capacity of mammalian somatic cells**, not a cancer-cell curiosity | Efficiency low; p53 arrest; aging phenotype |
+| **Wong et al. 2015** (centrinone) | Chemical path: **deplete → wait → restore PLK4 → de novo rebuild** (transformed lines) | Normal-cell recovery (irreversible p53 arrest); aging phenotype |
+
+> **The actual novelty, stated strictly:** *removing the old centriole is not new. De novo creation of a new centriole is not new. **What is new is the question:** does the aging state of the old somatic cell change as a result?* More rigorously: **old cell + old centriole → old cell + genuinely new centriole** — then ask: did the cellular age phenotype change? Every prototype stopped at "the centriole came back"; none measured whether **the cell came back younger**. That single missing measurement is this protocol.
+
+> **Visual (13 puzzle pieces):** `docs/ENTROPY_RESET_13_PUZZLES.png` — 12 Hallmarks of Aging + centriole elimination & de novo synthesis assembling into one picture: the Entropy Reset Protocol. Each hallmark is a known puzzle piece (López-Otín framework, an established topic); the 13th piece — the elimination/de-novo cycle — is the key that locks them into one mechanism.
 
 > **To our knowledge, no study has yet directly tested whether controlled centriole elimination followed by bona fide de novo biogenesis — with four independent proofs of de novo origin — produces OSK-independent improvements in defined cellular aging phenotypes (CRCS) in somatic cells.** Wong 2015 restored proliferation without aging readouts; Renzova 2018 showed differentiation upon acute loss in pluripotent cells (discussed in §4.2). The present program bridges the gap between these two results. (Systematic search re-verified before submission.)
 
