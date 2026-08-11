@@ -1,9 +1,9 @@
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 **Program name (grant platform):** ENTROPY RESET PROGRAM
-**Version:** 5.1 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 5.3 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
 
-> **v5.1 changes (2026-08-11):** §3.4 added — extended review of all 12 published "elimination → recovery" experiments across 5 families (ablation, centrinone, genetic, parthenogenesis, new chemical tools), with synthesis for the protocol. References expanded to 43 (all PubMed-verified).
+> **v5.3 changes (2026-08-11):** MCARA link added — the replicative limit of somatic cells as a race of several counters (telomeres, mitochondria, epigenome, centriole); CEDAR = centriolar counter with two ratchet modes; consequences for the factorial design. Köhrer-erroneous-aging interpretation also removed from MCARA and CEDAR CONCEPT files.
 
 > **Scope declaration.** This is a falsifiable research program, not a claim of established fact. It proposes an organelle-reset paradigm: controlled centriole elimination followed by verified de novo biogenesis, tested against partial epigenetic reprogramming (OSK), with genomic integrity as a non-negotiable gate. Every statement is marked **[E] established / [I] inference / [H] hypothesis / [P] prediction**. Four levels of aging are distinguished throughout: **structural** (organelle), **cellular**, **tissue**, and **organismal** — no level is assumed from the success of the previous one.
 
@@ -152,6 +152,23 @@ Renzova et al. (2018, PMID 30197118) inactivated the PLK4–STIL module in human
 | 5. Readouts | Self-renewal markers | Aging phenotypes (CRCS), not stemness | Loss of self-renewal in Renzova is not a measure of cellular rejuvenation |
 
 **[P] Prediction:** in somatic fibroblasts with p53 suppressed during the window and centrioles rebuilt de novo to 2 per cell, the Renzova outcome (differentiation) should not occur, while CRCS improvement may. If differentiation/self-renewal loss occurs anyway → H2 falsified (pre-registered). Renzova is treated as the **primary prior evidence to be overcome**, not ignored.
+
+### 4.2a The differentiation-ratchet interpretation: why Renzova actually supports the paradigm [H]
+
+Renzova 2018 is not merely a counter-example to be overcome — under the **centriole-as-differentiation-ratchet** hypothesis it is direct supporting evidence. The hypothesis: the centriole/centrosome is a **structural ratchet that locks the cell's current differentiation state**. It does not only count divisions; it anchors identity.
+
+- **Direction of the ratchet:** stem/pluripotent → differentiated (normally irreversible; reprogramming is the rare exception).
+- **Removing the ratchet (centriole loss) releases the anchor:**
+  - In a **pluripotent cell** (Renzova 2018): the anchor of pluripotency is removed → the cell rolls *down* the ratchet → spontaneous differentiation into three germ layers. This is exactly what a ratchet model predicts: without the anchor, the pluripotent state cannot be maintained.
+  - In a **somatic cell** (this protocol): the anchor of the differentiated state is removed → the cell is *plastic* (neither pushed down — it is already at the bottom — nor locked in place) → the plasticity window opens → a **new de novo centriole re-locks a new state** (reprogrammed/rejuvenated).
+- **Molecular mechanism [H]:** CEDAR-γ — the Centrosome-Associated Memory Complex (CAMC) on the mother centriole is the ratchet pawl: it maintains the differentiated state. Centriole loss releases the pawl; de novo assembly installs a fresh pawl that locks the new state.
+
+> **CEDAR unified definition (v5.2):** CEDAR — **C**entriolar **E**ntropy-**D**amage **A**ccumulation **R**atchet — is one ratchet with two modes of action: **(1) the counter mode** (CEDAR-α/β): semi-conservative duplication accumulates entropy/damage with each division (β·t, −λ·N_asym); **(2) the state-lock mode** (CEDAR-γ): the same organelle acts as a **differentiation ratchet** that locks the cell's current identity (pluripotent or differentiated). Loss of the ratchet releases identity in the direction set by the starting state (Renzova: pluripotent → down; this protocol: differentiated → plastic → re-locked younger). The two modes explain both the aging counter and the reprogramming barrier as one mechanism.
+
+> **MCARA link (replicative limit):** MCARA (Multi-Counter Architecture of Replicative Aging) explains the **replicative limit of somatic cells** (Hayflick) as the race between several division counters — telomeres, mitochondria/ROS, epigenome, centriole ("which counter finishes first?"). CEDAR is the centriolar counter. Two consequences for this protocol: **(1)** a single-counter reset (centriole) may improve but not abolish the limit if another counter finishes first — the 2×2 factorial with the hTERT arm (H2 protocol) and the H7 mitochondrial arm control for this; **(2)** "which counter finishes first" becomes directly testable by comparing CRCS gains from single vs. combined resets (factorial decomposition, §12).
+- **Testable predictions that distinguish the ratchet model from a mere "stress" model:** (1) after de novo assembly, the new state must be **stably maintained** (CRCS improvements persist over serial passages — no rollback); (2) the same centriole loss in pluripotent cells causes differentiation (Renzova) while in somatic cells with p53 suppressed it causes plasticity — the *direction* of the outcome is set by the starting state, not by the perturbation; (3) reintroducing an aged centriole into a reset cell re-locks the *old* state (transplantation arm predicts rollback).
+
+> **Synthesis:** Renzova 2018 measured the ratchet's release in one direction (pluripotent → down). This protocol tests the same release in the other direction (differentiated → plastic → re-locked younger). The two results are opposite sides of one mechanism — the ratchet is unidirectional, so the outcome of centriole loss depends entirely on the starting state. This is the deepest available reconciliation of the closest prior experiment with the hypothesis.
 
 ### 4.3 Mechanistic hypotheses (peer-review-critical: "through what pathway?")
 
