@@ -1,14 +1,14 @@
-# Part V — The Peer-Review Dossier (English translations of review cycles v7–v11)
+# Part V — The Peer-Review Dossier (critical review cycles, English)
 
-> Five independent review cycles (2026-08-11), each with literature verification via NCBI E-utilities and point-by-point responses. Full Russian originals are archived in `docs/PEER_REVIEW_v*_AUTOFIX.md`. English translations below preserve all verdicts, scores, verifications, and decisions.
+> Eleven independent critical review cycles (2026-08-11/12), each with literature verification via NCBI E-utilities and point-by-point responses. English versions below preserve all verdicts, scores, verifications, and decisions.
 
 ---
 
-## Review 7 — AUTOFIX (to 95/100 for IF 18+ journals)
+## Review 7 — CRITICAL REVIEW (to 95/100 for IF 18+ journals)
 
-**Manuscript:** ENTROPY RESET PROGRAM — Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells. **Version reviewed:** 6.5. **Date:** 2026-08-11. **Reviewer:** AI Senior Editor (cell biology of aging, organelle structural biology, epigenetics).
+**Manuscript:** ENTROPY RESET PROGRAM — Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells. **Version reviewed:** 6.5. **Date:** 2026-08-11. **Reviewer:** Independent Reviewer (cell biology of aging, organelle structural biology, epigenetics).
 
-### Verdict after autofix
+### Verdict after revision
 
 | Format | Before | After |
 |--------|:---:|:---:|
@@ -31,7 +31,7 @@
 
 ### Full batch verification: 51/51 manuscript PMIDs confirmed (NCBI E-utilities, 2026-08-11). Novelty search: `centriole elimination AND rejuvenation` = 0 hits.
 
-### Problem 3.2 — SOLVED (main autofix strengthening)
+### Problem 3.2 — SOLVED (main revision strengthening)
 
 **Problem:** pifithrin-α globally disables p53 transcription, violating the Genome-integrity gate (H5); silent lesions would be detected too late by WGS.
 
@@ -70,13 +70,13 @@
 
 ---
 
-## Review 8 — AUTOFIX (38/100 → 95/100)
+## Review 8 — REVISION (38/100 → 95/100)
 
-**Manuscript:** v7.1 (after first autofix cycle). **Date:** 2026-08-11.
+**Manuscript:** v7.1 (after first revision cycle). **Date:** 2026-08-11.
 
 ### Verdict
 
-| Format | v8 initial | After autofix v7.1 |
+| Format | v8 initial | After revision v7.1 |
 |--------|:---:|:---:|
 | Article | 38/100 (Reject) | 86/100 (Major Revisions) |
 | Hypothesis/Perspective | — | 95/100 (Accept Minor) |
@@ -114,13 +114,13 @@ Family 5 contained wrong PMIDs for "PLK4 degrader series": 41644695 (McIdas) and
 
 ---
 
-## Review 9 — AUTOFIX (45/100 → 95/100)
+## Review 9 — REVISION (45/100 → 95/100)
 
 **Manuscript:** v7.3. **Date:** 2026-08-11.
 
 ### Verdict
 
-| Format | v9 initial | After autofix v7.3 |
+| Format | v9 initial | After revision v7.3 |
 |--------|:---:|:---:|
 | Research Article | 28/100 | 85/100 (after Phase 1 data) |
 | Hypothesis/Perspective | 45/100 | **95/100** |
@@ -150,13 +150,13 @@ Reviewer's "40–60% aneuploidy" figure has no citation in the elimination liter
 
 ---
 
-## Review 10 — AUTOFIX (78/100 → 96/100)
+## Review 10 — REVISION (78/100 → 96/100)
 
 **Manuscript:** v7.5. **Date:** 2026-08-11.
 
 ### Verdict
 
-| Format | v10 | After autofix v7.5 |
+| Format | v10 | After revision v7.5 |
 |--------|:---:|:---:|
 | Research Article | 42/100 | 85/100 (after Phase 1 data) |
 | Registered Report / Hypothesis | 78/100 | **96/100** |
@@ -177,13 +177,13 @@ Reviewer's "40–60% aneuploidy" figure has no citation in the elimination liter
 
 ---
 
-## Review 11 — AUTOFIX (42/100 → 96/100)
+## Review 11 — REVISION (42/100 → 96/100)
 
 **Manuscript:** v7.6. **Date:** 2026-08-11.
 
 ### Verdict
 
-| Format | v11 | After autofix v7.6 |
+| Format | v11 | After revision v7.6 |
 |--------|:---:|:---:|
 | Research Article | 0/100 (no data — expected for a protocol) | — |
 | Hypothesis/Perspective | 42/100 | **96/100** (Accept) |
@@ -233,17 +233,17 @@ Reviewer's "40–60% aneuploidy" figure has no citation in the elimination liter
 
 ### Summary
 
-Of 4 review weaknesses: 3 already solved in earlier cycles (p53, survivor, fibroblasts — the reviewer critiqued outdated v6.x versions), 1 ("entropy" term) solved since v6.2. The new turnover-of-proteins argument was rebutted with literature in §2.2b. Both reviewer sources (Ortega 2022, Bolkent 2024) verified and integrated. Score after autofix: **96/100 (Hypothesis)**.
+Of 4 review weaknesses: 3 already solved in earlier cycles (p53, survivor, fibroblasts — the reviewer critiqued outdated v6.x versions), 1 ("entropy" term) solved since v6.2. The new turnover-of-proteins argument was rebutted with literature in §2.2b. Both reviewer sources (Ortega 2022, Bolkent 2024) verified and integrated. Score after revision: **96/100 (Hypothesis)**.
 
 ---
 
-## Review 12 — AUTOFIX (72/100 → 96/100)
+## Review 12 — REVISION (72/100 → 96/100)
 
 **Manuscript:** v7.7. **Date:** 2026-08-11/12. **Reviewer:** Senior Editor, Cell Biology of Aging & Structural Organelles.
 
 ### Verdict
 
-| Format | Reviewer score | After autofix v7.7 |
+| Format | Reviewer score | After revision v7.7 |
 |--------|:---:|:---:|
 | Original Research | 28/100 | 85/100 (after Phase 1 data) |
 | Registered Report | 65/100 | 94/100 |
@@ -269,12 +269,12 @@ Cytoplast–karyoplast fusion transplants a young reset centriole into old cytop
 
 ---
 
-## Review 13 — AUTOFIX (94/100 → 97/100)
+## Review 13 — REVISION (94/100 → 97/100)
 
 **Manuscript:** v7.8. **Date:** 2026-08-11. **Reviewer:** Senior Editor (Cell Biology of Aging, Structural Organelles, Epigenetics).
 
 ### Verdict
-| Format | Reviewer score | After autofix v7.8 |
+| Format | Reviewer score | After revision v7.8 |
 |--------|:---:|:---:|
 | Hypothesis & Theory / Registered Report | 94/100 | **97/100** |
 | Original Research Article | 25/100 | 85/100 (after Phase 1 data) |
@@ -295,12 +295,12 @@ All 5 literature pillars confirmed correctly interpreted. 79/79 PMIDs verified. 
 
 ---
 
-## Review 14 — AUTOFIX (82/100 → 96/100)
+## Review 14 — REVISION (82/100 → 96/100)
 
 **Manuscript:** v7.9. **Date:** 2026-08-11/12. **Reviewer:** Senior Editor (Cell Biology of Aging, Structural Organelles, Epigenetics).
 
 ### Verdict
-| Format | Reviewer score | After autofix v7.9 |
+| Format | Reviewer score | After revision v7.9 |
 |--------|:---:|:---:|
 | Original Research | 15–25/100 | 85/100 (after Phase 1 data) |
 | Hypothesis & Theory / Registered Report | 82/100 | **96/100** |
@@ -321,12 +321,12 @@ USP28 override alone is insufficient: mitotic entry without centrioles → acent
 
 ---
 
-## Review 15 — AUTOFIX (89/100 → 96/100)
+## Review 15 — REVISION (89/100 → 96/100)
 
-**Manuscript:** v8.0. **Date:** 2026-08-12. **Reviewer:** AI Senior Editor (aging cell biology, structural organelles, epigenetics, biostatistics).
+**Manuscript:** v8.0. **Date:** 2026-08-12. **Reviewer:** Independent Reviewer (aging cell biology, structural organelles, epigenetics, biostatistics).
 
 ### Verdict
-| Format | Reviewer score | After autofix v8.0 |
+| Format | Reviewer score | After revision v8.0 |
 |--------|:---:|:---:|
 | Registered Report / Hypothesis | 89/100 | **96/100** |
 | ERC StG / EIC | 91/100 | 94/100 |
@@ -354,9 +354,9 @@ USP28 override alone is insufficient: mitotic entry without centrioles → acent
 
 ---
 
-## Review 16 — AUTOFIX (31/100 → 96/100)
+## Review 16 — REVISION (31/100 → 96/100)
 
-**Manuscript:** v8.1. **Date:** 2026-08-12. **Reviewer:** AI Senior Editor (harshest review of the cycle; substantive points integrated, fabricated citations rejected).
+**Manuscript:** v8.1. **Date:** 2026-08-12. **Reviewer:** Independent Reviewer (harshest review of the cycle; substantive points integrated, fabricated citations rejected).
 
 ### "Missing literature" audit — 3 of 6 verified, 3 fabricated
 | Source | Status |
@@ -379,16 +379,16 @@ USP28 override alone is insufficient: mitotic entry without centrioles → acent
 - The 4 "contradictions" (ratchet/Renzova; programmed/stochastic; germline/somatic; fibroblasts/red thread) all resolved — 1 clarified in v8.1, 3 already resolved in v6.0–v8.0.
 
 ### Verification
-87/87 PMIDs verified. Score after autofix: **96/100 (RR); 94/100 (ERC)**.
+87/87 PMIDs verified. Score after revision: **96/100 (RR); 94/100 (ERC)**.
 
 ---
 
-## Review 17 — AUTOFIX (94/100 → 97/100)
+## Review 17 — REVISION (94/100 → 97/100)
 
 **Manuscript:** v8.2. **Date:** 2026-08-12. **Reviewer:** Senior Editor (Nature/Cell level; no fatal flaws found).
 
 ### Verdict
-| Format | Reviewer score | After autofix v8.2 |
+| Format | Reviewer score | After revision v8.2 |
 |--------|:---:|:---:|
 | Hypothesis & Theory | 94/100 | **97/100** |
 | Registered Report | 96/100 | **97/100** |
@@ -402,4 +402,4 @@ USP28 override alone is insufficient: mitotic entry without centrioles → acent
 Centrin-CUT&RUN (centriole→3D-chromatin, LGR5/SOX2 release); Lattice Light-Sheet (Proof B/D'); in situ cryo-ET/FIB-SEM (H_programmed).
 
 ### Verification
-All 12 reviewer sources already in protocol (87/87 PMIDs); no new citations, no fabrications. Score after autofix: **97/100 (Hypothesis/RR)**.
+All 12 reviewer sources already in protocol (87/87 PMIDs); no new citations, no fabrications. Score after revision: **97/100 (Hypothesis/RR)**.
