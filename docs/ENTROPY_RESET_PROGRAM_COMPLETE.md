@@ -1,6 +1,6 @@
 # ENTROPY RESET PROGRAM — Complete Package (centriole-focused)
 **Single consolidated document · 2026-08-11 · Jaba Tqemaladze, MD (Georgia Longevity Alliance)**
-**Contains:** Red Thread · Entropy Reset Protocol v6.5 · Grant Core v2.7 (incl. MD-eligibility option for ERC StG) · Search Appendix · Gakely Prototype Chain
+**Contains:** Red Thread · Entropy Reset Protocol v6.5 · Grant Core v2.7 (incl. MD-eligibility option, correct deadlines) · Search Appendix · Gakely Prototype Chain
 **Repos:** github.com/Georgia-Longevity-Alliance/ARGUS-OS3 · github.com/djabbat/LC · github.com/djabbat/Marketing
 
 ---
@@ -571,7 +571,7 @@ Full transparency, per journal COI standards:
 
 # ENTROPY RESET PROGRAM — The Grant Core for Marketing Projects
 
-**Version:** 2.6 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 2.7 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
 **Purpose:** Make the Centriole Reset program (Entropy Reset Protocol v6.2) the single scientific core of every grant application under the Marketing umbrella.
 
 > **Peer-review response (v2.1).** Following seven independent reviews (78, 41, 42, 47, 51, 31, 65/100) + Gakely rounds, the program now includes: search expanded to Europe PMC (preprints disclosed incl. 2 author preprints) + Crossref; DOI cross-check (39/47); MDE biologically anchored to OSK effect sizes; FDR q=0.05; safety futility stop; explicit fibroblast→stem-cell extrapolation boundary in the abstract; de-hyped publication title; quantitative meta-analysis plan (checkpoint passage rate). Plus all prior: prior-evidence dialogue with **Wong 2015 corrected to its exact abstract**; Renzova 2018 contradiction resolved; **tissue-specificity of asymmetric inheritance registered** (neuroblast counterexample — Januschke 2011); **p53-suppression confounder arm** (H6 + dedicated control arm E — p53-suppression-only, no reset); "programmed geometry" made falsifiable (H_programmed, cryo-ET test); **centriole-number gate E** (exactly 2, N≥20 clones); **red thread reframed as cell/tissue-level hypothesis** (in vivo ladder required for organismal claims); **OSK explicitly leveled** (organismal benchmark) vs. centriole reset (cell-level candidate); pre-registered CRCS SAP with fixed 1/6 weights; interaction-power simulation for H3; phased budget ($1.5M/48 mo); full COI disclosure incl. expanded rhetoric alignment; 47/47 PMID re-verified; systematic-search appendix (`APPENDIX_SEARCH_PROTOCOL.md`).
@@ -671,11 +671,10 @@ Each track funds a distinct deliverable; no experiment is billed twice: ERC StG 
 
 | Date | Action | Track |
 |------|--------|-------|
-| 31 Aug | Cologne workshop (Entropy-in-Aging) | AEON |
 | 31 Aug–2 Sep | Cologne workshop (Entropy-in-Aging) | AEON |
 | 17 Sep | **CIRCBIO-07 / AlaoLine Part B** | EIC Pathfinder (consortium: INRAE+Quadram+DTU) |
 | 14 Oct | ERC StG Part B1 (CentrioleReset) | ERC — official, erc.europa.eu |
-| 15 Oct | SRNSFG AR-2026 | National |
+| 15 Oct | SRNSFG AR-2026 (Shota Rustaveli NSF Georgia, Applied Research; MIC-associated) | National (Georgia) |
 | 28 Oct | EIC Pathfinder Challenges — **MCARA only** | EIC — separate call from CIRCBIO-07 |
 
 **Submission rules:** open with the core sentence (§1); structure WPs on the matrix (§3); state the gates (§4); include falsification criteria and the systematic-search statement ("To our knowledge, no study has yet directly tested…", re-verified before submission).
@@ -683,6 +682,17 @@ Each track funds a distinct deliverable; no experiment is billed twice: ERC StG 
 ---
 
 *"One program. Twelve readouts. Zero meiotic reduction. All claims falsifiable."*
+
+
+
+## 8. MD eligibility for ERC StG (14 Oct 2026) — option registered (2026-08-11)
+
+**Decision recorded (per Jaba):** attempt the ERC StG 14 Oct 2026 submission **with MD status** (no completed PhD at submission).
+
+- **Official requirement:** ERC StG PI must hold a PhD (or recognized equivalent) within a 0–10-year window since completion.
+- **MD-as-equivalent question:** whether MD + long scientific track record (publications since 2005) qualifies as "recognized equivalent" is **not decided by the documents** — must be confirmed with (a) host institution (UNED Madrid / CECAD Cologne) and (b) ERC Helpdesk before drafting the full Part B1.
+- **Contingency (parallel):** if MD is ruled ineligible, the same Part B1 is re-targeted to (i) EIC Pathfinder Open (PI without PhD, consortium) and/or (ii) ERC StG 2027 cycle after PhD completion.
+- **Action item:** written eligibility query to ERC Helpdesk + host institution **before 2026-08-20** (leaves 8 weeks to the 14 Oct deadline).
 
 
 ---
