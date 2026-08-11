@@ -1,7 +1,7 @@
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 **Program name (grant platform):** ENTROPY RESET PROGRAM
-**Version:** 5.3 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 5.4 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
 
 > **v5.3 changes (2026-08-11):** MCARA link added — the replicative limit of somatic cells as a race of several counters (telomeres, mitochondria, epigenome, centriole); CEDAR = centriolar counter with two ratchet modes; consequences for the factorial design. Köhrer-erroneous-aging interpretation also removed from MCARA and CEDAR CONCEPT files.
 
@@ -305,6 +305,8 @@ Imaging (morphology) · Ultrastructure (EM/cryo-ET) · Molecular (centriole prot
 | A. Chronological age (β·t) | Long-lived organelle accumulates PTM/stochastic damage | [I]—[H] |
 | B. Asymmetric stem-cell divisions (−λ·N_asym) | Older centrosome retained by stem cell; may bias fate | [E] inheritance; [H] accumulation |
 | C. Differentiating daughters without elimination | Mammals retain; C. elegans eliminates | [E] both strategies exist; [H] consequence |
+
+> **Red thread (2026-08-11):** The organism ages because the **oldest centrioles — carrying the most errors — accumulate in stem cells**: division tempo falls and niche-signal perception falls (centrosome + cilium function), so **tissue self-repair declines while self-destruction rises** (imbalance: repair↓ / destruction↑). This is the proximate mechanism of aging, retained across CEDAR (v1.7), MCARA (v5.7), and this protocol.
 
 This regime analysis motivates the protocol; it is **not** evidence of the causal claim.
 
