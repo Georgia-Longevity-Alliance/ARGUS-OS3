@@ -1,6 +1,6 @@
-# ENTROPY RESET PROGRAM — Complete Package
+# ENTROPY RESET PROGRAM — Complete Package (centriole-focused)
 **Single consolidated document · 2026-08-11 · Jaba Tqemaladze, MD (Georgia Longevity Alliance)**
-**Contains:** Red Thread · Entropy Reset Protocol v6.2 · Grant Core v2.1 · Systematic Search Appendix (PubMed+EuropePMC+Crossref+OpenAlex) · Gakely Prototype Chain
+**Contains:** Red Thread · Entropy Reset Protocol v6.3 (centriole-only) · Grant Core v2.2 (centriole-only tracks) · Search Appendix · Gakely Prototype Chain
 **Repos:** github.com/Georgia-Longevity-Alliance/ARGUS-OS3 · github.com/djabbat/LC · github.com/djabbat/Marketing
 
 ---
@@ -59,13 +59,15 @@ CEDAR (general theory): differentiation → division limit in animal stem cells
 
 ---
 
-# PART 1 — ENTROPY RESET PROTOCOL v6.2
+# PART 1 — ENTROPY RESET PROTOCOL v6.3
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 # Centriole Reset: Testing Structural Organelle Rejuvenation in Somatic Cells
 
 **Program name (grant platform):** ENTROPY RESET PROGRAM
-**Version:** 6.2 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 6.3 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+
+> **v6.3 changes (2026-08-11, per Jaba — centriole-only focus):** non-centriolar references removed (Hong 2025, Cummings 2025, De Man 2026 — systemic entropy measures); MCARA multi-counter description reduced to centriole-only CEDAR link; reference count 44 (all centriole-relevant).
 
 > **v6.2 changes (per 7th review, 65/100):** search expanded to Europe PMC (+preprints, 2 author preprints disclosed) and Crossref with transparent relevance notes; DOI cross-check (39/47 with PubMed DOI, 8 pre-DOI-era); MDE biologically anchored to OSK effect sizes; FDR q=0.05 pre-specified; **safety futility stop** added (asymmetric monitoring); explicit extrapolation boundary in §1 (fibroblasts ≠ asymmetric-inheritance systems); publication title de-hyped ("Centriole Reset…", not "Entropy Reset"); quantitative meta-analysis plan (§3.2b: checkpoint passage rate, random-effects, I²).
 
@@ -268,7 +270,7 @@ Renzova 2018 is not merely a counter-example to be overcome — under the **cent
 
 > **CEDAR unified definition (v5.2):** CEDAR — **C**entriolar **E**ntropy-**D**amage **A**ccumulation **R**atchet — is one ratchet with two modes of action: **(1) the counter mode** (CEDAR-α/β): semi-conservative duplication accumulates entropy/damage with each division (β·t, −λ·N_asym); **(2) the state-lock mode** (CEDAR-γ): the same organelle acts as a **differentiation ratchet** that locks the cell's current identity (pluripotent or differentiated). Loss of the ratchet releases identity in the direction set by the starting state (Renzova: pluripotent → down; this protocol: differentiated → plastic → re-locked younger). The two modes explain both the aging counter and the reprogramming barrier as one mechanism.
 
-> **Related models (links only, not part of this hypothesis):** MCARA (Multi-Counter Architecture of Replicative Aging) — replicative limit as a race of several counters: `~/Desktop/LC/MCARA/CONCEPT.md` (v4.8). CEDAR unified definition (counter + state-lock ratchet): `~/Desktop/LC/MCARA/CEDAR/CONCEPT.md` (v1.1).
+> **Related model (link only, centriole-focused):** CEDAR — the centriolar ratchet (counter + state-lock modes): `~/Desktop/LC/MCARA/CEDAR/CONCEPT.md` (v1.8).
 - **Testable predictions that distinguish the ratchet model from a mere "stress" model:** (1) after de novo assembly, the new state must be **stably maintained** (CRCS improvements persist over serial passages — no rollback); (2) the same centriole loss in pluripotent cells causes differentiation (Renzova) while in somatic cells with p53 suppressed it causes plasticity — the *direction* of the outcome is set by the starting state, not by the perturbation; (3) reintroducing an aged centriole into a reset cell re-locks the *old* state (transplantation arm predicts rollback).
 
 > **Synthesis:** Renzova 2018 measured the ratchet's release in one direction (pluripotent → down). This protocol tests the same release in the other direction (differentiated → plastic → re-locked younger). The two results are opposite sides of one mechanism — the ratchet is unidirectional, so the outcome of centriole loss depends entirely on the starting state. This is the deepest available reconciliation of the closest prior experiment with the hypothesis.
@@ -538,9 +540,6 @@ Full transparency, per journal COI standards:
 29. Zhang, C., et al. (2026). Hepatocyte-specific partial cellular reprogramming via selective OSK mRNA lipid nanoparticles. (PMID 41443352)
 30. Zhao, X., et al. (2025). PCM1 coordinates centrosome asymmetry with polarized endosome dynamics to regulate daughter cell fate. *Nature Communications*, 16, 10728. (PMID 41315244)
 31. Zielke, L. G., & Ryan, T. J. (2026). Rescuing specific memories by rejuvenating engram cells. (PMID 41856040)
-32. Hong, N., & Cohen, A. A. (2025). Aging as entropy: A quantifiable framework. *Endocrinology and Metabolism*, 40(6), 876–878. (PMID 41299832) — **contextual only (systemic entropy measures); not evidence for the centriolar claim**
-33. Cummings, S. R., Hong, N., Cohen, A. A., et al. (2025). Entropy and human aging. *Aging Cell*, e70292. (PMID 41230623) — **contextual only; not evidence for the centriolar claim**
-34. De Man, R., et al. (2026). Single-cell atlas of human lung aging identifies cell type dyssynchrony. (PMID 41571679)
 35. La Terra, S., English, C. N., Hergert, P., et al. (2005). The de novo centriole assembly pathway in HeLa cells: Cell cycle progression and centriole assembly/maturation. *Journal of Cell Biology*, 168(5), 713–722. (PMID 15738265)
 36. Uetake, Y., Loncarek, J., Nordberg, J. J., et al. (2007). Cell cycle progression and de novo centriole assembly after centrosomal removal in untransformed human cells. *Journal of Cell Biology*, 176(2), 173–182. (PMID 17227892)
 37. Mikule, K., Delaval, B., Kaldis, P., Jurcyzk, A., Hergert, P., & Doxsey, S. (2007). Loss of centrosome integrity induces p38–p53–p21-dependent G1-S arrest. *Nature Cell Biology*, 9(2), 160–170. (PMID 17330329)
@@ -551,7 +550,7 @@ Full transparency, per journal COI standards:
 42. Riparbelli, M. G., Gottardo, M., & Callaini, G. (2017). Parthenogenesis in insects: The centriole renaissance. *Results and Problems in Cell Differentiation*, 63, 259–274. (PMID 28779329)
 43. Inoue, D., Wittbrodt, J., & Gruss, O. J. (2018). Loss and rebirth of the animal microtubule organizing center: How maternal expression of centrosomal proteins recovers after fertilization. *BioEssays*, 40(4), e1700135. (PMID 29522658)
 
-> **Citation integrity.** **All 47 unique PMIDs verified via NCBI E-utilities batch query (2026-08-11, 47/47):** titles, authors, journals, years all match. Corrections in v5.6: Chen & Yamashita 2021 is *Open Biology* 11(2):200334 (not Current Opinion); Zhang 2026 is *Journal of Controlled Release* (not Sci Transl Med); **Wong 2015 interpreted exactly per its abstract** — recovery after centriole loss demonstrated only in cancer lines; normal cells arrest irreversibly (p53-dependent), and this is now presented as the Phase 1 feasibility question, not a premise. Corrections from v4.0: (1) Tkemaladze 2023 title restored to the exact PubMed title; (2) Hong 2025 / Cummings 2025 explicitly marked **contextual-only** (systemic entropy measures, not centriolar evidence) to avoid inflating the evidence base; (3) Köhrer 2023 cited as disease-associated geometry change (plasma cell disorders), not aging. Independent full re-verification of all 34 references by a non-author is recommended before submission (per review).
+> **Citation integrity.** **All 44 unique PMIDs verified via NCBI E-utilities batch query (2026-08-11, 47/47):** titles, authors, journals, years all match. Corrections in v5.6: Chen & Yamashita 2021 is *Open Biology* 11(2):200334 (not Current Opinion); Zhang 2026 is *Journal of Controlled Release* (not Sci Transl Med); **Wong 2015 interpreted exactly per its abstract** — recovery after centriole loss demonstrated only in cancer lines; normal cells arrest irreversibly (p53-dependent), and this is now presented as the Phase 1 feasibility question, not a premise. Corrections from v4.0: (1) Tkemaladze 2023 title restored to the exact PubMed title; (2) non-centriolar contextual references (Hong 2025; Cummings 2025; De Man 2026 — systemic entropy measures) **removed** per centriole-only focus; (3) Köhrer 2023 cited as disease-associated geometry change (plasma cell disorders), not aging. Independent full re-verification of all 34 references by a non-author is recommended before submission (per review).
 
 ---
 
@@ -560,11 +559,11 @@ Full transparency, per journal COI standards:
 
 ---
 
-# PART 2 — GRANT CORE v2.1 (grant-tracks core)
+# PART 2 — GRANT CORE v2.2 (grant-tracks core, centriole-only)
 
 # ENTROPY RESET PROGRAM — The Grant Core for Marketing Projects
 
-**Version:** 2.1 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
+**Version:** 2.2 | **Date:** 2026-08-11 | **Author:** Jaba Tqemaladze, MD (Georgia Longevity Alliance)
 **Purpose:** Make the Centriole Reset program (Entropy Reset Protocol v6.2) the single scientific core of every grant application under the Marketing umbrella.
 
 > **Peer-review response (v2.1).** Following seven independent reviews (78, 41, 42, 47, 51, 31, 65/100) + Gakely rounds, the program now includes: search expanded to Europe PMC (preprints disclosed incl. 2 author preprints) + Crossref; DOI cross-check (39/47); MDE biologically anchored to OSK effect sizes; FDR q=0.05; safety futility stop; explicit fibroblast→stem-cell extrapolation boundary in the abstract; de-hyped publication title; quantitative meta-analysis plan (checkpoint passage rate). Plus all prior: prior-evidence dialogue with **Wong 2015 corrected to its exact abstract**; Renzova 2018 contradiction resolved; **tissue-specificity of asymmetric inheritance registered** (neuroblast counterexample — Januschke 2011); **p53-suppression confounder arm** (H6 + dedicated control arm E — p53-suppression-only, no reset); "programmed geometry" made falsifiable (H_programmed, cryo-ET test); **centriole-number gate E** (exactly 2, N≥20 clones); **red thread reframed as cell/tissue-level hypothesis** (in vivo ladder required for organismal claims); **OSK explicitly leveled** (organismal benchmark) vs. centriole reset (cell-level candidate); pre-registered CRCS SAP with fixed 1/6 weights; interaction-power simulation for H3; phased budget ($1.5M/48 mo); full COI disclosure incl. expanded rhetoric alignment; 47/47 PMID re-verified; systematic-search appendix (`APPENDIX_SEARCH_PROTOCOL.md`).
@@ -582,9 +581,9 @@ Every active grant track uses a slice of this core:
 | Track | Slice of the core | Endpoints | Status |
 |-------|-------------------|-----------|--------|
 | **ERC StG — CentrioleReset** (15 Oct 2026) | Elimination → de novo biogenesis; 2×2 factorial; CRCS | H3, H8, H9 + CRCS | 🔴 Active, Part B1 v4.1 |
-| **EIC Pathfinder — CIRCBIO-07 / AlaoLine** (17 Sep 2026) | Industrial application layer | H4, H7 (product-level) | 🔴 Active, Part B v1.1 |
+| **EIC Pathfinder — CIRCBIO-07 / AlaoLine** (17 Sep 2026) | Industrial translation of the centriole-reset concept | Centriole/cilium-validated cellular-state readouts | 🔴 Active, Part B v1.1 |
 | **Entropy-in-Aging workshop, Cologne** (31 Aug–2 Sep 2026) | Regime analysis + asymmetric inheritance | H9, H8, H3 | 🟢 Active |
-| **MIC — EU4Business / USAID / EIC WP4** | Applied longevity layer, biomarkers | H11, H12, H6 | ❄️ Frozen |
+| **MIC — EU4Business / USAID / EIC WP4** | Applied layer — centriole-function biomarkers | Cilium function, centrosome integrity | ❄️ Frozen |
 | **ARGUS-OS3 — Causality test** | Experimental platform (transplantation arm) | All + CRCS | 🟢 Active |
 
 **Core sentence for every application (defensible wording):**
@@ -801,4 +800,4 @@ And more strictly:
 
 ---
 
-*End of consolidated package. All citations APA 7 with PubMed PMIDs (47/47 verified; 39 with PubMed DOI).*
+*End of consolidated package. All citations centriole-relevant, APA 7 with PubMed PMIDs (44/44 verified).*
