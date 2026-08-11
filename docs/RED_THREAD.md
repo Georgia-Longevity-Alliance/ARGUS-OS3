@@ -39,8 +39,8 @@ CEDAR (general theory): differentiation → division limit in animal stem cells
 |----------|:---:|
 | CEDAR CONCEPT (LC/MCARA/CEDAR) | v1.8 |
 | MCARA CONCEPT (LC/MCARA) | v5.8 |
-| ENTROPY_RESET_PROTOCOL (ARGUS-OS3 / Desktop / GitHub) | v6.0 |
-| ENTROPY_RESET_GRANT_CORE (Marketing/docs / Desktop) | v1.9 |
+| ENTROPY_RESET_PROTOCOL (ARGUS-OS3 / Desktop / GitHub) | v6.1 |
+| ENTROPY_RESET_GRANT_CORE (Marketing/docs / Desktop) | v2.0 |
 | ERC Part B1 (Marketing/ERC_StG_2026_CentrioleReset) | v4.5 |
 | ERC CONCEPT | updated |
 | Entropy-in-Aging CONCEPT (Cologne workshop) | v1.4 |
