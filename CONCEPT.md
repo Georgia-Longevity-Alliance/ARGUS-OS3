@@ -112,7 +112,7 @@ Saiki (1993) achieved 36-90% transplantation efficiency for WHOLE centrosomes in
 
 ## Consumables (annual)
 
-| **C. elegans maintenance** (NGM agar, OP50/NA22 bacteria, cholesterol, Petri dishes) | **$3,500** |
+| **Embryo-line maintenance** (NGM agar, OP50/NA22 bacteria, cholesterol, Petri dishes) | **$3,500** |
 | **RNAi/strain maintenance** (clones, IPTG, antibiotics, feeding plates) | **$2,000** |
 | **Cell culture** (DMEM/RPMI, FBS, pen/strep, trypsin, plastics) | **$8,000** |
 | **CO₂ gas + incubator supplies** (cylinders, rental, HEPA filters) | **$3,000** |
