@@ -967,4 +967,34 @@ And more strictly:
 
 ---
 
+## Addendum 2026-10-05 — Germline reset: molecular mechanics of "Eliminate → Rebuild" (Semantic Scholar alert)
+
+> **Source:** weekly Semantic Scholar alert (6 papers) + deep PubMed search. All PMIDs verified 2026-10-05.
+> **Full analysis:** `~/Desktop/LC/MCARA/CEDAR/docs/ANALYSIS_2026-10-05_CentrosomeInheritance_OocyteFidelity.md`
+
+### 1. The germline is a molecularly characterized "Eliminate → Rebuild" machine
+The protocol's two-step core (Eliminate old centriole → Rebuild de novo) is now directly evidenced in nature:
+
+| Step | Nature's mechanism | PMID/DOI | Strength |
+|------|-------------------|----------|:---:|
+| **Eliminate** | CDK1→SAS-6 phosphorylation disrupts phase separation → cartwheel disassembly → centriole elimination (oogenesis) | 40410380 (Qi 2025, C. elegans) + 36356903 (Huang 2022, human) | Strong |
+| **Acentriolar window** | Oocyte builds bipolar meiotic spindle WITHOUT canonical centrosomes: huoMTOC (TACC3/CCP110/CKAP5/DISC1) in human; aMTOC in mouse/equine; RanGTP+augmin conserved | 36395215 (Wu 2022 Science), 31249032 (So 2019 Science), thesis 10.33540/3770 (Aparicio) | Strong |
+| **Rebuild (paternal template)** | Sperm contributes proximal (canonical) + distal (atypical, remodeled) centrioles; sperm aster → bipolar spindle; centriole descendants traced to blastocyst | 29880810 (Fishman 2018), 9225167 (Sathananthan 1997) | Strong |
+| **Amplification** | Cell-cycle oscillators repurposed → mass centriole biogenesis without division (multiciliated cells) | 42782440 (Ortiz-Álvarez 2026), 42782439 (Ow & Aydogan 2026) | Strong |
+
+**Bottom line for the protocol:** nature's reset is **not** "pure de novo from proteins" — it is *elimination + acentriolar MTOC window + rebuild from a paternal template + oscillator-driven amplification*. This suggests the protocol's Step 4 (Rebuild) should plan for an **intermediate acentriolar MTOC stage** (aMTOC-like) rather than jumping straight to templated duplication.
+
+### 2. New risk to the "D≈0" assumption — paternal centriole entropy transfer
+- The zygote's centrioles descend from the **paternal proximal centriole** (Sathananthan 1997; Uzbekov & Avidor-Reiss 2024, PMID 38442864: older proximal centrioles preferentially eliminated).
+- **Open question (now a falsifier):** does the paternal centriole carry age-associated damage (polyGlu/oxidation) into the zygote? If yes, zygote starts with D>0 and **paternal age becomes an input parameter** of the reset model.
+- **Proposed test:** bovine zygote model, GT335/oxidative markers on sperm proximal centriole vs paternal age vs cleavage quality (see CEDAR Experimental Design #4).
+
+### 3. Score update
+- CEDAR Counter #1 → 8.5/10; germline reset concept → **molecularly grounded** (was: hypothesis).
+- MCARA overall → 8.2/10. MitoROS Counter #3 → 9.0/10 (oocyte mitochondrial selection; Lane & Pomiankowski 2026, PMID 41923599).
+
+---
+
+*Addendum verified 2026-10-05. Count of verified PMIDs in package: 47 + 12 = 59.*
+
 *End of consolidated package. All citations APA 7 with PubMed PMIDs (47/47 verified).*

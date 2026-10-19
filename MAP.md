@@ -46,7 +46,7 @@ ARGUS-LP_OS (v1.0)          ARGUS-OS2 (v2.0)            ARGUS-OS3 (v3.0)
     ├─ Jetson Orin NX           ├─ Jetson (shared)          ├─ Mac M4 Pro
     ├─ 1× NV camera             ├─ 1× NV (shared)           ├─ 2× NV cameras
     ├─ RPE1                     ├─ RPE1 Odf2 KO             ├─ hTERT-NPCs
-    └─ $24,053                  └─ +$3,000                  └─ $40,600
+    └─ $24,053                  └─ +$3,000                  └─ $44,426 (HW)
 ```
 
 ## Links

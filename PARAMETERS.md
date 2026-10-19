@@ -41,11 +41,13 @@
 | Pilot B | RPE1, whole-cell ablation, 20 pairs | 2 weeks | ≥85% specific |
 | Main | hTERT-NPCs, 100 pairs (50A+50B) | 4 weeks | — |
 
-## Budget
+## Budget (hardware)
+
+> Scope note: this is the OS3 **hardware** budget. The full research-program budget is **$477,000–557,000** (CONCEPT.md, GRAND TOTAL); the phased protocol budget is ~$1.5M/48 months (ENTROPY_RESET_PROTOCOL.md §13).
 
 | Line item | $ |
 |-----------|--:|
-| **Base platform (ARGUS-LP_OS v477,000.0)** | 24,053 |
+| **Base platform (ARGUS-LP_OS v1.0)** | 24,053 |
 | Micromanipulator module (FOSH + microinjector) | 1,208 |
 | UV-C sterilisation | 500 |
 | Femtosecond laser (used) | 8,000 |
@@ -55,5 +57,7 @@
 | Multi-camera night vision | 70 |
 | Internal storage | 300 |
 | **Subtotal** | **38,631** |
-| **+15% contingency** | **1,969** |
-| **TOTAL** | **$40,600** |
+| **+15% contingency** | **5,795** |
+| **TOTAL** | **$44,426** |
+
+> **Budget reconciliation (2026-10-19):** subtotal (38,631) recomputed from line items and verified; contingency corrected from 1,969 (≈5.1%, inconsistent with the 15% label) to 5,795 (=15% of 38,631); TOTAL corrected from 40,600 to 44,426. Base-platform version string was corrupted ("v477,000.0") and restored to v1.0.

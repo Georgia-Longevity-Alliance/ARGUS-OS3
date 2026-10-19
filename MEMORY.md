@@ -6,7 +6,7 @@
 - **Rationale:** v1.0 (observation), v2.0 (causality/Odf2 KO), v3.0 (ablation) — three separate grants, three separate projects
 - **Naming:** ARGUS-OS3 = v3.0 platform version. Previously embedded in ARGUS-LP_OS as "v2.0". Renamed for clean integer versioning when OS2 was created.
 - **Hardware:** Inherits glove-box + OF from v1.0. Adds: micromanipulator, fs laser, sCMOS, Mac M4 Pro, UV-C, multi-camera NV, storage.
-- **Budget:** $40,600 total ($24,053 base + $16,547 additions)
+- **Budget:** hardware $44,426 total (subtotal $38,631 + 15% contingency $5,795; corrected 2026-10-19 — was $40,600 with an inconsistent ≈5.1% contingency of 1,969). Full research-program budget: $477,000–557,000 (CONCEPT.md).
 - **Grant target:** EIC Pathfinder WP2 (October 2026)
 - **Key difference from v2.0:** OS2 uses genetic perturbation (Odf2 KO) for causality. OS3 uses physical intervention (laser ablation). Both answer "is it causal?" but with different tools.
 
@@ -15,7 +15,7 @@
 ```
 ARGUS-LP_OS (v1.0) → observation → $24,053
 ARGUS-OS2 (v2.0)   → causality   → +$3,000  (genetic — Odf2 KO)
-ARGUS-OS3 (v3.0)   → ablation    → $40,600   (physical — laser)
+ARGUS-OS3 (v3.0)   → ablation    → $44,426  (physical — laser, hardware)
 ```
 
 ## Micromanipulator Decision
