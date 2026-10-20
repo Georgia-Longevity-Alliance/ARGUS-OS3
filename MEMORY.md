@@ -1,5 +1,11 @@
 # MEMORY — ARGUS-OS3
 
+## 2026-10-20 — Automated Ablation Loop (pattern: Kaneshiro 2022)
+- **Analyzed:** Nikon application note 2311E + Kaneshiro et al. 2022 (Quant Plant Biol 3:e30, DOI 10.1017/qpb.2022.24) — fully automated detect→classify→mask→IR-laser→verify in-situ cell disruption (NIS-Elements GA+JOBS, inverted Ti2-E).
+- **Decision:** OS3 laser ablation upgraded from semi-manual click-to-ablate to a **closed automated loop**: Cellpose classify → pre-ablation viability gate → keep-out masking (protect non-ablated/control/recipient cells) → galvo fs-800nm → in-loop verification (H2B fragmentation + Centrin1 loss) → per-cell QC log → fail-safe retry.
+- **Corroborated:** Gokce 2014 PMID 25470130 (automated fs ablation in C. elegans); Kamei 2009 PMID 19079252 (IR-LEGO); Suzuki 2022 PMID 35596523; Tomoi 2024 PMID 39506095; Gallaud 2014 PMID 24687279 re-verified. All verified 2026-10-20.
+- **Written:** `docs/AUTOMATED_ABLATION_LOOP.md` (design), `EVIDENCE.md` (created), `TODO.md` (tasks), `README.md` (link). Master analysis at index: `../docs/NIKON_AUTOMATED_LASER_SORTING_ANALYSIS_2026-10-20.md`.
+
 ## 2026-07-19 — Project Created
 
 - **Decision:** ARGUS-OS3 separated from ARGUS-LP_OS as standalone project

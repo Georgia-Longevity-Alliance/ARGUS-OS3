@@ -10,6 +10,8 @@ ARGUS-OS3 asks whether the same reset can be achieved in a somatic cell, keeping
 
 📄 **[Entropy Reset Protocol](docs/ENTROPY_RESET_PROTOCOL.md)** — full coverage of **all 12 Hallmarks of Aging** (López-Otín), built around the **centriole as the candidate reset carrier**: elimination (meiosis-like) → de novo assembly (blastomere-like) → per-hallmark reset protocols → verification (diploidy preserved, no crossing-over, no haploidization).
 
+🔬 **[Automated Ablation Loop](docs/AUTOMATED_ABLATION_LOOP.md)** (2026-10-20) — closed-loop detect→classify→gate→mask→irradiate→verify→QC laser ablation (pattern: Kaneshiro 2022, DOI 10.1017/qpb.2022.24). Evidence: `EVIDENCE.md` (new). Master analysis: `../docs/NIKON_AUTOMATED_LASER_SORTING_ANALYSIS_2026-10-20.md`.
+
 ## Three Questions
 
 | Project | Question | Answer type |
