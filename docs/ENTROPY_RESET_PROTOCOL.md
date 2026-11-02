@@ -11,7 +11,7 @@
 
 > **v6.2 changes (per 7th review, 65/100):** search expanded to Europe PMC (+preprints, 2 author preprints disclosed) and Crossref with transparent relevance notes; DOI cross-check (39/47 with PubMed DOI, 8 pre-DOI-era); MDE biologically anchored to OSK effect sizes; FDR q=0.05 pre-specified; **safety futility stop** added (asymmetric monitoring); explicit extrapolation boundary in §1 (fibroblasts ≠ asymmetric-inheritance systems); publication title de-hyped ("Centriole Reset…", not "Entropy Reset"); quantitative meta-analysis plan (§3.2b: checkpoint passage rate, random-effects, I²).
 
-> **v6.1 changes (per Gakely, 15:36):** OSK×reset interaction interpretation matrix (§6.1a, 5 outcomes locked); donor/replicate/power full mixed-model formalism (§8 — ICC, Satterthwaite/KR df, simulation power, nested replicates); centrosome-loss checkpoint + survivor-selection accounting (§6.4b — 4 pre-specified measures); binding statistical pre-registration (§8 — SAP fully registered + second-reviewer check); novelty re-stated as **binding of existing pieces into an aging causal test** (§3.5).
+> **v6.1 changes (per external expert review):** OSK×reset interaction interpretation matrix (§6.1a, 5 outcomes locked); donor/replicate/power full mixed-model formalism (§8 — ICC, Satterthwaite/KR df, simulation power, nested replicates); centrosome-loss checkpoint + survivor-selection accounting (§6.4b — 4 pre-specified measures); binding statistical pre-registration (§8 — SAP fully registered + second-reviewer check); novelty re-stated as **binding of existing pieces into an aging causal test** (§3.5).
 
 > **v6.0 changes (per 6th review, 31/100):** p53-suppression confounder arm (H6 + arm E); tissue-specificity of asymmetric inheritance registered (neuroblast counterexample, Januschke 2011); "programmed geometry" made falsifiable (H_programmed, cryo-ET test); centriole-number gate E (exactly 2, N≥20 clones); red thread reframed as cell/tissue-level hypothesis with in vivo ladder; OSK explicitly leveled as organismal benchmark vs. cell-level candidate; COI rhetoric disclosure expanded in full; systematic search appendix added (`APPENDIX_SEARCH_PROTOCOL.md`).
 
@@ -150,7 +150,7 @@ Systematic search (PubMed, 2026-08-11) identified **12 experiments** that elimin
 
 **Synthesis for this protocol (peer-review response):** (1) the p53/p21 arrest after centrosome loss is **universal** (Khodjakov, La Terra, Uetake, Mikule, Bazzi, Xie) — justifying pifithrin-α as a mandatory component; (2) recovery of division after centrinone washout is **proven only in transformed lines** (Wong 2015 — corrected in v5.6) and aging phenotypes were never measured — our CRCS closes exactly that gap; (3) de novo assembly is **inefficient/error-prone in untransformed cells** (Uetake 2007; La Terra 2005 — initial numbers uncontrolled) — motivating the PLK4-pulse boost, number titration, and the 4-proof verification; (4) parthenogenesis proves de novo suffices for organismal development (Szöllosi 1991; Riparbelli 2017) — the strongest existence proof for the paradigm.
 
-### 3.5 The prototype chain and the actual novelty (2026-08-11, per Gakely)
+### 3.5 The prototype chain and the actual novelty (2026-08-11, per external expert review)
 
 The four nearest prototypes form an ascending ladder — each solved one technical piece, and each left the same gap:
 
@@ -163,7 +163,7 @@ The four nearest prototypes form an ascending ladder — each solved one technic
 
 > **The actual novelty, stated strictly:** *removing the old centriole is not new. De novo creation of a new centriole is not new. **What is new is the question:** does the aging state of the old somatic cell change as a result?* More rigorously: **old cell + old centriole → old cell + genuinely new centriole** — then ask: did the cellular age phenotype change? Every prototype stopped at "the centriole came back"; none measured whether **the cell came back younger**. That single missing measurement is this protocol.
 
-> **Novelty as binding, not as "first" (per Gakely, 15:36):** "nobody has done anything like this" would be wrong — **more than half of the technological experiments have already been done** (Khodjakov, La Terra, Uetake, Wong solved the pieces). The real novelty is the **binding**: assembling the existing pieces into an **aging causal test** — elimination + verified de novo + aging-phenotype readouts + OSK factorial + safety gate — none of the prototypes performed the binding. The novelty claim is therefore about the *integration into a causal test*, explicitly not about the individual technologies.
+> **Novelty as binding, not as "first" (per external expert review):** "nobody has done anything like this" would be wrong — **more than half of the technological experiments have already been done** (Khodjakov, La Terra, Uetake, Wong solved the pieces). The real novelty is the **binding**: assembling the existing pieces into an **aging causal test** — elimination + verified de novo + aging-phenotype readouts + OSK factorial + safety gate — none of the prototypes performed the binding. The novelty claim is therefore about the *integration into a causal test*, explicitly not about the individual technologies.
 
 > **Visual (13 puzzle pieces):** `docs/ENTROPY_RESET_13_PUZZLES.png` — 12 Hallmarks of Aging + centriole elimination & de novo synthesis assembling into one picture: the Entropy Reset Protocol. Each hallmark is a known puzzle piece (López-Otín framework, an established topic); the 13th piece — the elimination/de-novo cycle — is the key that locks them into one mechanism.
 
@@ -274,7 +274,7 @@ No systemic "rejuvenation" claim is made at levels 3–5 without data at those l
 
 **p53-suppression confounder control (peer-review critical, per 6th review):** obtaining de novo centrioles in an untransformed cell likely requires **transient suppression of the p53/PIDDosome axis** (Wong 2015: normal cells arrest irreversibly without it). p53 suppression alone can alter hallmark readouts (genomic stability, senescence). Therefore a **dedicated control arm E** is added: *p53-suppression only, no centriole reset, no OSK*. H6 is falsified (and all reset claims are confounded) if arm E matches arm B on CRCS. This makes p53 the **controlled variable of design**, not an implicit technique.
 
-### 6.1a OSK × reset interaction — interpretation matrix (peer-review critical, per Gakely)
+### 6.1a OSK × reset interaction — interpretation matrix (peer-review critical, per external expert review)
 
 Pre-specified interpretation of the 2×2 factorial, **locked before data**:
 
@@ -303,7 +303,7 @@ A fifth condition that induces maximal comparable cellular stress **without succ
 ### 6.4 Safety as co-primary mechanistic gate
 > **No rejuvenation claim is admissible unless chromosome segregation, ploidy, and centrosome-number homeostasis remain normal.**
 
-### 6.4b Centrosome-loss checkpoint and survivor selection — the biggest biological threat to interpretation (per Gakely)
+### 6.4b Centrosome-loss checkpoint and survivor selection — the biggest biological threat to interpretation (per external expert review)
 
 Two mechanisms can mimic or mask a reset effect and must be quantified, not just controlled:
 1. **Centrosome-loss checkpoint:** loss of the centrosome triggers p53/PIDDosome arrest (Wong 2015; Mikule 2007). If most cells arrest, the few that proceed are **not representative** — the reset effect (if any) is measured on a selected subpopulation.
@@ -362,10 +362,10 @@ The 25% CRCS improvement is a **declared minimal detectable effect** (MDE), not 
 | Power | N = 10 replicates × 3 donor lines (young/middle/old) → >85% at α = 0.05 for 25% CRCS improvement |
 | Multiple testing | FDR (Benjamini–Hochberg) across secondary readouts with **pre-specified q = 0.05** (sensitivity at q = 0.10 reported); interaction terms reported with CIs |
 | Blinding | Senescence scoring, EM, colony counting — blinded operators |
-| Pre-registration | Protocol + falsification criteria (Table §4) + **SAP in full** (fixed CRCS weights, interaction matrix §6.1a, mixed-model formula, ICC priors, stopping boundaries, H_programmed test) registered before data collection (OSF/AsPredicted); **a second reviewer re-checks that the registered SAP matches the executed analysis** (per Gakely: statistical pre-registration must be binding, not descriptive) |
+| Pre-registration | Protocol + falsification criteria (Table §4) + **SAP in full** (fixed CRCS weights, interaction matrix §6.1a, mixed-model formula, ICC priors, stopping boundaries, H_programmed test) registered before data collection (OSF/AsPredicted); **a second reviewer re-checks that the registered SAP matches the executed analysis** (per external expert review: statistical pre-registration must be binding, not descriptive) |
 | Stopping rules | **Efficacy futility:** interim analysis at 5 replicates **per arm**; futility stop if B ≤ A with p > 0.7 (conditional power < 20%, via simulation, pre-registered). **Safety futility (added per 7th review):** symmetric pre-specified boundary — if the genome-integrity gate fails in ≥5% of replicates at interim, the trial stops **regardless of efficacy** (asymmetric monitoring: safety can stop, efficacy cannot continue past a failing gate); early-stop false-negative risk acknowledged; final N fixed unless a pre-registered boundary is crossed |
 | Replication | 3 donor lines: <30, 45–55, >65 y. **Structure made explicit:** each "donor line" = one independent biological donor (n=1 per age stratum); the 10 replicates are biological replicates within a donor (independent vials/thaw batches), analyzed as random effects. Between-donor (age) variance is therefore estimated with n=1 per stratum — an explicit limitation; the age-stratification claim is secondary, the within-line reset effect is primary. Independent labs optional (multi-site plan) |
-| **Donor/replicate/power formalism (peer-review critical, per Gakely)** | Full mixed-model specification: CRCS ~ reset × OSK + age_stratum + (1 + reset \| donor) + (1 \| batch) + (1 \| vial); **variance components estimated (ICC) with Satterthwaite/Kenward–Roger df**; power computed by **simulation on the fitted model** (not the ANOVA formula) with donor and vial ICC entered as priors from Phase 1; **replicates are nested within donor, never pooled as independent** — the unit of analysis for the age claim is the donor (n=3, explicitly underpowered for age, powered for within-line reset); report: ICC, df, CIs for all variance components; this is the full formalization of the "donor/replicate/power" hole |
+| **Donor/replicate/power formalism (peer-review critical, per external expert review)** | Full mixed-model specification: CRCS ~ reset × OSK + age_stratum + (1 + reset \| donor) + (1 \| batch) + (1 \| vial); **variance components estimated (ICC) with Satterthwaite/Kenward–Roger df**; power computed by **simulation on the fitted model** (not the ANOVA formula) with donor and vial ICC entered as priors from Phase 1; **replicates are nested within donor, never pooled as independent** — the unit of analysis for the age claim is the donor (n=3, explicitly underpowered for age, powered for within-line reset); report: ICC, df, CIs for all variance components; this is the full formalization of the "donor/replicate/power" hole |
 
 ---
 

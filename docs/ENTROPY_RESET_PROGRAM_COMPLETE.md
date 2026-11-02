@@ -1,6 +1,6 @@
 # ENTROPY RESET PROGRAM — Complete Package (centriole-focused)
 **Single consolidated document · 2026-08-11 · Jaba Tqemaladze, MD (Georgia Longevity Alliance)**
-**Contains:** Red Thread · Entropy Reset Protocol v6.5 · Grant Core v2.8 · Search Appendix · Gakely Prototype Chain
+**Contains:** Red Thread · Entropy Reset Protocol v6.5 · Grant Core v2.8 · Search Appendix · Prototype Chain
 **Repos:** github.com/Georgia-Longevity-Alliance/ARGUS-OS3 · github.com/djabbat/LC · github.com/djabbat/Marketing
 
 ---
@@ -928,9 +928,9 @@ The novelty claim is supported for the *specific combination* (aging readouts + 
 
 ---
 
-# PART 4 — GAKELY TSOMAIA: PROTOTYPE CHAIN PROPOSAL (EN translation)
+# PART 4 — PROTOTYPE CHAIN PROPOSAL (EN translation)
 
-# Gakely Tsomaia — Prototype Chain for the Entropy Reset Experiment
+# Prototype Chain for the Entropy Reset Experiment
 **English translation of the proposal (Georgian original, 2026-08-11) · prepared for Ilia · Jaba Tqemaladze, MD**
 
 ---
